@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.RuindefenderEntity;
+import net.mcreator.genshinnature.client.model.Modelruin_defender;
 
-public class RuindefenderRenderer extends HumanoidMobRenderer<RuindefenderEntity, HumanoidModel<RuindefenderEntity>> {
+public class RuindefenderRenderer extends MobRenderer<RuindefenderEntity, Modelruin_defender<RuindefenderEntity>> {
 	public RuindefenderRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<RuindefenderEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1.2f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelruin_defender<RuindefenderEntity>(context.bakeLayer(Modelruin_defender.LAYER_LOCATION)), 1.2f);
 	}
 
 	@Override

@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.RockfondrifthoundEntity;
+import net.mcreator.genshinnature.client.model.Modelrifthound;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class RockfondrifthoundRenderer extends HumanoidMobRenderer<RockfondrifthoundEntity, HumanoidModel<RockfondrifthoundEntity>> {
+public class RockfondrifthoundRenderer extends MobRenderer<RockfondrifthoundEntity, Modelrifthound<RockfondrifthoundEntity>> {
 	public RockfondrifthoundRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<RockfondrifthoundEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<RockfondrifthoundEntity, HumanoidModel<RockfondrifthoundEntity>>(this) {
+		super(context, new Modelrifthound<RockfondrifthoundEntity>(context.bakeLayer(Modelrifthound.LAYER_LOCATION)), 1f);
+		this.addLayer(new RenderLayer<RockfondrifthoundEntity, Modelrifthound<RockfondrifthoundEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_rockfond_rifthound.png");
 
 			@Override

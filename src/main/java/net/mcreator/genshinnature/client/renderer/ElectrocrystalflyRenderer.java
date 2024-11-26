@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.ElectrocrystalflyEntity;
+import net.mcreator.genshinnature.client.model.Modelcrystalfly;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class ElectrocrystalflyRenderer extends HumanoidMobRenderer<ElectrocrystalflyEntity, HumanoidModel<ElectrocrystalflyEntity>> {
+public class ElectrocrystalflyRenderer extends MobRenderer<ElectrocrystalflyEntity, Modelcrystalfly<ElectrocrystalflyEntity>> {
 	public ElectrocrystalflyRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<ElectrocrystalflyEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<ElectrocrystalflyEntity, HumanoidModel<ElectrocrystalflyEntity>>(this) {
+		super(context, new Modelcrystalfly<ElectrocrystalflyEntity>(context.bakeLayer(Modelcrystalfly.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new RenderLayer<ElectrocrystalflyEntity, Modelcrystalfly<ElectrocrystalflyEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/electro_crystalfly.png");
 
 			@Override

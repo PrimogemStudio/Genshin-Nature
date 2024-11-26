@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.MirrormaidenEntity;
+import net.mcreator.genshinnature.client.model.Modelmirror_maiden;
 
-public class MirrormaidenRenderer extends HumanoidMobRenderer<MirrormaidenEntity, HumanoidModel<MirrormaidenEntity>> {
+public class MirrormaidenRenderer extends MobRenderer<MirrormaidenEntity, Modelmirror_maiden<MirrormaidenEntity>> {
 	public MirrormaidenRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<MirrormaidenEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelmirror_maiden<MirrormaidenEntity>(context.bakeLayer(Modelmirror_maiden.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

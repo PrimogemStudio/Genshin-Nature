@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.GroundedgeoshroomEntity;
+import net.mcreator.genshinnature.client.model.Modelgrounded_geoshroom;
 
-public class GroundedgeoshroomRenderer extends HumanoidMobRenderer<GroundedgeoshroomEntity, HumanoidModel<GroundedgeoshroomEntity>> {
+public class GroundedgeoshroomRenderer extends MobRenderer<GroundedgeoshroomEntity, Modelgrounded_geoshroom<GroundedgeoshroomEntity>> {
 	public GroundedgeoshroomRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<GroundedgeoshroomEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelgrounded_geoshroom<GroundedgeoshroomEntity>(context.bakeLayer(Modelgrounded_geoshroom.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

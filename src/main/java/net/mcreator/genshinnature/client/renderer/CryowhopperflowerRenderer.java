@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.CryowhopperflowerEntity;
+import net.mcreator.genshinnature.client.model.Modelcryo_whopperflower;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class CryowhopperflowerRenderer extends HumanoidMobRenderer<CryowhopperflowerEntity, HumanoidModel<CryowhopperflowerEntity>> {
+public class CryowhopperflowerRenderer extends MobRenderer<CryowhopperflowerEntity, Modelcryo_whopperflower<CryowhopperflowerEntity>> {
 	public CryowhopperflowerRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<CryowhopperflowerEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.6f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<CryowhopperflowerEntity, HumanoidModel<CryowhopperflowerEntity>>(this) {
+		super(context, new Modelcryo_whopperflower<CryowhopperflowerEntity>(context.bakeLayer(Modelcryo_whopperflower.LAYER_LOCATION)), 0.6f);
+		this.addLayer(new RenderLayer<CryowhopperflowerEntity, Modelcryo_whopperflower<CryowhopperflowerEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_cryo_whopperflower.png");
 
 			@Override

@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.PrimalconstructrepulsorEntity;
+import net.mcreator.genshinnature.client.model.Modelprimal_construct_repulsor;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class PrimalconstructrepulsorRenderer extends HumanoidMobRenderer<PrimalconstructrepulsorEntity, HumanoidModel<PrimalconstructrepulsorEntity>> {
+public class PrimalconstructrepulsorRenderer extends MobRenderer<PrimalconstructrepulsorEntity, Modelprimal_construct_repulsor<PrimalconstructrepulsorEntity>> {
 	public PrimalconstructrepulsorRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<PrimalconstructrepulsorEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.7f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<PrimalconstructrepulsorEntity, HumanoidModel<PrimalconstructrepulsorEntity>>(this) {
+		super(context, new Modelprimal_construct_repulsor<PrimalconstructrepulsorEntity>(context.bakeLayer(Modelprimal_construct_repulsor.LAYER_LOCATION)), 0.7f);
+		this.addLayer(new RenderLayer<PrimalconstructrepulsorEntity, Modelprimal_construct_repulsor<PrimalconstructrepulsorEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_primal_construct.png");
 
 			@Override

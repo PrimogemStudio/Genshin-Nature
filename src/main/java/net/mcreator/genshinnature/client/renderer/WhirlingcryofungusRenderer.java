@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.WhirlingcryofungusEntity;
+import net.mcreator.genshinnature.client.model.Modelwhirling_cryo_fungus;
 
-public class WhirlingcryofungusRenderer extends HumanoidMobRenderer<WhirlingcryofungusEntity, HumanoidModel<WhirlingcryofungusEntity>> {
+public class WhirlingcryofungusRenderer extends MobRenderer<WhirlingcryofungusEntity, Modelwhirling_cryo_fungus<WhirlingcryofungusEntity>> {
 	public WhirlingcryofungusRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<WhirlingcryofungusEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.6f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelwhirling_cryo_fungus<WhirlingcryofungusEntity>(context.bakeLayer(Modelwhirling_cryo_fungus.LAYER_LOCATION)), 0.6f);
 	}
 
 	@Override

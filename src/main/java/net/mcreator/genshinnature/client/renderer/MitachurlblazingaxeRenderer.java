@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.MitachurlblazingaxeEntity;
+import net.mcreator.genshinnature.client.model.Modelmitachurl_blazing_axe;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class MitachurlblazingaxeRenderer extends HumanoidMobRenderer<MitachurlblazingaxeEntity, HumanoidModel<MitachurlblazingaxeEntity>> {
+public class MitachurlblazingaxeRenderer extends MobRenderer<MitachurlblazingaxeEntity, Modelmitachurl_blazing_axe<MitachurlblazingaxeEntity>> {
 	public MitachurlblazingaxeRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<MitachurlblazingaxeEntity>(context.bakeLayer(ModelLayers.PLAYER)), 2f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<MitachurlblazingaxeEntity, HumanoidModel<MitachurlblazingaxeEntity>>(this) {
+		super(context, new Modelmitachurl_blazing_axe<MitachurlblazingaxeEntity>(context.bakeLayer(Modelmitachurl_blazing_axe.LAYER_LOCATION)), 2f);
+		this.addLayer(new RenderLayer<MitachurlblazingaxeEntity, Modelmitachurl_blazing_axe<MitachurlblazingaxeEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_mitachurl_blazing_axe.png");
 
 			@Override

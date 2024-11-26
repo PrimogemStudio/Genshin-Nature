@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Perpetualmechanicalarrayphase3Entity;
+import net.mcreator.genshinnature.client.model.Modelperpetual_mechanical_array_defense;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class Perpetualmechanicalarrayphase3Renderer extends HumanoidMobRenderer<Perpetualmechanicalarrayphase3Entity, HumanoidModel<Perpetualmechanicalarrayphase3Entity>> {
+public class Perpetualmechanicalarrayphase3Renderer extends MobRenderer<Perpetualmechanicalarrayphase3Entity, Modelperpetual_mechanical_array_defense<Perpetualmechanicalarrayphase3Entity>> {
 	public Perpetualmechanicalarrayphase3Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Perpetualmechanicalarrayphase3Entity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<Perpetualmechanicalarrayphase3Entity, HumanoidModel<Perpetualmechanicalarrayphase3Entity>>(this) {
+		super(context, new Modelperpetual_mechanical_array_defense<Perpetualmechanicalarrayphase3Entity>(context.bakeLayer(Modelperpetual_mechanical_array_defense.LAYER_LOCATION)), 1f);
+		this.addLayer(new RenderLayer<Perpetualmechanicalarrayphase3Entity, Modelperpetual_mechanical_array_defense<Perpetualmechanicalarrayphase3Entity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_perpetual_mechanical_array_defense.png");
 
 			@Override

@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Hydrohypostasisphase5Entity;
+import net.mcreator.genshinnature.client.model.Modelray;
 
-public class Hydrohypostasisphase5Renderer extends HumanoidMobRenderer<Hydrohypostasisphase5Entity, HumanoidModel<Hydrohypostasisphase5Entity>> {
+public class Hydrohypostasisphase5Renderer extends MobRenderer<Hydrohypostasisphase5Entity, Modelray<Hydrohypostasisphase5Entity>> {
 	public Hydrohypostasisphase5Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Hydrohypostasisphase5Entity>(context.bakeLayer(ModelLayers.PLAYER)), 1.2f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelray<Hydrohypostasisphase5Entity>(context.bakeLayer(Modelray.LAYER_LOCATION)), 1.2f);
 	}
 
 	@Override

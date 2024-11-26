@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.MagatsumitakenarukaminomikotofinalEntity;
+import net.mcreator.genshinnature.client.model.Modelmagatsu_mitake_narukami_no_mikoto;
 
-public class MagatsumitakenarukaminomikotofinalRenderer extends HumanoidMobRenderer<MagatsumitakenarukaminomikotofinalEntity, HumanoidModel<MagatsumitakenarukaminomikotofinalEntity>> {
+public class MagatsumitakenarukaminomikotofinalRenderer extends MobRenderer<MagatsumitakenarukaminomikotofinalEntity, Modelmagatsu_mitake_narukami_no_mikoto<MagatsumitakenarukaminomikotofinalEntity>> {
 	public MagatsumitakenarukaminomikotofinalRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<MagatsumitakenarukaminomikotofinalEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelmagatsu_mitake_narukami_no_mikoto<MagatsumitakenarukaminomikotofinalEntity>(context.bakeLayer(Modelmagatsu_mitake_narukami_no_mikoto.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

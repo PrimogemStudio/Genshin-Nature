@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.RockshieldwallmitachurlEntity;
+import net.mcreator.genshinnature.client.model.Modelrock_shieldwall_mitachurl;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class RockshieldwallmitachurlRenderer extends HumanoidMobRenderer<RockshieldwallmitachurlEntity, HumanoidModel<RockshieldwallmitachurlEntity>> {
+public class RockshieldwallmitachurlRenderer extends MobRenderer<RockshieldwallmitachurlEntity, Modelrock_shieldwall_mitachurl<RockshieldwallmitachurlEntity>> {
 	public RockshieldwallmitachurlRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<RockshieldwallmitachurlEntity>(context.bakeLayer(ModelLayers.PLAYER)), 2f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<RockshieldwallmitachurlEntity, HumanoidModel<RockshieldwallmitachurlEntity>>(this) {
+		super(context, new Modelrock_shieldwall_mitachurl<RockshieldwallmitachurlEntity>(context.bakeLayer(Modelrock_shieldwall_mitachurl.LAYER_LOCATION)), 2f);
+		this.addLayer(new RenderLayer<RockshieldwallmitachurlEntity, Modelrock_shieldwall_mitachurl<RockshieldwallmitachurlEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_rock_shieldwall_mitachurl.png");
 
 			@Override

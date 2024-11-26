@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.AdornedunagiEntity;
+import net.mcreator.genshinnature.client.model.Modelunagi;
 
-public class AdornedunagiRenderer extends HumanoidMobRenderer<AdornedunagiEntity, HumanoidModel<AdornedunagiEntity>> {
+public class AdornedunagiRenderer extends MobRenderer<AdornedunagiEntity, Modelunagi<AdornedunagiEntity>> {
 	public AdornedunagiRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<AdornedunagiEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelunagi<AdornedunagiEntity>(context.bakeLayer(Modelunagi.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

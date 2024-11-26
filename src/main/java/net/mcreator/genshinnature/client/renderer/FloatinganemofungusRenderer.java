@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.FloatinganemofungusEntity;
+import net.mcreator.genshinnature.client.model.Modelfloating_dendro_fungi;
 
-public class FloatinganemofungusRenderer extends HumanoidMobRenderer<FloatinganemofungusEntity, HumanoidModel<FloatinganemofungusEntity>> {
+public class FloatinganemofungusRenderer extends MobRenderer<FloatinganemofungusEntity, Modelfloating_dendro_fungi<FloatinganemofungusEntity>> {
 	public FloatinganemofungusRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<FloatinganemofungusEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1.2f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelfloating_dendro_fungi<FloatinganemofungusEntity>(context.bakeLayer(Modelfloating_dendro_fungi.LAYER_LOCATION)), 1.2f);
 	}
 
 	@Override

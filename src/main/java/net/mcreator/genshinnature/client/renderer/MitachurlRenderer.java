@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.MitachurlEntity;
+import net.mcreator.genshinnature.client.model.Modelmitachurl_noweapon;
 
-public class MitachurlRenderer extends HumanoidMobRenderer<MitachurlEntity, HumanoidModel<MitachurlEntity>> {
+public class MitachurlRenderer extends MobRenderer<MitachurlEntity, Modelmitachurl_noweapon<MitachurlEntity>> {
 	public MitachurlRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<MitachurlEntity>(context.bakeLayer(ModelLayers.PLAYER)), 2f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelmitachurl_noweapon<MitachurlEntity>(context.bakeLayer(Modelmitachurl_noweapon.LAYER_LOCATION)), 2f);
 	}
 
 	@Override

@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.RuinserpentEntity;
+import net.mcreator.genshinnature.client.model.Modelruin_serpent_remodel_final;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class RuinserpentRenderer extends HumanoidMobRenderer<RuinserpentEntity, HumanoidModel<RuinserpentEntity>> {
+public class RuinserpentRenderer extends MobRenderer<RuinserpentEntity, Modelruin_serpent_remodel_final<RuinserpentEntity>> {
 	public RuinserpentRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<RuinserpentEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1.3f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<RuinserpentEntity, HumanoidModel<RuinserpentEntity>>(this) {
+		super(context, new Modelruin_serpent_remodel_final<RuinserpentEntity>(context.bakeLayer(Modelruin_serpent_remodel_final.LAYER_LOCATION)), 1.3f);
+		this.addLayer(new RenderLayer<RuinserpentEntity, Modelruin_serpent_remodel_final<RuinserpentEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_ruin_serpent_remodel.png");
 
 			@Override

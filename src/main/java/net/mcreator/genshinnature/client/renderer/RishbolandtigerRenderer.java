@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.RishbolandtigerEntity;
+import net.mcreator.genshinnature.client.model.Modelrishboland_tiger_fixed;
 
-public class RishbolandtigerRenderer extends HumanoidMobRenderer<RishbolandtigerEntity, HumanoidModel<RishbolandtigerEntity>> {
+public class RishbolandtigerRenderer extends MobRenderer<RishbolandtigerEntity, Modelrishboland_tiger_fixed<RishbolandtigerEntity>> {
 	public RishbolandtigerRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<RishbolandtigerEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelrishboland_tiger_fixed<RishbolandtigerEntity>(context.bakeLayer(Modelrishboland_tiger_fixed.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

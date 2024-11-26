@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Questnpc10Entity;
+import net.mcreator.genshinnature.client.model.Modelquest_npc_steve;
 
-public class Questnpc10Renderer extends HumanoidMobRenderer<Questnpc10Entity, HumanoidModel<Questnpc10Entity>> {
+public class Questnpc10Renderer extends MobRenderer<Questnpc10Entity, Modelquest_npc_steve<Questnpc10Entity>> {
 	public Questnpc10Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Questnpc10Entity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelquest_npc_steve<Questnpc10Entity>(context.bakeLayer(Modelquest_npc_steve.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

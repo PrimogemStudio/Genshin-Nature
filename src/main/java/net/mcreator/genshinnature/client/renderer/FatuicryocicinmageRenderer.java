@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.FatuicryocicinmageEntity;
+import net.mcreator.genshinnature.client.model.Modelfatui_cryo_cicin_mage;
 
-public class FatuicryocicinmageRenderer extends HumanoidMobRenderer<FatuicryocicinmageEntity, HumanoidModel<FatuicryocicinmageEntity>> {
+public class FatuicryocicinmageRenderer extends MobRenderer<FatuicryocicinmageEntity, Modelfatui_cryo_cicin_mage<FatuicryocicinmageEntity>> {
 	public FatuicryocicinmageRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<FatuicryocicinmageEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelfatui_cryo_cicin_mage<FatuicryocicinmageEntity>(context.bakeLayer(Modelfatui_cryo_cicin_mage.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

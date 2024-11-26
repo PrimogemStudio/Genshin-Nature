@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.BlackkingpigeonEntity;
+import net.mcreator.genshinnature.client.model.Modelwhite_pigeon;
 
-public class BlackkingpigeonRenderer extends HumanoidMobRenderer<BlackkingpigeonEntity, HumanoidModel<BlackkingpigeonEntity>> {
+public class BlackkingpigeonRenderer extends MobRenderer<BlackkingpigeonEntity, Modelwhite_pigeon<BlackkingpigeonEntity>> {
 	public BlackkingpigeonRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<BlackkingpigeonEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.6f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelwhite_pigeon<BlackkingpigeonEntity>(context.bakeLayer(Modelwhite_pigeon.LAYER_LOCATION)), 0.6f);
 	}
 
 	@Override

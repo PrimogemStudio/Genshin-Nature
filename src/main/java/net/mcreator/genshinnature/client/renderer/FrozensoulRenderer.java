@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.FrozensoulEntity;
+import net.mcreator.genshinnature.client.model.Modelfrozen_soul;
 
-public class FrozensoulRenderer extends HumanoidMobRenderer<FrozensoulEntity, HumanoidModel<FrozensoulEntity>> {
+public class FrozensoulRenderer extends MobRenderer<FrozensoulEntity, Modelfrozen_soul<FrozensoulEntity>> {
 	public FrozensoulRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<FrozensoulEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelfrozen_soul<FrozensoulEntity>(context.bakeLayer(Modelfrozen_soul.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

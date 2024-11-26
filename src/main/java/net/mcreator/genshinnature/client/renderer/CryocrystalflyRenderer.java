@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.CryocrystalflyEntity;
+import net.mcreator.genshinnature.client.model.Modelcrystalfly;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class CryocrystalflyRenderer extends HumanoidMobRenderer<CryocrystalflyEntity, HumanoidModel<CryocrystalflyEntity>> {
+public class CryocrystalflyRenderer extends MobRenderer<CryocrystalflyEntity, Modelcrystalfly<CryocrystalflyEntity>> {
 	public CryocrystalflyRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<CryocrystalflyEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<CryocrystalflyEntity, HumanoidModel<CryocrystalflyEntity>>(this) {
+		super(context, new Modelcrystalfly<CryocrystalflyEntity>(context.bakeLayer(Modelcrystalfly.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new RenderLayer<CryocrystalflyEntity, Modelcrystalfly<CryocrystalflyEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/cryo_crystalfly.png");
 
 			@Override

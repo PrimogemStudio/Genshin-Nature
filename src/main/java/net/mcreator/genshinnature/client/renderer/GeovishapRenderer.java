@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.GeovishapEntity;
+import net.mcreator.genshinnature.client.model.Modelgeovishap_fixed3;
 
-public class GeovishapRenderer extends HumanoidMobRenderer<GeovishapEntity, HumanoidModel<GeovishapEntity>> {
+public class GeovishapRenderer extends MobRenderer<GeovishapEntity, Modelgeovishap_fixed3<GeovishapEntity>> {
 	public GeovishapRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<GeovishapEntity>(context.bakeLayer(ModelLayers.PLAYER)), 2f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelgeovishap_fixed3<GeovishapEntity>(context.bakeLayer(Modelgeovishap_fixed3.LAYER_LOCATION)), 2f);
 	}
 
 	@Override

@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.GreatsnowboarkingEntity;
+import net.mcreator.genshinnature.client.model.Modelthe_great_snowboar_king;
 
-public class GreatsnowboarkingRenderer extends HumanoidMobRenderer<GreatsnowboarkingEntity, HumanoidModel<GreatsnowboarkingEntity>> {
+public class GreatsnowboarkingRenderer extends MobRenderer<GreatsnowboarkingEntity, Modelthe_great_snowboar_king<GreatsnowboarkingEntity>> {
 	public GreatsnowboarkingRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<GreatsnowboarkingEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1.9f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelthe_great_snowboar_king<GreatsnowboarkingEntity>(context.bakeLayer(Modelthe_great_snowboar_king.LAYER_LOCATION)), 1.9f);
 	}
 
 	@Override

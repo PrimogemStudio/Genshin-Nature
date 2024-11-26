@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.AnemospecterEntity;
+import net.mcreator.genshinnature.client.model.Modelspecter_anemo;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class AnemospecterRenderer extends HumanoidMobRenderer<AnemospecterEntity, HumanoidModel<AnemospecterEntity>> {
+public class AnemospecterRenderer extends MobRenderer<AnemospecterEntity, Modelspecter_anemo<AnemospecterEntity>> {
 	public AnemospecterRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<AnemospecterEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<AnemospecterEntity, HumanoidModel<AnemospecterEntity>>(this) {
+		super(context, new Modelspecter_anemo<AnemospecterEntity>(context.bakeLayer(Modelspecter_anemo.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new RenderLayer<AnemospecterEntity, Modelspecter_anemo<AnemospecterEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_specter_anemo.png");
 
 			@Override

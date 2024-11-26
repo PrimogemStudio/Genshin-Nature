@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.AzurecraneEntity;
+import net.mcreator.genshinnature.client.model.Modelcrane;
 
-public class AzurecraneRenderer extends HumanoidMobRenderer<AzurecraneEntity, HumanoidModel<AzurecraneEntity>> {
+public class AzurecraneRenderer extends MobRenderer<AzurecraneEntity, Modelcrane<AzurecraneEntity>> {
 	public AzurecraneRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<AzurecraneEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelcrane<AzurecraneEntity>(context.bakeLayer(Modelcrane.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.EyeofthestormEntity;
+import net.mcreator.genshinnature.client.model.Modeleye_of_the_storm_fixed;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class EyeofthestormRenderer extends HumanoidMobRenderer<EyeofthestormEntity, HumanoidModel<EyeofthestormEntity>> {
+public class EyeofthestormRenderer extends MobRenderer<EyeofthestormEntity, Modeleye_of_the_storm_fixed<EyeofthestormEntity>> {
 	public EyeofthestormRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<EyeofthestormEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<EyeofthestormEntity, HumanoidModel<EyeofthestormEntity>>(this) {
+		super(context, new Modeleye_of_the_storm_fixed<EyeofthestormEntity>(context.bakeLayer(Modeleye_of_the_storm_fixed.LAYER_LOCATION)), 1f);
+		this.addLayer(new RenderLayer<EyeofthestormEntity, Modeleye_of_the_storm_fixed<EyeofthestormEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_eye_of_the_storm.png");
 
 			@Override
