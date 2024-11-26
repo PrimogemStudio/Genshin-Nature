@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Hydrohypostasisphase2Entity;
+import net.mcreator.genshinnature.client.model.Modelhydro_hypostasis_dolphin;
 
-public class Hydrohypostasisphase2Renderer extends HumanoidMobRenderer<Hydrohypostasisphase2Entity, HumanoidModel<Hydrohypostasisphase2Entity>> {
+public class Hydrohypostasisphase2Renderer extends MobRenderer<Hydrohypostasisphase2Entity, Modelhydro_hypostasis_dolphin<Hydrohypostasisphase2Entity>> {
 	public Hydrohypostasisphase2Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Hydrohypostasisphase2Entity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelhydro_hypostasis_dolphin<Hydrohypostasisphase2Entity>(context.bakeLayer(Modelhydro_hypostasis_dolphin.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

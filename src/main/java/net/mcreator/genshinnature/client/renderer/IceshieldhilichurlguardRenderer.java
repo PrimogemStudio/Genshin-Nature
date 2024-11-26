@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.IceshieldhilichurlguardEntity;
+import net.mcreator.genshinnature.client.model.Modelhilichurl_iceshield_guard;
 
-public class IceshieldhilichurlguardRenderer extends HumanoidMobRenderer<IceshieldhilichurlguardEntity, HumanoidModel<IceshieldhilichurlguardEntity>> {
+public class IceshieldhilichurlguardRenderer extends MobRenderer<IceshieldhilichurlguardEntity, Modelhilichurl_iceshield_guard<IceshieldhilichurlguardEntity>> {
 	public IceshieldhilichurlguardRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<IceshieldhilichurlguardEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelhilichurl_iceshield_guard<IceshieldhilichurlguardEntity>(context.bakeLayer(Modelhilichurl_iceshield_guard.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

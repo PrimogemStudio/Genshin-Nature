@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.HilichurlcryogrenadierEntity;
+import net.mcreator.genshinnature.client.model.Modelhilichurl_cryo_grenadier;
 
-public class HilichurlcryogrenadierRenderer extends HumanoidMobRenderer<HilichurlcryogrenadierEntity, HumanoidModel<HilichurlcryogrenadierEntity>> {
+public class HilichurlcryogrenadierRenderer extends MobRenderer<HilichurlcryogrenadierEntity, Modelhilichurl_cryo_grenadier<HilichurlcryogrenadierEntity>> {
 	public HilichurlcryogrenadierRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<HilichurlcryogrenadierEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelhilichurl_cryo_grenadier<HilichurlcryogrenadierEntity>(context.bakeLayer(Modelhilichurl_cryo_grenadier.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

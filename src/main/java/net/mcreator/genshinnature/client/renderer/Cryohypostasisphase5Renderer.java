@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Cryohypostasisphase5Entity;
+import net.mcreator.genshinnature.client.model.Modelcryo_hypostasis_icicles;
 
-public class Cryohypostasisphase5Renderer extends HumanoidMobRenderer<Cryohypostasisphase5Entity, HumanoidModel<Cryohypostasisphase5Entity>> {
+public class Cryohypostasisphase5Renderer extends MobRenderer<Cryohypostasisphase5Entity, Modelcryo_hypostasis_icicles<Cryohypostasisphase5Entity>> {
 	public Cryohypostasisphase5Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Cryohypostasisphase5Entity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelcryo_hypostasis_icicles<Cryohypostasisphase5Entity>(context.bakeLayer(Modelcryo_hypostasis_icicles.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

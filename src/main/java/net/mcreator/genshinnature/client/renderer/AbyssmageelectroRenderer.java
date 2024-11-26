@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.AbyssmageelectroEntity;
+import net.mcreator.genshinnature.client.model.Modelabyssmage_electro;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class AbyssmageelectroRenderer extends HumanoidMobRenderer<AbyssmageelectroEntity, HumanoidModel<AbyssmageelectroEntity>> {
+public class AbyssmageelectroRenderer extends MobRenderer<AbyssmageelectroEntity, Modelabyssmage_electro<AbyssmageelectroEntity>> {
 	public AbyssmageelectroRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<AbyssmageelectroEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<AbyssmageelectroEntity, HumanoidModel<AbyssmageelectroEntity>>(this) {
+		super(context, new Modelabyssmage_electro<AbyssmageelectroEntity>(context.bakeLayer(Modelabyssmage_electro.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new RenderLayer<AbyssmageelectroEntity, Modelabyssmage_electro<AbyssmageelectroEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_abyssmage_electro.png");
 
 			@Override

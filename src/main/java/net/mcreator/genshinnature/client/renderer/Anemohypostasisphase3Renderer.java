@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Anemohypostasisphase3Entity;
+import net.mcreator.genshinnature.client.model.Modelanemo_hypostasis_small;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class Anemohypostasisphase3Renderer extends HumanoidMobRenderer<Anemohypostasisphase3Entity, HumanoidModel<Anemohypostasisphase3Entity>> {
+public class Anemohypostasisphase3Renderer extends MobRenderer<Anemohypostasisphase3Entity, Modelanemo_hypostasis_small<Anemohypostasisphase3Entity>> {
 	public Anemohypostasisphase3Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Anemohypostasisphase3Entity>(context.bakeLayer(ModelLayers.PLAYER)), 0.4f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<Anemohypostasisphase3Entity, HumanoidModel<Anemohypostasisphase3Entity>>(this) {
+		super(context, new Modelanemo_hypostasis_small<Anemohypostasisphase3Entity>(context.bakeLayer(Modelanemo_hypostasis_small.LAYER_LOCATION)), 0.4f);
+		this.addLayer(new RenderLayer<Anemohypostasisphase3Entity, Modelanemo_hypostasis_small<Anemohypostasisphase3Entity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/anemo_hypostasis_small.png");
 
 			@Override

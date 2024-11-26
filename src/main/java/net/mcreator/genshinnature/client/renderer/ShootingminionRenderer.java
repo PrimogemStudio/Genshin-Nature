@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.ShootingminionEntity;
+import net.mcreator.genshinnature.client.model.Modelshooting_minion;
 
-public class ShootingminionRenderer extends HumanoidMobRenderer<ShootingminionEntity, HumanoidModel<ShootingminionEntity>> {
+public class ShootingminionRenderer extends MobRenderer<ShootingminionEntity, Modelshooting_minion<ShootingminionEntity>> {
 	public ShootingminionRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<ShootingminionEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelshooting_minion<ShootingminionEntity>(context.bakeLayer(Modelshooting_minion.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

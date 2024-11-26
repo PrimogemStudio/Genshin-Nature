@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Cryohypostasisphase2Entity;
+import net.mcreator.genshinnature.client.model.Modelcryo_hypostasis_phase2;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class Cryohypostasisphase2Renderer extends HumanoidMobRenderer<Cryohypostasisphase2Entity, HumanoidModel<Cryohypostasisphase2Entity>> {
+public class Cryohypostasisphase2Renderer extends MobRenderer<Cryohypostasisphase2Entity, Modelcryo_hypostasis_phase2<Cryohypostasisphase2Entity>> {
 	public Cryohypostasisphase2Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Cryohypostasisphase2Entity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<Cryohypostasisphase2Entity, HumanoidModel<Cryohypostasisphase2Entity>>(this) {
+		super(context, new Modelcryo_hypostasis_phase2<Cryohypostasisphase2Entity>(context.bakeLayer(Modelcryo_hypostasis_phase2.LAYER_LOCATION)), 0.5f);
+		this.addLayer(new RenderLayer<Cryohypostasisphase2Entity, Modelcryo_hypostasis_phase2<Cryohypostasisphase2Entity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/cryo_hypostasis_phase2.png");
 
 			@Override

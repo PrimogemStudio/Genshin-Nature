@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.CryohypostasisEntity;
+import net.mcreator.genshinnature.client.model.Modelcryo_hypostasis;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class CryohypostasisRenderer extends HumanoidMobRenderer<CryohypostasisEntity, HumanoidModel<CryohypostasisEntity>> {
+public class CryohypostasisRenderer extends MobRenderer<CryohypostasisEntity, Modelcryo_hypostasis<CryohypostasisEntity>> {
 	public CryohypostasisRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<CryohypostasisEntity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<CryohypostasisEntity, HumanoidModel<CryohypostasisEntity>>(this) {
+		super(context, new Modelcryo_hypostasis<CryohypostasisEntity>(context.bakeLayer(Modelcryo_hypostasis.LAYER_LOCATION)), 1f);
+		this.addLayer(new RenderLayer<CryohypostasisEntity, Modelcryo_hypostasis<CryohypostasisEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_cryo_hypostasis.png");
 
 			@Override

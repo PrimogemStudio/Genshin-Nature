@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Pyrohypostasisphase5Entity;
+import net.mcreator.genshinnature.client.model.Modelpyro_hypostasis_explosion;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class Pyrohypostasisphase5Renderer extends HumanoidMobRenderer<Pyrohypostasisphase5Entity, HumanoidModel<Pyrohypostasisphase5Entity>> {
+public class Pyrohypostasisphase5Renderer extends MobRenderer<Pyrohypostasisphase5Entity, Modelpyro_hypostasis_explosion<Pyrohypostasisphase5Entity>> {
 	public Pyrohypostasisphase5Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Pyrohypostasisphase5Entity>(context.bakeLayer(ModelLayers.PLAYER)), 1.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<Pyrohypostasisphase5Entity, HumanoidModel<Pyrohypostasisphase5Entity>>(this) {
+		super(context, new Modelpyro_hypostasis_explosion<Pyrohypostasisphase5Entity>(context.bakeLayer(Modelpyro_hypostasis_explosion.LAYER_LOCATION)), 1.5f);
+		this.addLayer(new RenderLayer<Pyrohypostasisphase5Entity, Modelpyro_hypostasis_explosion<Pyrohypostasisphase5Entity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/emissive_pyro_hypostasis_explosion.png");
 
 			@Override

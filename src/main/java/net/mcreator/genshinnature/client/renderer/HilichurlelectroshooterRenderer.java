@@ -2,18 +2,15 @@
 package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.HilichurlelectroshooterEntity;
+import net.mcreator.genshinnature.client.model.Modelhilichurl_electro_shooter;
 
-public class HilichurlelectroshooterRenderer extends HumanoidMobRenderer<HilichurlelectroshooterEntity, HumanoidModel<HilichurlelectroshooterEntity>> {
+public class HilichurlelectroshooterRenderer extends MobRenderer<HilichurlelectroshooterEntity, Modelhilichurl_electro_shooter<HilichurlelectroshooterEntity>> {
 	public HilichurlelectroshooterRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<HilichurlelectroshooterEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelhilichurl_electro_shooter<HilichurlelectroshooterEntity>(context.bakeLayer(Modelhilichurl_electro_shooter.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

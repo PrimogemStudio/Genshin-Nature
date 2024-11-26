@@ -3,25 +3,22 @@ package net.mcreator.genshinnature.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.genshinnature.entity.Geohypostasisphase4Entity;
+import net.mcreator.genshinnature.client.model.Modelgeo_hypostasis;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class Geohypostasisphase4Renderer extends HumanoidMobRenderer<Geohypostasisphase4Entity, HumanoidModel<Geohypostasisphase4Entity>> {
+public class Geohypostasisphase4Renderer extends MobRenderer<Geohypostasisphase4Entity, Modelgeo_hypostasis<Geohypostasisphase4Entity>> {
 	public Geohypostasisphase4Renderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<Geohypostasisphase4Entity>(context.bakeLayer(ModelLayers.PLAYER)), 1f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
-		this.addLayer(new RenderLayer<Geohypostasisphase4Entity, HumanoidModel<Geohypostasisphase4Entity>>(this) {
+		super(context, new Modelgeo_hypostasis<Geohypostasisphase4Entity>(context.bakeLayer(Modelgeo_hypostasis.LAYER_LOCATION)), 1f);
+		this.addLayer(new RenderLayer<Geohypostasisphase4Entity, Modelgeo_hypostasis<Geohypostasisphase4Entity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("genshin_nature:textures/entities/geo_hypostasis_emissive.png");
 
 			@Override
