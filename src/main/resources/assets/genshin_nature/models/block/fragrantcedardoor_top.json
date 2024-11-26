@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "genshin_nature:blocks/fragrant_cedar_door_bottom",
+    "top": "genshin_nature:blocks/fragrant_cedar_door_top"
+  }
+}

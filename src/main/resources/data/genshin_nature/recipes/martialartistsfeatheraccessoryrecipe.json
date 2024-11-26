@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:martialartistsredflower"
+    },
+    "1": {
+      "item": "genshin_nature:martialartistsredflower"
+    },
+    "2": {
+      "item": "genshin_nature:martialartistsredflower"
+    },
+    "3": {
+      "item": "genshin_nature:martialartistsredflower"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:martialartistsfeatheraccessory",
+    "count": 1
+  }
+}

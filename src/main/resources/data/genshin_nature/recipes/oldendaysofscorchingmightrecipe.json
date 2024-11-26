@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "1": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "2": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "3": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "4": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "5": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "6": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "7": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    },
+    "8": {
+      "item": "genshin_nature:dreamofscorchingmight"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:oldendaysofscorchingmight",
+    "count": 1
+  }
+}

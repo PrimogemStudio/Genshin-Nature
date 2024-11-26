@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:porkchop"
+    },
+    "1": {
+      "item": "minecraft:porkchop"
+    },
+    "2": {
+      "item": "minecraft:porkchop"
+    },
+    "3": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "4": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "5": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "6": {
+      "item": "genshin_nature:matsutake"
+    },
+    "7": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "8": {
+      "item": "genshin_nature:matsutake"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:adeptustemptation",
+    "count": 1
+  }
+}

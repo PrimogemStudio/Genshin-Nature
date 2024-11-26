@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/timed_obsidian",
+    "up": "genshin_nature:block/timed_obsidian",
+    "north": "genshin_nature:block/timed_obsidian",
+    "east": "genshin_nature:block/timed_obsidian",
+    "south": "genshin_nature:block/timed_obsidian",
+    "west": "genshin_nature:block/timed_obsidian",
+    "particle": "genshin_nature:block/timed_obsidian"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "genshin_nature:block/theasterssigh"
+    },
+    "half=lower": {
+      "model": "genshin_nature:block/theasterssigh_bottom"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "genshin_nature:block/aralia_door_bottom",
+    "bottom": "genshin_nature:block/aralia_door_bottom",
+    "top": "genshin_nature:block/aralia_door_top"
+  },
+  "render_type": "solid"
+}

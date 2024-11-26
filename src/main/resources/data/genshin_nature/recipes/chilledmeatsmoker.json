@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "genshin_nature:chilledmeat"
+  },
+  "result": {
+    "item": "genshin_nature:rawmeat"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/ancient_rime",
+    "up": "genshin_nature:block/ancient_rime",
+    "north": "genshin_nature:block/ancient_rime",
+    "east": "genshin_nature:block/ancient_rime",
+    "south": "genshin_nature:block/ancient_rime",
+    "west": "genshin_nature:block/ancient_rime",
+    "particle": "genshin_nature:block/ancient_rime"
+  },
+  "render_type": "solid"
+}

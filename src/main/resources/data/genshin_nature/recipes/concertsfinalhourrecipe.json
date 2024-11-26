@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:bardsarrowfeather"
+    },
+    "1": {
+      "item": "genshin_nature:bardsarrowfeather"
+    },
+    "2": {
+      "item": "genshin_nature:bardsarrowfeather"
+    },
+    "3": {
+      "item": "genshin_nature:bardsarrowfeather"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:concertsfinalhour",
+    "count": 1
+  }
+}

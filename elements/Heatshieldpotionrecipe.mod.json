@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Butterflywings"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Flamingflower"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Heatshieldpotion"
+    },
+    "name": "heatshieldpotionrecipe",
+    "namespace": "mod"
+  }
+}

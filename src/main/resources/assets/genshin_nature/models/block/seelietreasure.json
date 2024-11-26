@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/seelie_treasure",
+    "up": "genshin_nature:block/seelie_treasure",
+    "north": "genshin_nature:block/seelie_treasure",
+    "east": "genshin_nature:block/seelie_treasure",
+    "south": "genshin_nature:block/seelie_treasure",
+    "west": "genshin_nature:block/seelie_treasure",
+    "particle": "genshin_nature:block/seelie_treasure"
+  },
+  "render_type": "solid"
+}

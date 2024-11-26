@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/azhdaha_spawner_block_count_4",
+    "up": "genshin_nature:block/azhdaha_spawner_block_count_4",
+    "north": "genshin_nature:block/azhdaha_spawner_block_count_4",
+    "east": "genshin_nature:block/azhdaha_spawner_block_count_4",
+    "south": "genshin_nature:block/azhdaha_spawner_block_count_4",
+    "west": "genshin_nature:block/azhdaha_spawner_block_count_4",
+    "particle": "genshin_nature:block/azhdaha_spawner_block_count_4"
+  },
+  "render_type": "solid"
+}

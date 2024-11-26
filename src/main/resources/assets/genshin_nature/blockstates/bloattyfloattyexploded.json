@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "genshin_nature:block/bloattyfloattyexploded"
+    },
+    "facing=east": {
+      "model": "genshin_nature:block/bloattyfloattyexploded",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "genshin_nature:block/bloattyfloattyexploded",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "genshin_nature:block/bloattyfloattyexploded",
+      "y": 270
+    }
+  }
+}

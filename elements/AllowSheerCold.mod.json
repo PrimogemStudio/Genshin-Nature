@@ -1,0 +1,12 @@
+{
+  "_fv": 71,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Allow Sheer Cold",
+    "description": "If set to false, the sheer cold mechanic is completely disabled",
+    "category": "MISC",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

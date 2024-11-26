@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "particle": "genshin_nature:block/otogi_door_bottom",
+    "bottom": "genshin_nature:block/otogi_door_bottom",
+    "top": "genshin_nature:block/otogi_door_top"
+  },
+  "render_type": "solid"
+}

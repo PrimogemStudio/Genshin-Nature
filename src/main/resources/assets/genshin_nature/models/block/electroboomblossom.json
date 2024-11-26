@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/electro_boom_blossom",
+  "textures": {
+    "all": "genshin_nature:block/electro_boom_blossom",
+    "particle": "genshin_nature:block/electro_boom_blossom",
+    "0": "genshin_nature:block/electro_boom_blossom"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:fishing_rod"
+    },
+    "c": {
+      "item": "genshin_nature:primogem"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:fishingblock",
+    "count": 1
+  }
+}

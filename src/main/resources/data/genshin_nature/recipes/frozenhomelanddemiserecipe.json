@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:icebreakersresolve"
+    },
+    "1": {
+      "item": "genshin_nature:icebreakersresolve"
+    },
+    "2": {
+      "item": "genshin_nature:icebreakersresolve"
+    },
+    "3": {
+      "item": "genshin_nature:icebreakersresolve"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:frozenhomelanddemise",
+    "count": 1
+  }
+}

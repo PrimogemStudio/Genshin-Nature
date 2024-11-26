@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "1": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "2": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "3": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "4": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "5": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "6": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "7": {
+      "item": "genshin_nature:whopperflowernectar"
+    },
+    "8": {
+      "item": "genshin_nature:whopperflowernectar"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:shimmeringnectar",
+    "count": 1
+  }
+}

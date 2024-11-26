@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "river",
+    "swamp",
+    "plains",
+    "stony_shore"
+  ],
+  "spawners": {
+    "type": "genshin_nature:scarletbeakduck",
+    "weight": 251,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

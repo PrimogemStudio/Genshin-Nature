@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "1": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "2": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "3": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "4": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "5": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "6": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "7": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    },
+    "8": {
+      "item": "genshin_nature:coralbranchofadistantsea"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:jeweledbranchofadistantsea",
+    "count": 1
+  }
+}

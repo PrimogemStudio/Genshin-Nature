@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "1": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "2": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "3": {
+      "item": "minecraft:egg"
+    },
+    "4": {
+      "item": "genshin_nature:flour"
+    },
+    "5": {
+      "item": "minecraft:egg"
+    },
+    "6": {
+      "item": "genshin_nature:butter"
+    },
+    "7": {
+      "item": "genshin_nature:butter"
+    },
+    "8": {
+      "item": "genshin_nature:butter"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:moonpie",
+    "count": 1
+  }
+}

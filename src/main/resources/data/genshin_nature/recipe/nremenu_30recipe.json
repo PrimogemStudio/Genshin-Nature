@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:lizardtail"
+    },
+    "b": {
+      "item": "genshin_nature:electrocrystal"
+    },
+    "c": {
+      "item": "genshin_nature:chaoscircuit"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:nremenu_30",
+    "count": 1
+  }
+}

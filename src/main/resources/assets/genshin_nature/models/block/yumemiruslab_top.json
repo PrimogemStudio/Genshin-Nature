@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "genshin_nature:block/yumemiru_planks",
+    "bottom": "genshin_nature:block/yumemiru_planks",
+    "top": "genshin_nature:block/yumemiru_planks",
+    "side": "genshin_nature:block/yumemiru_planks"
+  },
+  "render_type": "solid"
+}

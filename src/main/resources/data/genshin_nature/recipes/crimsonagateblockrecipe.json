@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "1": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "2": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "3": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "4": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "5": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "6": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "7": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "8": {
+      "item": "genshin_nature:crimsonagate"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:crimsonagateblock",
+    "count": 1
+  }
+}

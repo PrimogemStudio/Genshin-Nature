@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:lapisglede",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

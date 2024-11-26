@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:radish"
+    },
+    {
+      "item": "genshin_nature:radish"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "genshin_nature:lavendermelon"
+    },
+    {
+      "item": "genshin_nature:lavendermelon"
+    },
+    {
+      "item": "genshin_nature:genshinseagrass"
+    },
+    {
+      "item": "genshin_nature:genshinseagrass"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:fivepickledtreasures",
+    "count": 1
+  }
+}

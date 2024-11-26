@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "plains",
+    "old_growth_birch_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:goldenfinch",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

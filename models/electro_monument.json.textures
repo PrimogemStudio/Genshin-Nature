@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "electro_monument"
+      },
+      "name": "default"
+    }
+  }
+}

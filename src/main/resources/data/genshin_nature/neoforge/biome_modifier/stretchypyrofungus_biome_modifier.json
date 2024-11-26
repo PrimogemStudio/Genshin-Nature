@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "genshin_nature:stretchypyrofungus",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

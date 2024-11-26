@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/googol_table",
+  "textures": {
+    "all": "genshin_nature:block/googol_table",
+    "particle": "genshin_nature:block/googol_table",
+    "0": "genshin_nature:block/googol_table"
+  },
+  "render_type": "cutout_mipped"
+}

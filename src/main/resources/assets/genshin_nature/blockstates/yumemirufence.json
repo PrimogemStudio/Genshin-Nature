@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "genshin_nature:block/yumemirufence_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "genshin_nature:block/yumemirufence",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "genshin_nature:block/yumemirufence",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "genshin_nature:block/yumemirufence",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "genshin_nature:block/yumemirufence",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

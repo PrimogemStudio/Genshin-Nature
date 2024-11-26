@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "aaa",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:firplanks"
+    },
+    "b": {
+      "item": "genshin_nature:firfence"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:smoothwoodenbench",
+    "count": 1
+  }
+}

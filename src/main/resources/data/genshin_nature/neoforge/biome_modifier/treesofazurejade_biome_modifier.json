@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "plains",
+    "old_growth_birch_forest",
+    "mushroom_fields"
+  ],
+  "features": "genshin_nature:treesofazurejade",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "windswept_hills",
+    "badlands"
+  ],
+  "features": "genshin_nature:geoculusspawning_feature",
+  "step": "raw_generation"
+}

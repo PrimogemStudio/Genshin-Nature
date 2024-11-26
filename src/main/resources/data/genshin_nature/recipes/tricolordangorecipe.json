@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "1": {
+      "item": "genshin_nature:sakurabloom"
+    },
+    "2": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "3": {
+      "item": "minecraft:milk_bucket"
+    },
+    "5": {
+      "item": "minecraft:milk_bucket"
+    },
+    "7": {
+      "item": "genshin_nature:rice"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:tricolordango",
+    "count": 1
+  }
+}

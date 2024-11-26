@@ -1,0 +1,12 @@
+{
+  "_fv": 71,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Allow Starting Items",
+    "description": "If set to false, no items will be given to you when starting a game",
+    "category": "MISC",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

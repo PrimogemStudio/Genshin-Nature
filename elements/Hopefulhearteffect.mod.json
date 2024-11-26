@@ -1,0 +1,19 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Hopeful Heart Effect",
+    "icon": "hopeful_heart.png",
+    "color": {
+      "value": -11261638,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false
+  }
+}

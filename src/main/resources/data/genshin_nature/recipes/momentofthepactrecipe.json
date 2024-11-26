@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:solarrelic"
+    },
+    "1": {
+      "item": "genshin_nature:solarrelic"
+    },
+    "2": {
+      "item": "genshin_nature:solarrelic"
+    },
+    "3": {
+      "item": "genshin_nature:solarrelic"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:momentofthepact",
+    "count": 1
+  }
+}

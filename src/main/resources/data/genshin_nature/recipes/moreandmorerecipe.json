@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cod"
+    },
+    "1": {
+      "item": "minecraft:cod"
+    },
+    "2": {
+      "item": "minecraft:cod"
+    },
+    "3": {
+      "item": "genshin_nature:bacon"
+    },
+    "4": {
+      "item": "genshin_nature:lavendermelon"
+    },
+    "5": {
+      "item": "genshin_nature:bacon"
+    },
+    "7": {
+      "item": "genshin_nature:flour"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:moreandmore",
+    "count": 1
+  }
+}

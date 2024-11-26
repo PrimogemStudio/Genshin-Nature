@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "CUSTOM:Primogem"
+      },
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "Items.DYE#10"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.DYE#10"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "Items.DYE#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Googolchair"
+    },
+    "name": "googolchairrecipe",
+    "namespace": "mod"
+  }
+}

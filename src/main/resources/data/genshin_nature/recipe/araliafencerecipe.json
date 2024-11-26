@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:araliafence",
+    "count": 3
+  }
+}

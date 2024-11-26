@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:butter"
+    },
+    "1": {
+      "item": "genshin_nature:butter"
+    },
+    "2": {
+      "item": "genshin_nature:butter"
+    },
+    "3": {
+      "item": "minecraft:cod"
+    },
+    "4": {
+      "item": "minecraft:cod"
+    },
+    "5": {
+      "item": "minecraft:cod"
+    },
+    "6": {
+      "item": "genshin_nature:salt"
+    },
+    "8": {
+      "item": "genshin_nature:smalllampgrass"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sunshinesprat",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:flowerofcrevicedcliff"
+    },
+    "1": {
+      "item": "genshin_nature:flowerofcrevicedcliff"
+    },
+    "2": {
+      "item": "genshin_nature:flowerofcrevicedcliff"
+    },
+    "3": {
+      "item": "genshin_nature:flowerofcrevicedcliff"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:featherofjaggedpeaks",
+    "count": 1
+  }
+}

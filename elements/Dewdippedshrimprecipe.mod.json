@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Snapdragon"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Snapdragon"
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": "CUSTOM:Snapdragon"
+      },
+      {
+        "value": "CUSTOM:Flour"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dewdippedshrimp"
+    },
+    "name": "dewdippedshrimprecipe",
+    "namespace": "mod"
+  }
+}

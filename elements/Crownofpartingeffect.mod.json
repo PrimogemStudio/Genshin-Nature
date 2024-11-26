@@ -1,0 +1,19 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Crown of Parting Effect",
+    "icon": "crown_of_parting.png",
+    "color": {
+      "value": -16043921,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false
+  }
+}

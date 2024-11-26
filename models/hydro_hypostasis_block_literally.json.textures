@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hydro_hypostasis_block_literally"
+      },
+      "name": "default"
+    }
+  }
+}

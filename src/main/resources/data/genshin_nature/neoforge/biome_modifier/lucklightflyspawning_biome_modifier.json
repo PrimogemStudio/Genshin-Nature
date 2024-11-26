@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "spawners": {
+    "type": "genshin_nature:lucklightflyspawning",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

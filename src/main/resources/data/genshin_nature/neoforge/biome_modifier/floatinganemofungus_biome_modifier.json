@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "old_growth_spruce_taiga",
+    "plains",
+    "old_growth_pine_taiga",
+    "taiga"
+  ],
+  "spawners": {
+    "type": "genshin_nature:floatinganemofungus",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

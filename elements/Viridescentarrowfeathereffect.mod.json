@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Viridescent Arrow Feather Effect",
+    "icon": "viridescent_arrow_feather.png",
+    "color": {
+      "value": -16751104,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "Viridescentfeathereffectproced"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "1": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "2": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "3": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "4": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "5": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "6": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "7": {
+      "item": "genshin_nature:grainofaerosiderite"
+    },
+    "8": {
+      "item": "genshin_nature:grainofaerosiderite"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:pieceofaerosiderite",
+    "count": 1
+  }
+}

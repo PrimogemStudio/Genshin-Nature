@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "genshin_nature:runicfang"
+    },
+    "title": {
+      "translate": "advancements.surpassingtheancientswisdom.title"
+    },
+    "description": {
+      "translate": "advancements.surpassingtheancientswisdom.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "surpassingtheancientswisdom": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

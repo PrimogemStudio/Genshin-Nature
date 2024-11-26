@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "embroidered_lantern_lofty_grandeur"
+      },
+      "name": "default"
+    }
+  }
+}

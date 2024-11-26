@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:nagadusemeraldchunk"
+    },
+    "1": {
+      "item": "genshin_nature:nagadusemeraldchunk"
+    },
+    "2": {
+      "item": "genshin_nature:nagadusemeraldchunk"
+    },
+    "3": {
+      "item": "genshin_nature:nagadusemeraldchunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:nagadusemeraldgemstone",
+    "count": 1
+  }
+}

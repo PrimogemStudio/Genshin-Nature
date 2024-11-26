@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:exilesgoblet"
+    },
+    "1": {
+      "item": "genshin_nature:exilesgoblet"
+    },
+    "2": {
+      "item": "genshin_nature:exilesgoblet"
+    },
+    "3": {
+      "item": "genshin_nature:exilesgoblet"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:exilescirclet",
+    "count": 1
+  }
+}

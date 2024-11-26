@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:adventurersgoldengoblet"
+    },
+    "1": {
+      "item": "genshin_nature:adventurersgoldengoblet"
+    },
+    "2": {
+      "item": "genshin_nature:adventurersgoldengoblet"
+    },
+    "3": {
+      "item": "genshin_nature:adventurersgoldengoblet"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:adventurersbandana",
+    "count": 1
+  }
+}

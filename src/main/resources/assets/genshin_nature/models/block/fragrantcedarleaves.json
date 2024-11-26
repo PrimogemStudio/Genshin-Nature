@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/fragrant_cedar_leaves",
+    "up": "genshin_nature:block/fragrant_cedar_leaves",
+    "north": "genshin_nature:block/fragrant_cedar_leaves",
+    "east": "genshin_nature:block/fragrant_cedar_leaves",
+    "south": "genshin_nature:block/fragrant_cedar_leaves",
+    "west": "genshin_nature:block/fragrant_cedar_leaves",
+    "particle": "genshin_nature:block/fragrant_cedar_leaves"
+  },
+  "render_type": "cutout"
+}

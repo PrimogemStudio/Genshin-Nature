@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blackcliff_pole"
+      },
+      "name": "default"
+    }
+  }
+}

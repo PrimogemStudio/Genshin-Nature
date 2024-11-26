@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/razor_plushie",
+  "textures": {
+    "all": "genshin_nature:block/razor_plushie",
+    "particle": "genshin_nature:block/razor_plushie",
+    "0": "genshin_nature:block/razor_plushie"
+  },
+  "render_type": "cutout_mipped"
+}

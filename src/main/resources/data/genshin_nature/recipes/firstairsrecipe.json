@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:firplanks"
+    },
+    "3": {
+      "item": "genshin_nature:firplanks"
+    },
+    "4": {
+      "item": "genshin_nature:firplanks"
+    },
+    "6": {
+      "item": "genshin_nature:firplanks"
+    },
+    "7": {
+      "item": "genshin_nature:firplanks"
+    },
+    "8": {
+      "item": "genshin_nature:firplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:firstairs",
+    "count": 4
+  }
+}

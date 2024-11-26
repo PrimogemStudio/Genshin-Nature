@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "genshin_nature:blocks/firdoor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:firdoor",
+          "conditions": [
+            {
+              "block": "genshin_nature:firdoor",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

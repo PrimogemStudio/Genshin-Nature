@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_forest"
+  ],
+  "features": "genshin_nature:firtree_feature",
+  "step": "surface_structures"
+}

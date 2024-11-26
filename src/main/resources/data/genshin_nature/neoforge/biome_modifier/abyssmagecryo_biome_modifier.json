@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "warped_forest",
+  "spawners": {
+    "type": "genshin_nature:abyssmagecryo",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

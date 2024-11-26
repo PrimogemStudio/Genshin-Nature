@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "dc "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:lotushead"
+    },
+    "b": {
+      "item": "genshin_nature:jueyunchili"
+    },
+    "c": {
+      "item": "genshin_nature:cabbage"
+    },
+    "d": {
+      "item": "genshin_nature:rawmeat"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:jadeparcels",
+    "count": 1
+  }
+}

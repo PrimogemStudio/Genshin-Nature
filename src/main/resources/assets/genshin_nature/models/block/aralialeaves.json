@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/aralia_leaves",
+    "up": "genshin_nature:block/aralia_leaves",
+    "north": "genshin_nature:block/aralia_leaves",
+    "east": "genshin_nature:block/aralia_leaves",
+    "south": "genshin_nature:block/aralia_leaves",
+    "west": "genshin_nature:block/aralia_leaves",
+    "particle": "genshin_nature:block/aralia_leaves"
+  },
+  "render_type": "cutout"
+}

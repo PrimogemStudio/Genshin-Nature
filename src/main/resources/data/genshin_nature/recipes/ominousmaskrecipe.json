@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "1": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "2": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "3": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "4": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "5": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "6": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "7": {
+      "item": "genshin_nature:stainedmask"
+    },
+    "8": {
+      "item": "genshin_nature:stainedmask"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:ominousmask",
+    "count": 1
+  }
+}

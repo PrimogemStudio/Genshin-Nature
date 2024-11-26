@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/otogi_leaves",
+    "up": "genshin_nature:block/otogi_leaves",
+    "north": "genshin_nature:block/otogi_leaves",
+    "east": "genshin_nature:block/otogi_leaves",
+    "south": "genshin_nature:block/otogi_leaves",
+    "west": "genshin_nature:block/otogi_leaves",
+    "particle": "genshin_nature:block/otogi_leaves"
+  },
+  "render_type": "cutout"
+}

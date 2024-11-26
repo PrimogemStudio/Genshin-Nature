@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "crimson_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:pyrospecter",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

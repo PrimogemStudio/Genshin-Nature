@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/shooting_bubble",
+  "textures": {
+    "all": "genshin_nature:block/shooting_bubble",
+    "particle": "genshin_nature:block/shooting_bubble",
+    "0": "genshin_nature:block/shooting_bubble"
+  },
+  "render_type": "solid"
+}

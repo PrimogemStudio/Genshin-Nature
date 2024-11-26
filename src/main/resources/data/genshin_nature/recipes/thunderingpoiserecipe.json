@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:momentofthepact"
+    },
+    "1": {
+      "item": "genshin_nature:momentofthepact"
+    },
+    "2": {
+      "item": "genshin_nature:momentofthepact"
+    },
+    "3": {
+      "item": "genshin_nature:momentofthepact"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:thunderingpoise",
+    "count": 1
+  }
+}

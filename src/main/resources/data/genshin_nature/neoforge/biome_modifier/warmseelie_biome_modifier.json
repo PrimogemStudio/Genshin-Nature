@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_beach",
+    "plains",
+    "ice_spikes",
+    "deep_frozen_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:warmseelie",
+    "weight": 71,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

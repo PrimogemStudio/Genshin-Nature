@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_nature:block/araliaslab"
+    },
+    "type=top": {
+      "model": "genshin_nature:block/araliaslab_top"
+    },
+    "type=double": {
+      "model": "genshin_nature:block/araliaslab_full"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:whiteironchunk"
+    },
+    "b": {
+      "item": "genshin_nature:mora"
+    },
+    "c": {
+      "item": "genshin_nature:northlanderswordbillet"
+    },
+    "d": {
+      "item": "genshin_nature:crystalchunk"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:prototyperancour",
+    "count": 1
+  }
+}

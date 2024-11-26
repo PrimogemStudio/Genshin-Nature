@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "1": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "2": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "3": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "4": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "5": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "6": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "7": {
+      "item": "genshin_nature:darkstatuette"
+    },
+    "8": {
+      "item": "genshin_nature:darkstatuette"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:deathlystatuette",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains",
+    "birch_forest",
+    "old_growth_birch_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:redhornedlizard",
+    "weight": 251,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

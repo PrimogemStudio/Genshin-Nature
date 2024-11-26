@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    },
+    "c": {
+      "item": "genshin_nature:sandbearerplanks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:embroideredlanternloftygrandeur",
+    "count": 1
+  }
+}

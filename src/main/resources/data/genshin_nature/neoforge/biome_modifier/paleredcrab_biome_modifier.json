@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "snowy_beach",
+    "plains",
+    "stony_shore",
+    "warm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:paleredcrab",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

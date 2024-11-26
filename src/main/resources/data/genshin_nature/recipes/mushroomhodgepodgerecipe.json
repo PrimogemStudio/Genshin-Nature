@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "1": {
+      "item": "minecraft:red_mushroom"
+    },
+    "2": {
+      "item": "genshin_nature:starshroom"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:mushroomhodgepodge",
+    "count": 1
+  }
+}

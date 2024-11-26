@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_nature:block/fragrantcedarslab"
+    },
+    "type=top": {
+      "model": "genshin_nature:block/fragrantcedarslab_top"
+    },
+    "type=double": {
+      "model": "genshin_nature:block/fragrantcedarslab_full"
+    }
+  }
+}

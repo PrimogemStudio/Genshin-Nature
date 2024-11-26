@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:tinymiracleshourglass"
+    },
+    "1": {
+      "item": "genshin_nature:tinymiracleshourglass"
+    },
+    "2": {
+      "item": "genshin_nature:tinymiracleshourglass"
+    },
+    "3": {
+      "item": "genshin_nature:tinymiracleshourglass"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:tinymiraclesgoblet",
+    "count": 1
+  }
+}

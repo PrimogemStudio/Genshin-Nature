@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_nature:block/cuihuaslab"
+    },
+    "type=top": {
+      "model": "genshin_nature:block/cuihuaslab_top"
+    },
+    "type=double": {
+      "model": "genshin_nature:block/cuihuaslab_full"
+    }
+  }
+}

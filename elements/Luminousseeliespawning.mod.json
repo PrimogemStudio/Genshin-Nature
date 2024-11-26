@@ -1,0 +1,135 @@
+{
+  "_fv": 71,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Luminous seelie",
+    "mobLabel": "",
+    "mobModelName": "Modelseelie",
+    "mobModelTexture": "blank_texture.png",
+    "modelLayers": [],
+    "animations": [],
+    "modelWidth": 1.0,
+    "modelHeight": 1.0,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -4017260,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10046778,
+      "falpha": 0.0
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.32,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 5,
+    "xpAmount": 2,
+    "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "entityDataEntries": [],
+    "onInitialSpawn": {
+      "name": "Luminousseeliespawningcondition"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "Spawnonlyonstone"
+    },
+    "spawningProbability": 48,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
+  }
+}

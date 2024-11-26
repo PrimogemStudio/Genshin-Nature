@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cod"
+    },
+    "1": {
+      "item": "minecraft:cod"
+    },
+    "2": {
+      "item": "minecraft:cod"
+    },
+    "3": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "4": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "5": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "6": {
+      "item": "genshin_nature:radish"
+    },
+    "7": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "8": {
+      "item": "genshin_nature:radish"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sashimiplatter",
+    "count": 1
+  }
+}

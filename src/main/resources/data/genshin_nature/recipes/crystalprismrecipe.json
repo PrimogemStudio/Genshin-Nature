@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "1": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "2": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "3": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "4": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "5": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "6": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "7": {
+      "item": "genshin_nature:dismalprism"
+    },
+    "8": {
+      "item": "genshin_nature:dismalprism"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:crystalprism",
+    "count": 1
+  }
+}

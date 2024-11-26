@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "square_yumemiru_stool"
+      },
+      "name": "default"
+    }
+  }
+}

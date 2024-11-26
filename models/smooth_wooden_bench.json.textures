@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "smooth_wooden_bench"
+      },
+      "name": "default"
+    }
+  }
+}

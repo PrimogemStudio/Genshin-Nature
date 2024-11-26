@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "1": {
+      "item": "genshin_nature:primogem"
+    },
+    "2": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "3": {
+      "item": "minecraft:lime_dye"
+    },
+    "4": {
+      "item": "minecraft:yellow_dye"
+    },
+    "5": {
+      "item": "minecraft:red_dye"
+    },
+    "6": {
+      "item": "minecraft:lime_dye"
+    },
+    "7": {
+      "item": "minecraft:yellow_dye"
+    },
+    "8": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:googolchair",
+    "count": 1
+  }
+}

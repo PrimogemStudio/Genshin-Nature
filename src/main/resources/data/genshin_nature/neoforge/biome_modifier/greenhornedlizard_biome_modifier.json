@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "dark_forest",
+    "flower_forest",
+    "forest",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "spawners": {
+    "type": "genshin_nature:greenhornedlizard",
+    "weight": 251,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

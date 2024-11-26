@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "desert",
+    "plains"
+  ],
+  "features": "genshin_nature:electrocrystal",
+  "step": "vegetal_decoration"
+}

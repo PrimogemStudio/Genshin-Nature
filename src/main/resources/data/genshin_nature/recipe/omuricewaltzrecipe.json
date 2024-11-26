@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:rice"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "genshin_nature:tomato"
+    },
+    "d": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:omuricewaltz",
+    "count": 1
+  }
+}

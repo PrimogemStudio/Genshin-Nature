@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:windwheelaster"
+    },
+    "b": {
+      "item": "genshin_nature:hurricaneseed"
+    },
+    "c": {
+      "item": "genshin_nature:crystalchunk"
+    },
+    "d": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:windcatcher",
+    "count": 1
+  }
+}

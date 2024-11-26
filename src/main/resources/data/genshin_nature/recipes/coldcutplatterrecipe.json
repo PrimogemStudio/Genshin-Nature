@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "genshin_nature:bacon"
+    },
+    {
+      "item": "genshin_nature:sausage"
+    },
+    {
+      "item": "genshin_nature:mint"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:coldcutplatter",
+    "count": 1
+  }
+}

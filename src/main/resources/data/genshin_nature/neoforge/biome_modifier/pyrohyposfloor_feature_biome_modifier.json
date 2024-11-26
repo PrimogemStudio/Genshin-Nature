@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "desert",
+    "plains",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "features": "genshin_nature:pyrohyposfloor_feature",
+  "step": "surface_structures"
+}

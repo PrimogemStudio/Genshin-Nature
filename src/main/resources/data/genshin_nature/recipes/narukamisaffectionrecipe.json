@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "1": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "2": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "3": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "4": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "5": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "6": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "7": {
+      "item": "genshin_nature:narukamisjoy"
+    },
+    "8": {
+      "item": "genshin_nature:narukamisjoy"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:narukamisaffection",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "klee_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

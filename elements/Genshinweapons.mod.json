@@ -1,0 +1,11 @@
+{
+  "_fv": 71,
+  "_type": "tab",
+  "definition": {
+    "name": "Genshin weapons",
+    "icon": {
+      "value": "CUSTOM:Mora"
+    },
+    "showSearch": false
+  }
+}

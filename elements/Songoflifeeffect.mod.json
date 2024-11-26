@@ -1,0 +1,19 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Song of Life Effect",
+    "icon": "song_of_life.png",
+    "color": {
+      "value": -12834253,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false
+  }
+}

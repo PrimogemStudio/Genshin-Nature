@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:glabrousbeans"
+    },
+    "2": {
+      "item": "genshin_nature:glabrousbeans"
+    },
+    "3": {
+      "item": "minecraft:potato"
+    },
+    "4": {
+      "item": "genshin_nature:spice"
+    },
+    "5": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:panipuri",
+    "count": 1
+  }
+}

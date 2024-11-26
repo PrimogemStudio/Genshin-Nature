@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "desert",
+    "plains",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "genshin_nature:sacredibis",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

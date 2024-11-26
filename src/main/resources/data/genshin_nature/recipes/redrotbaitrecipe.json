@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:dendrobium"
+    },
+    {
+      "item": "genshin_nature:fowl"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:redrotbait",
+    "count": 1
+  }
+}

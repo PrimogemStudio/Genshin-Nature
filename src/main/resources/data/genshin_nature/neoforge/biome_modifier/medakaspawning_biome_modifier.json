@@ -1,0 +1,21 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "cold_ocean",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean",
+    "plains",
+    "frozen_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "warm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:medakaspawning",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

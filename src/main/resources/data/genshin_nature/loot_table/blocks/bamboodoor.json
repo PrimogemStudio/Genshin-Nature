@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "genshin_nature:blocks/bamboodoor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:bamboodoor",
+          "conditions": [
+            {
+              "block": "genshin_nature:bamboodoor",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

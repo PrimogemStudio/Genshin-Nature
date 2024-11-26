@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "3": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "4": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "6": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "7": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "8": {
+      "item": "genshin_nature:araliaplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:araliastairs",
+    "count": 4
+  }
+}

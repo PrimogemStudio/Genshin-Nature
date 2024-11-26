@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "genshin_nature:unagimeat"
+  },
+  "result": {
+    "item": "genshin_nature:cookedunagimeat"
+  }
+}

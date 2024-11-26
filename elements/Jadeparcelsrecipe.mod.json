@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lotushead"
+      },
+      {
+        "value": "CUSTOM:Lotushead"
+      },
+      {
+        "value": "CUSTOM:Lotushead"
+      },
+      {
+        "value": "CUSTOM:Jueyunchili"
+      },
+      {
+        "value": "CUSTOM:Cabbage"
+      },
+      {
+        "value": "CUSTOM:Jueyunchili"
+      },
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "CUSTOM:Cabbage"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Jadeparcels"
+    },
+    "name": "jadeparcelsrecipe",
+    "namespace": "mod"
+  }
+}

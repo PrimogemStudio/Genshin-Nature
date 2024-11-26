@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/kitain_cross_spear_ascended",
+  "textures": {
+    "0": "genshin_nature:block/kitain_cross_spear_ascended",
+    "particle": "genshin_nature:item/kitain_cross_spear_ascended"
+  }
+}

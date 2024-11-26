@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/geo_shrine_block_final",
+    "up": "genshin_nature:block/geo_shrine_block_final",
+    "north": "genshin_nature:block/geo_shrine_block_final",
+    "east": "genshin_nature:block/geo_shrine_block_final",
+    "south": "genshin_nature:block/geo_shrine_block_final",
+    "west": "genshin_nature:block/geo_shrine_block_final",
+    "particle": "genshin_nature:block/geo_shrine_block_final"
+  },
+  "render_type": "translucent"
+}

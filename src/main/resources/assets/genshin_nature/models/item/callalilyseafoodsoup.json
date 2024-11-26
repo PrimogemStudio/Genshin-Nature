@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:item/calla_lily_seafood_soup"
+  }
+}

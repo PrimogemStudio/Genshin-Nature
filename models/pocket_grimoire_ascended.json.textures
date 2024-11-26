@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "pocket_grimoire_ascended"
+      },
+      "name": "default"
+    }
+  }
+}

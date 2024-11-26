@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/fishing_block",
+    "up": "genshin_nature:block/fishing_block",
+    "north": "genshin_nature:block/fishing_block",
+    "east": "genshin_nature:block/fishing_block",
+    "south": "genshin_nature:block/fishing_block",
+    "west": "genshin_nature:block/fishing_block",
+    "particle": "genshin_nature:block/fishing_block"
+  },
+  "render_type": "solid"
+}

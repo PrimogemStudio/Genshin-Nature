@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:prospectofthebrave"
+    },
+    "1": {
+      "item": "genshin_nature:prospectofthebrave"
+    },
+    "2": {
+      "item": "genshin_nature:prospectofthebrave"
+    },
+    "3": {
+      "item": "genshin_nature:prospectofthebrave"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:fortitudeofthebrave",
+    "count": 1
+  }
+}

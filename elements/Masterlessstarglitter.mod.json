@@ -1,0 +1,59 @@
+{
+  "_fv": 71,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "masterless_starglitter",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Masterless starglitter",
+    "rarity": "UNCOMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Genshinitems"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Right click to obtain 2 condensed resin",
+        "Click derecho para obtener 2 resina concentrada"
+      ]
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "Obtain2condensedresin"
+    },
+    "onRightClickedOnBlock": {
+      "name": "Obtain2condensedresin"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "isMusicDisc": false,
+    "musicDiscLengthInTicks": 0,
+    "musicDiscAnalogOutput": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "b b",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bamboo"
+    },
+    "b": {
+      "item": "genshin_nature:genshinseagrass"
+    },
+    "c": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:wakatakeni",
+    "count": 1
+  }
+}

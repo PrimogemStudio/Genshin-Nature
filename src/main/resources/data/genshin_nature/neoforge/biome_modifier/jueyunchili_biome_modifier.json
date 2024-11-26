@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest",
+    "stony_shore"
+  ],
+  "features": "genshin_nature:jueyunchili",
+  "step": "vegetal_decoration"
+}

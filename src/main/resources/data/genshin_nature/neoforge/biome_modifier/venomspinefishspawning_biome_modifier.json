@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "swamp",
+    "plains",
+    "sunflower_plains",
+    "cold_ocean",
+    "frozen_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "warm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:venomspinefishspawning",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

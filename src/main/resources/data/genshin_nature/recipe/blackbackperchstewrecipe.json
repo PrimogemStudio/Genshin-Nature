@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cod"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "genshin_nature:jueyunchili"
+    },
+    "d": {
+      "item": "genshin_nature:violetgrass"
+    },
+    "e": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:blackbackperchstew",
+    "count": 1
+  }
+}

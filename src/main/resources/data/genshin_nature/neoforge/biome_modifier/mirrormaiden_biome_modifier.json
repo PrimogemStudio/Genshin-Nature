@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "swamp",
+    "plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:mirrormaiden",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

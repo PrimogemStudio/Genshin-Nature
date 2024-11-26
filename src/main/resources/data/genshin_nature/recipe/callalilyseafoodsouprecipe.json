@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bab",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "b": {
+      "item": "genshin_nature:mint"
+    },
+    "c": {
+      "item": "genshin_nature:callalily"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:callalilyseafoodsoup",
+    "count": 1
+  }
+}

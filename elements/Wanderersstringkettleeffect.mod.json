@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Wanderer's String Kettle Effect",
+    "icon": "wanderers_string_kettle.png",
+    "color": {
+      "value": -8563675,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "WanderersstringkettleeffectOnEffectActiveTick"
+    }
+  }
+}

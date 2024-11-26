@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest"
+  ],
+  "features": "genshin_nature:fellflowercave_feature",
+  "step": "surface_structures"
+}

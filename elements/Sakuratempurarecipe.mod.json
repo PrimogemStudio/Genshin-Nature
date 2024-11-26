@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lavendermelon"
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": "CUSTOM:Lavendermelon"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Sakurabloom"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Sakurabloom"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Sakuratempura"
+    },
+    "name": "sakuratempurarecipe",
+    "namespace": "mod"
+  }
+}

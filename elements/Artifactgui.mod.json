@@ -1,0 +1,276 @@
+{
+  "_fv": 71,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 185,
+    "height": 213,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 20,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "Artifactemptyeffectclear"
+          },
+          "x": 204,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Artifactemptyeffectclear"
+          },
+          "x": 168,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Artifactemptyeffectclear"
+          },
+          "x": 240,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Artifactemptyeffectclear"
+          },
+          "x": 222,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Artifactemptyeffectclear"
+          },
+          "x": 186,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_detect",
+          "text": "Detect",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Callbothartifacts"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_place_artifacts",
+          "text": {
+            "fixedValue": "Place artifacts"
+          },
+          "color": {
+            "value": -52480,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_in_any_of_the_slots",
+          "text": {
+            "fixedValue": "in any of the slots"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 15,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_make_sure_to",
+          "text": {
+            "fixedValue": "Make sure to"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_click_on_detect",
+          "text": {
+            "fixedValue": "click on DETECT"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 15,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coloca_artefactos",
+          "text": {
+            "fixedValue": "Coloca artefactos"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 321,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_en_cualquier_espacio",
+          "text": {
+            "fixedValue": "en cualquier espacio"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 312,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_asegrate_de_hacer",
+          "text": {
+            "fixedValue": "Aseg�rate de hacer"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 321,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_click_en_detect",
+          "text": {
+            "fixedValue": "click en DETECT"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 321,
+          "y": 116,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

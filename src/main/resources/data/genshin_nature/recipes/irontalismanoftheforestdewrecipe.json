@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "1": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "2": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "3": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "4": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "5": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "6": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "7": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    },
+    "8": {
+      "item": "genshin_nature:coppertalismanoftheforestdew"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:irontalismanoftheforestdew",
+    "count": 1
+  }
+}

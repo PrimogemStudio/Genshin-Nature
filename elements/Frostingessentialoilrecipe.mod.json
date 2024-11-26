@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lizardtail"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Mistflower"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Frostingessentialoil"
+    },
+    "name": "frostingessentialoilrecipe",
+    "namespace": "mod"
+  }
+}

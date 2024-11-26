@@ -1,0 +1,12 @@
+{
+  "_fv": 71,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Allow Weavel Thieves",
+    "description": "If set to false, weasel thieves won't be able to exist",
+    "category": "MOBS",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

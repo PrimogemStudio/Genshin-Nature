@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/trusty_portable_lamp",
+  "textures": {
+    "all": "genshin_nature:block/trusty_portable_lamp",
+    "particle": "genshin_nature:block/trusty_portable_lamp",
+    "0": "genshin_nature:block/trusty_portable_lamp"
+  },
+  "render_type": "solid"
+}

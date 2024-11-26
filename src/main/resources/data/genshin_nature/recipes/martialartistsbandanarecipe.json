@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:martialartistswinecup"
+    },
+    "1": {
+      "item": "genshin_nature:martialartistswinecup"
+    },
+    "2": {
+      "item": "genshin_nature:martialartistswinecup"
+    },
+    "3": {
+      "item": "genshin_nature:martialartistswinecup"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:martialartistsbandana",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "genshin_nature:pepper"
+    },
+    {
+      "item": "minecraft:cod"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:grilledtigerfish",
+    "count": 1
+  }
+}

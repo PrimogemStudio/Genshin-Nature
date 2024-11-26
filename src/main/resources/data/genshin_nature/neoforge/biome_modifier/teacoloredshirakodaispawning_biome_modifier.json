@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "swamp",
+    "plains",
+    "snowy_beach",
+    "snowy_plains",
+    "frozen_river",
+    "ice_spikes",
+    "deep_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:teacoloredshirakodaispawning",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

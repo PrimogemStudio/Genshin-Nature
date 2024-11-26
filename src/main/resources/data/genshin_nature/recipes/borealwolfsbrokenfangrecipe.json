@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "1": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "2": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "3": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "4": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "5": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "6": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "7": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    },
+    "8": {
+      "item": "genshin_nature:borealwolfscrackedtooth"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:borealwolfsbrokenfang",
+    "count": 1
+  }
+}

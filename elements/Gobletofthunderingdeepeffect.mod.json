@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Goblet of Thundering Deep Effect",
+    "icon": "goblet_of_thundering_deep.png",
+    "color": {
+      "value": -10865633,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "Gobletofthunderingdeepproced"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "1": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "2": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "3": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "4": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "5": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "6": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "7": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    },
+    "8": {
+      "item": "genshin_nature:lustrousstonefromguyun"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:relicfromguyun",
+    "count": 1
+  }
+}

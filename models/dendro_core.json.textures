@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dendro_core_new"
+      },
+      "name": "default"
+    }
+  }
+}

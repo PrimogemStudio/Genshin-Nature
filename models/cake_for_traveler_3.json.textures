@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cake_for_traveler"
+      },
+      "name": "default"
+    }
+  }
+}

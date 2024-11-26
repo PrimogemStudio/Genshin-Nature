@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:heartofcomradeship"
+    },
+    "1": {
+      "item": "genshin_nature:heartofcomradeship"
+    },
+    "2": {
+      "item": "genshin_nature:heartofcomradeship"
+    },
+    "3": {
+      "item": "genshin_nature:heartofcomradeship"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:featherofhomecoming",
+    "count": 1
+  }
+}

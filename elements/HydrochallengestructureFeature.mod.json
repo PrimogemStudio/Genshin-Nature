@@ -1,0 +1,170 @@
+{
+  "_fv": 71,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "badlands_plateau"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "birch_forest_hills"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_roofed_forest"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "desert_hills"
+      },
+      {
+        "value": "mutated_desert"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "forest_hills"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga_hills"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "redwood_taiga_hills"
+      },
+      {
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "jungle_hills"
+      },
+      {
+        "value": "mutated_mesa_clear_rock"
+      },
+      {
+        "value": "mutated_extreme_hills_with_trees"
+      },
+      {
+        "value": "mutated_jungle"
+      },
+      {
+        "value": "mutated_jungle_edge"
+      },
+      {
+        "value": "mutated_mesa_rock"
+      },
+      {
+        "value": "smaller_extreme_hills"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "mushroom_field_shore"
+      },
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "mutated_savanna"
+      },
+      {
+        "value": "mutated_savanna_rock"
+      },
+      {
+        "value": "snowy_mountains"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "mutated_taiga_cold"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "stone_beach"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "taiga_hills"
+      },
+      {
+        "value": "mutated_taiga"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "mutated_birch_forest_hills"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      }
+    ],
+    "featurexml": "<xml><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\">\n<value name=\"feature\"><block type=\"feature_custom_structure\">\n\t<field name=\"structure\">hydrochallengestructure</field>\n\t<field name=\"x\">0</field>\n\t<field name=\"y\">0</field>\n\t<field name=\"z\">0</field>\n\t<field name=\"random_rotation\">TRUE</field>\n\t<field name=\"random_mirror\">TRUE</field>\n\t<value name=\"ignored_blocks\">\n\t\t<block type=\"block_holderset_list\"><mutation inputs=\"1\"></mutation><field name=\"block0\">Blocks.STRUCTURE_BLOCK</field></block>\n\t</value>\n</block>\n</value>\n<next><block type=\"placement_rarity\">\n\t<field name=\"rarity\">667</field>\n\t<next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\">\n\t<field name=\"heightmap\">OCEAN_FLOOR_WG</field>\n\t<next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></xml>\n"
+  }
+}

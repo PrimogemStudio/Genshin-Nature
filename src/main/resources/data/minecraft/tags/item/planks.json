@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:cuihuaplanks",
+    "genshin_nature:araliaplanks",
+    "genshin_nature:bambooplanks",
+    "genshin_nature:firplanks",
+    "genshin_nature:fragrantcedarplanks",
+    "genshin_nature:mapleplanks",
+    "genshin_nature:otogiplanks",
+    "genshin_nature:sandbearerplanks",
+    "genshin_nature:yumemiruplanks"
+  ]
+}

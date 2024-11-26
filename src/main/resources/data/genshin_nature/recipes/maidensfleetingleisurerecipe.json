@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:maidenspassingyouth"
+    },
+    "1": {
+      "item": "genshin_nature:maidenspassingyouth"
+    },
+    "2": {
+      "item": "genshin_nature:maidenspassingyouth"
+    },
+    "3": {
+      "item": "genshin_nature:maidenspassingyouth"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:maidensfleetingleisure",
+    "count": 1
+  }
+}

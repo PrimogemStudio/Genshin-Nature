@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/sucrose_plushie",
+  "textures": {
+    "all": "genshin_nature:block/sucrose_plushie",
+    "particle": "genshin_nature:block/sucrose_plushie",
+    "0": "genshin_nature:block/sucrose_plushie"
+  },
+  "render_type": "solid"
+}

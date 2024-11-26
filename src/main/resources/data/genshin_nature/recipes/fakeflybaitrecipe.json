@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:sakurabloom"
+    },
+    {
+      "item": "genshin_nature:horsetail"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:fakeflybait",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "1": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "2": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "3": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "4": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "5": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "6": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "7": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "8": {
+      "item": "genshin_nature:lumenspar"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:lumensparblock",
+    "count": 1
+  }
+}

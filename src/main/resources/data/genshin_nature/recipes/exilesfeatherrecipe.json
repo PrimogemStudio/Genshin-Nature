@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:exilesflower"
+    },
+    "1": {
+      "item": "genshin_nature:exilesflower"
+    },
+    "2": {
+      "item": "genshin_nature:exilesflower"
+    },
+    "3": {
+      "item": "genshin_nature:exilesflower"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:exilesfeather",
+    "count": 1
+  }
+}

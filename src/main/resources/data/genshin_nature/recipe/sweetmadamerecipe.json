@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:sweetflower"
+    },
+    "b": {
+      "item": "genshin_nature:fowl"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:sweetmadame",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains",
+    "desert",
+    "swamp",
+    "cold_ocean",
+    "frozen_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "warm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:brownshirakodaispawning",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

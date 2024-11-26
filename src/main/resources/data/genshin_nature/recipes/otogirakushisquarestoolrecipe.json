@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "1": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "2": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "3": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "5": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "6": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "8": {
+      "item": "genshin_nature:otogiplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:otogirakushisquarestool",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "genshin_nature:flamingflower"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:flamingessentialoil",
+    "count": 1
+  }
+}

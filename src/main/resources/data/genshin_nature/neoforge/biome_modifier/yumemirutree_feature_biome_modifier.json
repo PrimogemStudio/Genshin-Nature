@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "swamp",
+    "plains"
+  ],
+  "features": "genshin_nature:yumemirutree_feature",
+  "step": "surface_structures"
+}

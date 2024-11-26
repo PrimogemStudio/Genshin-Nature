@@ -1,0 +1,14 @@
+{
+  "type": "genshin_nature:structure_feature",
+  "config": {
+    "structure": "genshin_nature:plushies_shop4",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

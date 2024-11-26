@@ -1,0 +1,8 @@
+{
+  "parent": "genshin_nature:custom/skyward_harp",
+  "textures": {
+    "0": "genshin_nature:block/skyward_harp",
+    "1": "genshin_nature:block/skyward_harp_emissive",
+    "particle": "genshin_nature:item/skyward_harp"
+  }
+}

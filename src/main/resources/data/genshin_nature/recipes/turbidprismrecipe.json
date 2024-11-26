@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "1": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "2": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "3": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "4": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "5": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "6": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "7": {
+      "item": "genshin_nature:damagedprism"
+    },
+    "8": {
+      "item": "genshin_nature:damagedprism"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:turbidprism",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:slimecondensate"
+    },
+    {
+      "item": "genshin_nature:berry"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:falsewormbait",
+    "count": 1
+  }
+}

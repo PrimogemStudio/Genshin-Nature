@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dark_forest",
+    "plains",
+    "flower_forest",
+    "forest",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "taiga",
+    "cold_ocean",
+    "deep_cold_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:purpleshirakodaispawning",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

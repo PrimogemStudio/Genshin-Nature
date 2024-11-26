@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:witheringstopped",
+    "genshin_nature:witheringexpanding_4",
+    "genshin_nature:witheringexpanding_3",
+    "genshin_nature:witheringexpanding_2",
+    "genshin_nature:witheringexpanding",
+    "genshin_nature:darkmud"
+  ]
+}

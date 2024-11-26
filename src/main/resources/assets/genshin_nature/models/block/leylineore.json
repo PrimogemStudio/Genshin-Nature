@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/ley_line_ore",
+    "up": "genshin_nature:block/ley_line_ore",
+    "north": "genshin_nature:block/ley_line_ore",
+    "east": "genshin_nature:block/ley_line_ore",
+    "south": "genshin_nature:block/ley_line_ore",
+    "west": "genshin_nature:block/ley_line_ore",
+    "particle": "genshin_nature:block/ley_line_ore"
+  },
+  "render_type": "solid"
+}

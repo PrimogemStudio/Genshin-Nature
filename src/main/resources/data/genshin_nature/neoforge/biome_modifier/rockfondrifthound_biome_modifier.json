@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "nether_wastes",
+  "spawners": {
+    "type": "genshin_nature:rockfondrifthound",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

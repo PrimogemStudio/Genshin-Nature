@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:floweringlife"
+    },
+    "1": {
+      "item": "genshin_nature:floweringlife"
+    },
+    "2": {
+      "item": "genshin_nature:floweringlife"
+    },
+    "3": {
+      "item": "genshin_nature:floweringlife"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:featherofnascentlight",
+    "count": 1
+  }
+}

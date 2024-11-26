@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/tartaglia_plushie",
+  "textures": {
+    "all": "genshin_nature:block/tartaglia_plushie",
+    "particle": "genshin_nature:block/tartaglia_plushie",
+    "0": "genshin_nature:block/tartaglia_plushie"
+  },
+  "render_type": "solid"
+}

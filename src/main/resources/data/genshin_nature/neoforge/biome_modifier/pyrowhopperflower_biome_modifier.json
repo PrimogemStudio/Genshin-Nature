@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "badlands",
+    "plains",
+    "crimson_forest",
+    "desert",
+    "eroded_badlands",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "nether_wastes",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "stony_shore",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "genshin_nature:pyrowhopperflower",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

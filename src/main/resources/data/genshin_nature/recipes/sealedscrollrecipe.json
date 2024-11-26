@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "1": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "2": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "3": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "4": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "5": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "6": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "7": {
+      "item": "genshin_nature:diviningscroll"
+    },
+    "8": {
+      "item": "genshin_nature:diviningscroll"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sealedscroll",
+    "count": 1
+  }
+}

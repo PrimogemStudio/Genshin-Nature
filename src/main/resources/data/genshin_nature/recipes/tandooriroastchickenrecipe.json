@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "genshin_nature:spice"
+    },
+    "3": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "4": {
+      "item": "genshin_nature:padisarah"
+    },
+    "5": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "6": {
+      "item": "genshin_nature:fowl"
+    },
+    "7": {
+      "item": "genshin_nature:fowl"
+    },
+    "8": {
+      "item": "genshin_nature:fowl"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:tandooriroastchicken",
+    "count": 1
+  }
+}

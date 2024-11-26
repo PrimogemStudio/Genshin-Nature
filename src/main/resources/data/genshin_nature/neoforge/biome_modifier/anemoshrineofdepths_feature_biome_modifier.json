@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "birch_forest",
+    "old_growth_birch_forest",
+    "swamp"
+  ],
+  "features": "genshin_nature:anemoshrineofdepths_feature",
+  "step": "surface_structures"
+}

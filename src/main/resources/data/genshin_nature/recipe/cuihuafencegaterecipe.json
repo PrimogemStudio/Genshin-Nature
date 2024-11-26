@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "genshin_nature:cuihuaplanks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:cuihuafencegate",
+    "count": 1
+  }
+}

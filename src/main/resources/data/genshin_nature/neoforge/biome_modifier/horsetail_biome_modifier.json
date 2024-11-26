@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "cold_ocean",
+    "frozen_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "warm_ocean",
+    "beach",
+    "snowy_beach",
+    "plains",
+    "stony_shore",
+    "sunflower_plains"
+  ],
+  "features": "genshin_nature:horsetail",
+  "step": "vegetal_decoration"
+}

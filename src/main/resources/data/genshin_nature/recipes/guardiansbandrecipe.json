@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:guardiansvessel"
+    },
+    "1": {
+      "item": "genshin_nature:guardiansvessel"
+    },
+    "2": {
+      "item": "genshin_nature:guardiansvessel"
+    },
+    "3": {
+      "item": "genshin_nature:guardiansvessel"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:guardiansband",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:block/thrice_dyed_crimson_snowmelt_top"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:oozingconcretions"
+    },
+    {
+      "item": "genshin_nature:primogem"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:decorativeoozingconcretions",
+    "count": 1
+  }
+}

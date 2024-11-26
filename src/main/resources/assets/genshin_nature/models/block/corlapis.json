@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/cor_lapis",
+  "textures": {
+    "all": "genshin_nature:block/cor_lapis",
+    "particle": "genshin_nature:block/cor_lapis",
+    "0": "genshin_nature:block/cor_lapis"
+  },
+  "render_type": "cutout"
+}

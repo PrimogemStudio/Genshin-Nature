@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "genshin_nature:block/fragrantcedarwood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "genshin_nature:block/fragrantcedarwood"
+    },
+    "axis=z": {
+      "model": "genshin_nature:block/fragrantcedarwood",
+      "x": 90
+    }
+  }
+}

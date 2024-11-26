@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/dark_mud_carpet",
+  "textures": {
+    "all": "genshin_nature:block/dark_mud_carpet",
+    "particle": "genshin_nature:block/dark_mud_carpet",
+    "0": "genshin_nature:block/dark_mud_carpet"
+  },
+  "render_type": "solid"
+}

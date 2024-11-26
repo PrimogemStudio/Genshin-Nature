@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:royalsilverurn"
+    },
+    "1": {
+      "item": "genshin_nature:royalsilverurn"
+    },
+    "2": {
+      "item": "genshin_nature:royalsilverurn"
+    },
+    "3": {
+      "item": "genshin_nature:royalsilverurn"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:royalmasque",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:medalofthebrave"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:prospectofthebrave",
+    "count": 1
+  }
+}

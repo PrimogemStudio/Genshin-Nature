@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:gobletofthunderingdeep"
+    },
+    "1": {
+      "item": "genshin_nature:gobletofthunderingdeep"
+    },
+    "2": {
+      "item": "genshin_nature:gobletofthunderingdeep"
+    },
+    "3": {
+      "item": "genshin_nature:gobletofthunderingdeep"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:winestainedtricorne",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:radish"
+    },
+    "b": {
+      "item": "genshin_nature:pepper"
+    },
+    "c": {
+      "item": "genshin_nature:flour"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:friedradishballs",
+    "count": 1
+  }
+}

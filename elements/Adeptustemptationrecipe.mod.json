@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Sangopearl"
+      },
+      {
+        "value": "CUSTOM:Shrimpmeat"
+      },
+      {
+        "value": "CUSTOM:Matsutake"
+      },
+      {
+        "value": "CUSTOM:Sangopearl"
+      },
+      {
+        "value": "CUSTOM:Matsutake"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Adeptustemptation"
+    },
+    "name": "adeptustemptationrecipe",
+    "namespace": "mod"
+  }
+}

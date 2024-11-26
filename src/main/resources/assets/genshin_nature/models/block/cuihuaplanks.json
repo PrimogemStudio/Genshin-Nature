@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/cuihua_planks",
+    "up": "genshin_nature:block/cuihua_planks",
+    "north": "genshin_nature:block/cuihua_planks",
+    "east": "genshin_nature:block/cuihua_planks",
+    "south": "genshin_nature:block/cuihua_planks",
+    "west": "genshin_nature:block/cuihua_planks",
+    "particle": "genshin_nature:block/cuihua_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "genshin_nature:block/fir_planks",
+    "bottom": "genshin_nature:block/fir_planks",
+    "top": "genshin_nature:block/fir_planks",
+    "side": "genshin_nature:block/fir_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "genshin_nature:ruindrakeskywatch",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

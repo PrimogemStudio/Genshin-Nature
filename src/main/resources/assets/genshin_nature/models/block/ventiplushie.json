@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/venti_plushie",
+  "textures": {
+    "all": "genshin_nature:block/venti_plushie",
+    "particle": "genshin_nature:block/venti_plushie",
+    "0": "genshin_nature:block/venti_plushie"
+  },
+  "render_type": "solid"
+}

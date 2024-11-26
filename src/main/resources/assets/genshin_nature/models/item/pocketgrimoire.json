@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/pocket_grimoire",
+  "textures": {
+    "1": "genshin_nature:block/pocket_grimoire",
+    "particle": "genshin_nature:item/pocket_grimoire"
+  }
+}

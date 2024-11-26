@@ -1,0 +1,230 @@
+{
+  "_fv": 71,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "anemo_icon.png",
+          "use1Xscale": false,
+          "x": 176,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cryo_icon.png",
+          "use1Xscale": false,
+          "x": 236,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dendro_icon.png",
+          "use1Xscale": false,
+          "x": 296,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "electro_icon.png",
+          "use1Xscale": false,
+          "x": 296,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "geo_icon.png",
+          "use1Xscale": false,
+          "x": 121,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hydro_icon.png",
+          "use1Xscale": false,
+          "x": 176,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pyro_icon.png",
+          "use1Xscale": false,
+          "x": 236,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_vision_icon.png",
+          "use1Xscale": false,
+          "x": 121,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_anemo",
+          "text": "Anemo",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Spawnanemovision"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 161,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_none",
+          "text": "None",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Addblankvision"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 106,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cryo",
+          "text": "Cryo",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Addcryovision"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 221,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_electro",
+          "text": "Electro",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Addelectrovision"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 276,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geo",
+          "text": "Geo",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Addgeovision"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 111,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hydro",
+          "text": "Hydro",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Addhydrovision"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 161,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pyro",
+          "text": "Pyro",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Addpyrovision"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 221,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dendro",
+          "text": "Dendro",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Adddendrovision"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 276,
+          "y": 121,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 10,
+      "oy": 10,
+      "snapOnGrid": true
+    }
+  }
+}

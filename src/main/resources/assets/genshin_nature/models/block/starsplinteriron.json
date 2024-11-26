@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/starsplinter_iron",
+  "textures": {
+    "all": "genshin_nature:block/starsplinter_iron",
+    "particle": "genshin_nature:block/starsplinter_iron",
+    "0": "genshin_nature:block/starsplinter_iron"
+  },
+  "render_type": "cutout"
+}

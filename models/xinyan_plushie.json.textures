@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "xinyan_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

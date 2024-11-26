@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Withering protection",
+    "icon": "withering_protection.png",
+    "color": {
+      "value": -6652819,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "Witheringprotectionproced"
+    }
+  }
+}

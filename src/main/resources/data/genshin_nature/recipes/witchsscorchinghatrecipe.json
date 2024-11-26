@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:witchsheartflames"
+    },
+    "1": {
+      "item": "genshin_nature:witchsheartflames"
+    },
+    "2": {
+      "item": "genshin_nature:witchsheartflames"
+    },
+    "3": {
+      "item": "genshin_nature:witchsheartflames"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:witchsscorchinghat",
+    "count": 1
+  }
+}

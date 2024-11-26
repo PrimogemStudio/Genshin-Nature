@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_nature:block/firslab"
+    },
+    "type=top": {
+      "model": "genshin_nature:block/firslab_top"
+    },
+    "type=double": {
+      "model": "genshin_nature:block/firslab_full"
+    }
+  }
+}

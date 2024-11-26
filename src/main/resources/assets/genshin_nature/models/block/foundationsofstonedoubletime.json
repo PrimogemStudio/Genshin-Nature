@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/foundations_of_stone_double_time",
+  "textures": {
+    "all": "genshin_nature:block/foundations_of_stone_double_time",
+    "particle": "genshin_nature:block/foundations_of_stone_double_time",
+    "0": "genshin_nature:block/foundations_of_stone_double_time"
+  },
+  "render_type": "solid"
+}

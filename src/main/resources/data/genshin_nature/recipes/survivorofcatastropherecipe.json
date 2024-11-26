@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:thunderbirdsmercy"
+    },
+    "1": {
+      "item": "genshin_nature:thunderbirdsmercy"
+    },
+    "2": {
+      "item": "genshin_nature:thunderbirdsmercy"
+    },
+    "3": {
+      "item": "genshin_nature:thunderbirdsmercy"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:survivorofcatastrophe",
+    "count": 1
+  }
+}

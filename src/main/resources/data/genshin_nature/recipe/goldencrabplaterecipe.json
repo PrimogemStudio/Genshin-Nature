@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:egg"
+    },
+    "b": {
+      "item": "genshin_nature:salt"
+    },
+    "c": {
+      "item": "genshin_nature:flour"
+    },
+    "d": {
+      "item": "genshin_nature:sangopearl"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:goldencrabplate",
+    "count": 1
+  }
+}

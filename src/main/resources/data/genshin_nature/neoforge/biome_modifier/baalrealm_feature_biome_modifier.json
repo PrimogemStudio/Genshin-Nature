@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "end_highlands",
+    "end_midlands"
+  ],
+  "features": "genshin_nature:baalrealm_feature",
+  "step": "surface_structures"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:fragrantcedarplanks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "genshin_nature:fragrantcedarplanks"
+    },
+    "3": {
+      "item": "genshin_nature:fragrantcedarplanks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "genshin_nature:fragrantcedarplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:fragrantcedarfence",
+    "count": 3
+  }
+}

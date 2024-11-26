@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "genshin_nature:block/horsetail"
+    },
+    "half=lower": {
+      "model": "genshin_nature:block/horsetail_bottom"
+    }
+  }
+}

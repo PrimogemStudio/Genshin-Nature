@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "deep_ocean",
+  "features": "genshin_nature:osialspawning_feature",
+  "step": "surface_structures"
+}

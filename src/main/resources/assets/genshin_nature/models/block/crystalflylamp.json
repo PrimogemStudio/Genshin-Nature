@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/paperlamp",
+  "textures": {
+    "all": "genshin_nature:block/paperlamp",
+    "particle": "genshin_nature:block/paperlamp",
+    "0": "genshin_nature:block/paperlamp"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:yumemiruplanks"
+    },
+    "b": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:squareyumemirustool",
+    "count": 1
+  }
+}

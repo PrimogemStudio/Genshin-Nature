@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "badlands",
+    "plains",
+    "eroded_badlands",
+    "wooded_badlands",
+    "dark_forest"
+  ],
+  "features": "genshin_nature:corlapis",
+  "step": "vegetal_decoration"
+}

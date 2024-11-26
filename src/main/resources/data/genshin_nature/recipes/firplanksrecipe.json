@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:firwood"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:firplanks",
+    "count": 4
+  }
+}

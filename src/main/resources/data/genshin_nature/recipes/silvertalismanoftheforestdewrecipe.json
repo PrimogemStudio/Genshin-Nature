@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "1": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "2": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "3": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "4": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "5": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "6": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "7": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    },
+    "8": {
+      "item": "genshin_nature:irontalismanoftheforestdew"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:silvertalismanoftheforestdew",
+    "count": 1
+  }
+}

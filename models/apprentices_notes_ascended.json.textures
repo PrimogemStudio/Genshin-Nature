@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "apprentices_notes_ascended"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "night_of_the_party_pumpkins"
+      },
+      "name": "default"
+    }
+  }
+}

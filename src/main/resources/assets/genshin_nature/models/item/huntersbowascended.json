@@ -1,0 +1,6 @@
+{
+  "parent": "genshin_nature:custom/hunters_bow_ascended",
+  "textures": {
+    "particle": "genshin_nature:item/hunters_bow_ascended"
+  }
+}

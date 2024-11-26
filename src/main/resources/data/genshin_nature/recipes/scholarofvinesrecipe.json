@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:labyrinthwayfarer"
+    },
+    "1": {
+      "item": "genshin_nature:labyrinthwayfarer"
+    },
+    "2": {
+      "item": "genshin_nature:labyrinthwayfarer"
+    },
+    "3": {
+      "item": "genshin_nature:labyrinthwayfarer"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:scholarofvines",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Whiteironchunk"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.IRON_INGOT"
+    },
+    "name": "whiteironchunkfurnace",
+    "namespace": "mod"
+  }
+}

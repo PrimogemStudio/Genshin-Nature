@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:grainofaerosiderite"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:pieceofaerosiderite",
+    "count": 1
+  }
+}

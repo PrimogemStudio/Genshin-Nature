@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/teahouse_round_stool_pain_point_reduction",
+  "textures": {
+    "all": "genshin_nature:block/teahouse_round_stool_pain_point_reduction",
+    "particle": "genshin_nature:block/teahouse_round_stool_pain_point_reduction",
+    "0": "genshin_nature:block/teahouse_round_stool_pain_point_reduction"
+  },
+  "render_type": "solid"
+}

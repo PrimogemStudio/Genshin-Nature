@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "spawners": {
+    "type": "genshin_nature:dendrocrystalfly",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

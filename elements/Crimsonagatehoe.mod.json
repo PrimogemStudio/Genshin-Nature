@@ -1,0 +1,39 @@
+{
+  "_fv": 71,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "crimson_agate_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Crimson agate hoe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.8000000000000003,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 502,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Crimsonagate"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "Crimsonagatehitfire"
+    }
+  }
+}

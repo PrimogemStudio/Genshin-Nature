@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:yellow_dye"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "genshin_nature:mapleplanks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:maplewoodritualdrumfestivemusic",
+    "count": 1
+  }
+}

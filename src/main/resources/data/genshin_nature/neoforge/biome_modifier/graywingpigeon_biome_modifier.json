@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "taiga"
+  ],
+  "spawners": {
+    "type": "genshin_nature:graywingpigeon",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

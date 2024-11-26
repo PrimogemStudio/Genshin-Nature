@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cod"
+    },
+    "b": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "c": {
+      "item": "genshin_nature:radish"
+    },
+    "d": {
+      "item": "genshin_nature:sangopearl"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:sashimiplatter",
+    "count": 1
+  }
+}

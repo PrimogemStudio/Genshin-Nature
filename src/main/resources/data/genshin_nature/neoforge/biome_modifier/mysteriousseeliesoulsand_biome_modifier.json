@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "soul_sand_valley",
+  "spawners": {
+    "type": "genshin_nature:mysteriousseeliesoulsand",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

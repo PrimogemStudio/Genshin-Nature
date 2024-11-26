@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "3": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "4": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "6": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "7": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "8": {
+      "item": "genshin_nature:mapleplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:maplestairs",
+    "count": 4
+  }
+}

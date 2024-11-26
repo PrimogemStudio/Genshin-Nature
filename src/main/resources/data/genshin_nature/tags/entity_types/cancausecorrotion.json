@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:rockfondrifthound",
+    "genshin_nature:thundercravenrifthound",
+    "genshin_nature:goldenwolflordboss",
+    "genshin_nature:rockfondrifthoundwhelp",
+    "genshin_nature:thundercravenrifthoundwhelp"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:martialartistsfeatheraccessory"
+    },
+    "1": {
+      "item": "genshin_nature:martialartistsfeatheraccessory"
+    },
+    "2": {
+      "item": "genshin_nature:martialartistsfeatheraccessory"
+    },
+    "3": {
+      "item": "genshin_nature:martialartistsfeatheraccessory"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:martialartistswaterhourglass",
+    "count": 1
+  }
+}

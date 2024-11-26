@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/waster_greatsword",
+  "textures": {
+    "0": "genshin_nature:block/waster_greatsword",
+    "particle": "genshin_nature:item/waster_greatsword"
+  }
+}

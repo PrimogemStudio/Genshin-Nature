@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/cuihua_leaves",
+    "up": "genshin_nature:block/cuihua_leaves",
+    "north": "genshin_nature:block/cuihua_leaves",
+    "east": "genshin_nature:block/cuihua_leaves",
+    "south": "genshin_nature:block/cuihua_leaves",
+    "west": "genshin_nature:block/cuihua_leaves",
+    "particle": "genshin_nature:block/cuihua_leaves"
+  },
+  "render_type": "cutout"
+}

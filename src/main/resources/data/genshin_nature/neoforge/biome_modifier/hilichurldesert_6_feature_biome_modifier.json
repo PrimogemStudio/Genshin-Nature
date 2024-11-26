@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "desert",
+    "plains"
+  ],
+  "features": "genshin_nature:hilichurldesert_6_feature",
+  "step": "surface_structures"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:concealedunguis"
+    },
+    "title": {
+      "translate": "advancements.bewareofangrydog.title"
+    },
+    "description": {
+      "translate": "advancements.bewareofangrydog.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bewareofangrydog_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

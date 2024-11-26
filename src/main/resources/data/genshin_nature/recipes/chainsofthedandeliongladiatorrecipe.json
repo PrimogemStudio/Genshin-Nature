@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "1": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "2": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "3": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "4": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "5": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "6": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "7": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    },
+    "8": {
+      "item": "genshin_nature:fettersofthedandeliongladiator"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:chainsofthedandeliongladiator",
+    "count": 1
+  }
+}

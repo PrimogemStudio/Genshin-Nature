@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "1": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "2": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "3": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "4": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "5": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "6": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "7": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    },
+    "8": {
+      "item": "genshin_nature:chainsofthedandeliongladiator"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:shacklesofthedandeliongladiator",
+    "count": 1
+  }
+}

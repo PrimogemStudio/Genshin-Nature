@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:Salt"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": "CUSTOM:Salt"
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": "CUSTOM:Sangopearl"
+      },
+      {
+        "value": "CUSTOM:Sangopearl"
+      },
+      {
+        "value": "CUSTOM:Sangopearl"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Goldencrabplate"
+    },
+    "name": "goldencrabplaterecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "ice_spikes",
+    "deep_frozen_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:warmseelieicespikes",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

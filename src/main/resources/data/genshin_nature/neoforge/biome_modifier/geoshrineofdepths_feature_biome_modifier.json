@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "desert",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_forest"
+  ],
+  "features": "genshin_nature:geoshrineofdepths_feature",
+  "step": "surface_structures"
+}

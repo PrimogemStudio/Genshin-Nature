@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:lizardtail"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:gushingessentialoil",
+    "count": 1
+  }
+}

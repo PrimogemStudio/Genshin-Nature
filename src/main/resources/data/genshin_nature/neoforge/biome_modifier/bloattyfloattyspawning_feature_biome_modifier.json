@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "windswept_forest",
+    "plains"
+  ],
+  "features": "genshin_nature:bloattyfloattyspawning_feature",
+  "step": "surface_structures"
+}

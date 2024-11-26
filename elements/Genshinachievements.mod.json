@@ -1,0 +1,24 @@
+{
+  "_fv": 71,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Genshin achievements",
+    "achievementDescription": "Achievements from the mod Genshin Nature",
+    "achievementIcon": {
+      "value": "CUSTOM:Wishingmenu"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"tick\" x=\"60\" y=\"44\"/></next></block></xml>"
+  }
+}

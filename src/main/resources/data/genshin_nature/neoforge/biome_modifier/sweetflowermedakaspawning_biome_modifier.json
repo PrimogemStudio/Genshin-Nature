@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "deep_lukewarm_ocean",
+    "lukewarm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:sweetflowermedakaspawning",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

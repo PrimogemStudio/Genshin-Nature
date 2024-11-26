@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "snowy_beach",
+    "plains",
+    "snowy_taiga",
+    "snowy_plains",
+    "ice_spikes"
+  ],
+  "features": "genshin_nature:evernightglitterbough",
+  "step": "vegetal_decoration"
+}

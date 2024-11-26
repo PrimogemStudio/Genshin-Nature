@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "1": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "2": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "3": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "4": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "5": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "6": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "7": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    },
+    "8": {
+      "item": "genshin_nature:treasurehoarderinsignia"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:silverraveninsignia",
+    "count": 1
+  }
+}

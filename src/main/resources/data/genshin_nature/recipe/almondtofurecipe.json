@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:milk_bucket"
+    },
+    "c": {
+      "item": "genshin_nature:almond"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:almondtofu",
+    "count": 1
+  }
+}

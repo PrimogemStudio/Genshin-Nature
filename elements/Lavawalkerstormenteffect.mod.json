@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Lavawalker's Torment Effect",
+    "icon": "lavawalkers_torment.png",
+    "color": {
+      "value": -11073535,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "Lavawalkerstormentproced"
+    }
+  }
+}

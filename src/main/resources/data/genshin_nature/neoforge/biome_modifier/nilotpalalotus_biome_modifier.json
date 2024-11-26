@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle",
+    "swamp"
+  ],
+  "features": "genshin_nature:nilotpalalotus",
+  "step": "vegetal_decoration"
+}

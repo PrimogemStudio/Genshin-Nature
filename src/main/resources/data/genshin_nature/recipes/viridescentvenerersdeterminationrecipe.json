@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:viridescentarrowfeather"
+    },
+    "1": {
+      "item": "genshin_nature:viridescentarrowfeather"
+    },
+    "2": {
+      "item": "genshin_nature:viridescentarrowfeather"
+    },
+    "3": {
+      "item": "genshin_nature:viridescentarrowfeather"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:viridescentvenerersdetermination",
+    "count": 1
+  }
+}

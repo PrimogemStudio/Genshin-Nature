@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "genshin_nature:fowl"
+  },
+  "result": {
+    "id": "genshin_nature:cookedfowl"
+  }
+}

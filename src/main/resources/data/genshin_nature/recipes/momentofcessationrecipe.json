@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:wisedoctorspinion"
+    },
+    "1": {
+      "item": "genshin_nature:wisedoctorspinion"
+    },
+    "2": {
+      "item": "genshin_nature:wisedoctorspinion"
+    },
+    "3": {
+      "item": "genshin_nature:wisedoctorspinion"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:momentofcessation",
+    "count": 1
+  }
+}

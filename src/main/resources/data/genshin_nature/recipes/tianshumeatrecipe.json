@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "1": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "2": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "genshin_nature:qingxin"
+    },
+    "8": {
+      "item": "genshin_nature:matsutake"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:tianshumeat",
+    "count": 1
+  }
+}

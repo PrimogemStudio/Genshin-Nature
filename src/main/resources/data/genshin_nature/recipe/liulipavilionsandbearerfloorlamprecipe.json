@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "c": {
+      "item": "minecraft:leather"
+    },
+    "d": {
+      "item": "genshin_nature:sandbearerplanks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:liulipavilionsandbearerfloorlamp",
+    "count": 1
+  }
+}

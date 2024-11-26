@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "b": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:talentsblock",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bac",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:fowl"
+    },
+    "b": {
+      "item": "genshin_nature:flour"
+    },
+    "c": {
+      "item": "genshin_nature:butter"
+    },
+    "d": {
+      "item": "genshin_nature:cabbage"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:goldenchickenburger",
+    "count": 1
+  }
+}

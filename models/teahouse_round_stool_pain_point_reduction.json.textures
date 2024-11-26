@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "teahouse_round_stool_pain_point_reduction"
+      },
+      "name": "default"
+    }
+  }
+}

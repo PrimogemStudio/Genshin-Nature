@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/glass_shield",
+    "up": "genshin_nature:block/glass_shield",
+    "north": "genshin_nature:block/glass_shield",
+    "east": "genshin_nature:block/glass_shield",
+    "south": "genshin_nature:block/glass_shield",
+    "west": "genshin_nature:block/glass_shield",
+    "particle": "genshin_nature:block/glass_shield"
+  },
+  "render_type": "translucent"
+}

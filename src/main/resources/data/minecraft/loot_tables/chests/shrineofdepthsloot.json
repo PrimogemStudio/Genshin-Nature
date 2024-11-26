@@ -1,0 +1,689 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "bonus_rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:primogem",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:realmcoin",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:cabbage",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:radish",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:enhancementore",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:rawmeat",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:onikabutoitem",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:anemosigil",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:electrosigil",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:geosigil",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dendrosigil",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:fineenhancementore",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dullblade",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:huntersbow",
+          "weight": 98,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:adventurersflower",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:travelingdoctorssilverlotus",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:luckydogsclover",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:berserkersrose",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:instructorsbrooch",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:exilesflower",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:curiouscube",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dawnwinerystopqualitygrapejuice",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:moonlitcragstone",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:starlightcoalescence",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:mora",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:mysticenhancementore",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:silversword",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:crimsonagate",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:weaponslootsachet",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:northlanderbowbillet",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:northlandercatalystbillet",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:northlanderclaymorebillet",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:northlanderpolearmbillet",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:northlanderswordbillet",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:seeddispensary",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:theboonoftheeldertree",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:skywardharp",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:weaponssachet",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:vintagelyre",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:futurestar",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

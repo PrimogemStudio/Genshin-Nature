@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:wisp",
+    "genshin_nature:livingbubble",
+    "genshin_nature:dendrobullet",
+    "genshin_nature:hydrodisc",
+    "genshin_nature:anemobullet"
+  ]
+}

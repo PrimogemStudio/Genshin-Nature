@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "jungle",
+  "features": "genshin_nature:dendroculusspawning_feature",
+  "step": "raw_generation"
+}

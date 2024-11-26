@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:damagedmask"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:stainedmask",
+    "count": 1
+  }
+}

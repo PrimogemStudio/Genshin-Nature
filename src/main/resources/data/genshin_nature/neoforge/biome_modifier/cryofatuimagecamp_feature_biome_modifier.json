@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "snowy_plains",
+  "features": "genshin_nature:cryofatuimagecamp_feature",
+  "step": "surface_structures"
+}

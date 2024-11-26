@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_forest"
+  ],
+  "features": "genshin_nature:rukkhashavamushrooms",
+  "step": "vegetal_decoration"
+}

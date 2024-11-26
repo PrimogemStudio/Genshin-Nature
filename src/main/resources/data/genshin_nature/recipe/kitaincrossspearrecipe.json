@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:vajradaamethystfragment"
+    },
+    "b": {
+      "item": "genshin_nature:mora"
+    },
+    "c": {
+      "item": "genshin_nature:northlanderpolearmbillet"
+    },
+    "d": {
+      "item": "genshin_nature:whiteironchunk"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:kitaincrossspear",
+    "count": 1
+  }
+}

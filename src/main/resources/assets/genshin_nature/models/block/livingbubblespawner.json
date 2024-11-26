@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/blank_texture",
+    "up": "genshin_nature:block/blank_texture",
+    "north": "genshin_nature:block/blank_texture",
+    "east": "genshin_nature:block/blank_texture",
+    "south": "genshin_nature:block/blank_texture",
+    "west": "genshin_nature:block/blank_texture",
+    "particle": "genshin_nature:block/blank_texture"
+  },
+  "render_type": "solid"
+}

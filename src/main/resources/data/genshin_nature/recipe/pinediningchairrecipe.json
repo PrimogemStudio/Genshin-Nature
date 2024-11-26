@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:spruce_planks"
+    },
+    "b": {
+      "item": "genshin_nature:primogem"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:pinediningchair",
+    "count": 1
+  }
+}

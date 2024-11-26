@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "starsplinter_iron"
+      },
+      "name": "default"
+    }
+  }
+}

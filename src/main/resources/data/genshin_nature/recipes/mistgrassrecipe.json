@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "1": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "2": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "3": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "4": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "5": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "6": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "7": {
+      "item": "genshin_nature:mistgrasspollen"
+    },
+    "8": {
+      "item": "genshin_nature:mistgrasspollen"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:mistgrass",
+    "count": 1
+  }
+}

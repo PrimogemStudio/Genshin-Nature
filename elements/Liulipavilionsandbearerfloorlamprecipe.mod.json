@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Sandbearerplanks"
+      },
+      {
+        "value": "CUSTOM:Sandbearerplanks"
+      },
+      {
+        "value": "CUSTOM:Sandbearerplanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Liulipavilionsandbearerfloorlamp"
+    },
+    "name": "liulipavilionsandbearerfloorlamprecipe",
+    "namespace": "mod"
+  }
+}

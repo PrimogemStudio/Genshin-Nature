@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "sunflower_plains",
+    "plains",
+    "savanna_plateau"
+  ],
+  "features": "genshin_nature:mysteriousseeliestructure_feature",
+  "step": "surface_structures"
+}

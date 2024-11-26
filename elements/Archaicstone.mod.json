@@ -1,0 +1,103 @@
+{
+  "_fv": 71,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "archaic_stone",
+    "textureBottom": "",
+    "customModelName": "archaic_stone:default",
+    "itemTexture": "archaic_stone_item",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Archaic stone",
+    "specialInformation": {
+      "fixedValue": [
+        "Can be sold to primogem shopkeepers",
+        "Puede venderse a comerciantes de protogemas"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Genshinitems"
+      }
+    ],
+    "hardness": 0.4,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "STONE"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 1,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "desert_hills"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 16,
+    "generateAtAnyHeight": false
+  }
+}

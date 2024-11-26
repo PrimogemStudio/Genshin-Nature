@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "features": "genshin_nature:silapnaspawning_feature",
+  "step": "surface_structures"
+}

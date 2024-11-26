@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_nature:block/sandbearerslab"
+    },
+    "type=top": {
+      "model": "genshin_nature:block/sandbearerslab_top"
+    },
+    "type=double": {
+      "model": "genshin_nature:block/sandbearerslab_full"
+    }
+  }
+}

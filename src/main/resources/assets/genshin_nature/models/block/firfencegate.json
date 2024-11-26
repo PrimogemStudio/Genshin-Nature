@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "particle": "genshin_nature:block/fir_planks",
+    "texture": "genshin_nature:block/fir_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:crimsonagateore",
+    "minecraft:seagrass",
+    "minecraft:nether_quartz_ore",
+    "minecraft:grass",
+    "genshin_nature:lumensparore",
+    "minecraft:coal_ore",
+    "minecraft:emerald_ore",
+    "genshin_nature:aphotiumore",
+    "minecraft:gold_ore",
+    "minecraft:lapis_ore",
+    "genshin_nature:crystalchunk",
+    "minecraft:fern",
+    "minecraft:tall_grass",
+    "minecraft:nether_gold_ore",
+    "genshin_nature:whiteironchunk",
+    "minecraft:iron_ore",
+    "genshin_nature:magicalcrystalchunk",
+    "genshin_nature:starsilver",
+    "minecraft:redstone_ore",
+    "minecraft:tall_seagrass",
+    "minecraft:diamond_ore",
+    "minecraft:dead_bush",
+    "genshin_nature:starsplinteriron",
+    "genshin_nature:ironchunk"
+  ]
+}

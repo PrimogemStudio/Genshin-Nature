@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:bambooplanks"
+    },
+    "1": {
+      "item": "genshin_nature:bambooplanks"
+    },
+    "2": {
+      "item": "genshin_nature:bambooplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:bambooslab",
+    "count": 6
+  }
+}

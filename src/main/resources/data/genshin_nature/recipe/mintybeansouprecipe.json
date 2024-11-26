@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:glabrousbeans"
+    },
+    {
+      "item": "genshin_nature:glabrousbeans"
+    },
+    {
+      "item": "genshin_nature:mint"
+    },
+    {
+      "item": "genshin_nature:mint"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:mintybeansoup",
+    "count": 1
+  }
+}

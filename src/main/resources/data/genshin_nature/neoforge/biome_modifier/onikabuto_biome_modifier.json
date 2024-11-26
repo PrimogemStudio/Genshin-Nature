@@ -1,0 +1,21 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "old_growth_spruce_taiga",
+    "plains",
+    "old_growth_pine_taiga",
+    "snowy_taiga",
+    "taiga",
+    "savanna_plateau",
+    "windswept_savanna",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "spawners": {
+    "type": "genshin_nature:onikabuto",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

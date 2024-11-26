@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_beach",
+    "plains",
+    "snowy_taiga",
+    "snowy_plains",
+    "ice_spikes",
+    "deep_frozen_ocean",
+    "frozen_ocean",
+    "frozen_river"
+  ],
+  "spawners": {
+    "type": "genshin_nature:snowstriderspawning",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/withering_active",
+    "up": "genshin_nature:block/withering_active",
+    "north": "genshin_nature:block/withering_active",
+    "east": "genshin_nature:block/withering_active",
+    "south": "genshin_nature:block/withering_active",
+    "west": "genshin_nature:block/withering_active",
+    "particle": "genshin_nature:block/withering_active"
+  },
+  "render_type": "solid"
+}

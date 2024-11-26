@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/xiao_lantern",
+  "textures": {
+    "all": "genshin_nature:block/xiao_lantern",
+    "particle": "genshin_nature:block/xiao_lantern",
+    "0": "genshin_nature:block/xiao_lantern"
+  },
+  "render_type": "solid"
+}

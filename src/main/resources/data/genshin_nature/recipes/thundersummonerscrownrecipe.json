@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:omeofthunderstorm"
+    },
+    "1": {
+      "item": "genshin_nature:omeofthunderstorm"
+    },
+    "2": {
+      "item": "genshin_nature:omeofthunderstorm"
+    },
+    "3": {
+      "item": "genshin_nature:omeofthunderstorm"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:thundersummonerscrown",
+    "count": 1
+  }
+}

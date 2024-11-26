@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Exilesgoblet"
+      },
+      {
+        "value": "CUSTOM:Exilesgoblet"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Exilesgoblet"
+      },
+      {
+        "value": "CUSTOM:Exilesgoblet"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Exilescirclet"
+    },
+    "name": "exilescircletrecipe",
+    "namespace": "mod"
+  }
+}

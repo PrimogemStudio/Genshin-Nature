@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "thoma_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

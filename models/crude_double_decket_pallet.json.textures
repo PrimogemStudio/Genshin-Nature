@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crude_double_decket_pallet"
+      },
+      "name": "default"
+    }
+  }
+}

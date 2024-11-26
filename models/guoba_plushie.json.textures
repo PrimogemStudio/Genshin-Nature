@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "guoba_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

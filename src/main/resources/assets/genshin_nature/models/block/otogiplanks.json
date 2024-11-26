@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/otogi_planks",
+    "up": "genshin_nature:block/otogi_planks",
+    "north": "genshin_nature:block/otogi_planks",
+    "east": "genshin_nature:block/otogi_planks",
+    "south": "genshin_nature:block/otogi_planks",
+    "west": "genshin_nature:block/otogi_planks",
+    "particle": "genshin_nature:block/otogi_planks"
+  },
+  "render_type": "solid"
+}

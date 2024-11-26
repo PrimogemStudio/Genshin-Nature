@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:lavendermelon"
+    },
+    "b": {
+      "item": "genshin_nature:flour"
+    },
+    "c": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "d": {
+      "item": "genshin_nature:sakurabloom"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:sakuratempura",
+    "count": 1
+  }
+}

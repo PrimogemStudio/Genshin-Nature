@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/challengeblock",
+    "up": "genshin_nature:block/challengeblock",
+    "north": "genshin_nature:block/challengeblock",
+    "east": "genshin_nature:block/challengeblock",
+    "south": "genshin_nature:block/challengeblock",
+    "west": "genshin_nature:block/challengeblock",
+    "particle": "genshin_nature:block/challengeblock"
+  },
+  "render_type": "solid"
+}

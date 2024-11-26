@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "b": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    },
+    "d": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "e": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:googoltable",
+    "count": 1
+  }
+}

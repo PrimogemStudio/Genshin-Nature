@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "xiao_plushie_new"
+      },
+      "name": "default"
+    }
+  }
+}

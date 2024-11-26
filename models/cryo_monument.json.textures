@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cryo_monument"
+      },
+      "name": "default"
+    }
+  }
+}

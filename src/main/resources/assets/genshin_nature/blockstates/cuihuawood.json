@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "genshin_nature:block/cuihuawood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "genshin_nature:block/cuihuawood"
+    },
+    "axis=z": {
+      "model": "genshin_nature:block/cuihuawood",
+      "x": 90
+    }
+  }
+}

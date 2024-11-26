@@ -1,0 +1,56 @@
+{
+  "_fv": 71,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "artifacts_symbol",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Artifacts symbol",
+    "rarity": "RARE",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Artifacts"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "You can use this to create an artifacts block",
+        "Puedes usarlo para crear un bloque de artefactos"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "isMusicDisc": false,
+    "musicDiscLengthInTicks": 0,
+    "musicDiscAnalogOutput": 0
+  }
+}

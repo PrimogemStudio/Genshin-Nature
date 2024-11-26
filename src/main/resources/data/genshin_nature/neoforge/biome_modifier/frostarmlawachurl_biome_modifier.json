@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_taiga",
+    "plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:frostarmlawachurl",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

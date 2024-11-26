@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Smalllampgrass"
+      },
+      {
+        "value": "CUSTOM:Cheese"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pileemup"
+    },
+    "name": "pileemuprecipe",
+    "namespace": "mod"
+  }
+}

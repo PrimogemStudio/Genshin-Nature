@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:fragrantcedarplanks"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:fragrantcedarfence",
+    "count": 3
+  }
+}

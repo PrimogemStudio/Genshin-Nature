@@ -1,0 +1,11 @@
+{
+  "_fv": 71,
+  "_type": "tab",
+  "definition": {
+    "name": "Genshin items",
+    "icon": {
+      "value": "CUSTOM:Slimecondensate"
+    },
+    "showSearch": false
+  }
+}

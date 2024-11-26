@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:travelingdoctorsowlfeather"
+    },
+    "1": {
+      "item": "genshin_nature:travelingdoctorsowlfeather"
+    },
+    "2": {
+      "item": "genshin_nature:travelingdoctorsowlfeather"
+    },
+    "3": {
+      "item": "genshin_nature:travelingdoctorsowlfeather"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:travelingdoctorspocketwatch",
+    "count": 1
+  }
+}

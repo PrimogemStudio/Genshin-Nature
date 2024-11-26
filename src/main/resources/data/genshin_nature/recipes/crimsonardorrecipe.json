@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:primogem"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:crimsonardor",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cod"
+    },
+    "b": {
+      "item": "genshin_nature:genshinseagrass"
+    },
+    "c": {
+      "item": "genshin_nature:rice"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:onigiri",
+    "count": 1
+  }
+}

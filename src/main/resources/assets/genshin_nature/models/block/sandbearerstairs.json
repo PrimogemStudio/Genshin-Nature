@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "genshin_nature:block/sandbearer_planks",
+    "bottom": "genshin_nature:block/sandbearer_planks",
+    "top": "genshin_nature:block/sandbearer_planks",
+    "side": "genshin_nature:block/sandbearer_planks"
+  },
+  "render_type": "solid"
+}

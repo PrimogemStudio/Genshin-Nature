@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:lizardtail"
+    },
+    "1": {
+      "item": "genshin_nature:lizardtail"
+    },
+    "2": {
+      "item": "genshin_nature:lizardtail"
+    },
+    "3": {
+      "item": "genshin_nature:electrocrystal"
+    },
+    "4": {
+      "item": "genshin_nature:electrocrystal"
+    },
+    "5": {
+      "item": "genshin_nature:electrocrystal"
+    },
+    "6": {
+      "item": "genshin_nature:chaoscircuit"
+    },
+    "7": {
+      "item": "genshin_nature:chaoscircuit"
+    },
+    "8": {
+      "item": "genshin_nature:chaoscircuit"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:nremenu_30",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Fragrantcedarplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fragrantcedarplanks"
+      },
+      {
+        "value": "CUSTOM:Fragrantcedarplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fragrantcedarplanks"
+      },
+      {
+        "value": "CUSTOM:Fragrantcedarplanks"
+      },
+      {
+        "value": "CUSTOM:Fragrantcedarplanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Fragrantcedarstairs"
+    },
+    "name": "fragrantcedarstairsrecipe",
+    "namespace": "mod"
+  }
+}

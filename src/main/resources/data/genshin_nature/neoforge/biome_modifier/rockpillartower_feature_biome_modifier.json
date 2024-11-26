@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "beach",
+    "snowy_beach",
+    "plains",
+    "stony_shore",
+    "dark_forest"
+  ],
+  "features": "genshin_nature:rockpillartower_feature",
+  "step": "surface_structures"
+}

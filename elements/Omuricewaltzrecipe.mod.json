@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "CUSTOM:Tomato"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:Tomato"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.EGG"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Omuricewaltz"
+    },
+    "name": "omuricewaltzrecipe",
+    "namespace": "mod"
+  }
+}

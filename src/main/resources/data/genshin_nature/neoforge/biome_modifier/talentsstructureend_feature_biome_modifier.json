@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#is_end",
+  "features": "genshin_nature:talentsstructureend_feature",
+  "step": "surface_structures"
+}

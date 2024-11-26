@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "5": {
+      "item": "minecraft:cobblestone"
+    },
+    "6": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "minecraft:cobblestone"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:lumenstone",
+    "count": 1
+  }
+}

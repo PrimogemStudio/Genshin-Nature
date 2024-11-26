@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "1": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "2": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "3": {
+      "item": "genshin_nature:mint"
+    },
+    "4": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "5": {
+      "item": "genshin_nature:mint"
+    },
+    "7": {
+      "item": "genshin_nature:callalily"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:callalilyseafoodsoup",
+    "count": 1
+  }
+}

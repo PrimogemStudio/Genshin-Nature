@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:varunadalazuritechunk"
+    },
+    "1": {
+      "item": "genshin_nature:varunadalazuritechunk"
+    },
+    "2": {
+      "item": "genshin_nature:varunadalazuritechunk"
+    },
+    "3": {
+      "item": "genshin_nature:varunadalazuritechunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:varunadalazuritegemstone",
+    "count": 1
+  }
+}

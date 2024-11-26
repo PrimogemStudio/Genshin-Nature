@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/fischl_plushie",
+  "textures": {
+    "all": "genshin_nature:block/fischl_plushie",
+    "particle": "genshin_nature:block/fischl_plushie",
+    "0": "genshin_nature:block/fischl_plushie"
+  },
+  "render_type": "solid"
+}

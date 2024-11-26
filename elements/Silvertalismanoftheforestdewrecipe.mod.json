@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      },
+      {
+        "value": "CUSTOM:Irontalismanoftheforestdew"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Silvertalismanoftheforestdew"
+    },
+    "name": "silvertalismanoftheforestdewrecipe",
+    "namespace": "mod"
+  }
+}

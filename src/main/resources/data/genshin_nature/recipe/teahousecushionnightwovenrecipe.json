@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "genshin_nature:primogem"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:teahousecushionnightwoven",
+    "count": 1
+  }
+}

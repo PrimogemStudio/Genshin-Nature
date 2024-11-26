@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hu_tao_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

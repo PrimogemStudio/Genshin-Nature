@@ -1,0 +1,34 @@
+{
+  "_fv": 71,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "iron_point",
+    "customModelName": "iron_point:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Iron point",
+    "specialInformation": {
+      "fixedValue": [
+        "* *"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Genshinweapons"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 14,
+    "damageVsEntity": 5.0,
+    "usageCount": 450,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

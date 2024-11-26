@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cryo_boom_blossom"
+      },
+      "name": "default"
+    }
+  }
+}

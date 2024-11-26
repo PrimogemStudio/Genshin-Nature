@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:slimesecretions"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:slimeconcentrate",
+    "count": 1
+  }
+}

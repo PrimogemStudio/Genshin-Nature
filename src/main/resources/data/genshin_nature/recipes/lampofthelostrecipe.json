@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:atimeofinsight"
+    },
+    "1": {
+      "item": "genshin_nature:atimeofinsight"
+    },
+    "2": {
+      "item": "genshin_nature:atimeofinsight"
+    },
+    "3": {
+      "item": "genshin_nature:atimeofinsight"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:lampofthelost",
+    "count": 1
+  }
+}

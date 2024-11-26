@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "desert",
+    "plains",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "features": "genshin_nature:throughthewhitefoamthejadebutterflysoars",
+  "step": "vegetal_decoration"
+}

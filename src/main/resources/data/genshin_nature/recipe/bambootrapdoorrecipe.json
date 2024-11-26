@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:bambooplanks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:bambootrapdoor",
+    "count": 2
+  }
+}

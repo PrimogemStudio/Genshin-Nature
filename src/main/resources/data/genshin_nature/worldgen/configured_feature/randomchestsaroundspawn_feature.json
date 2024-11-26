@@ -1,0 +1,14 @@
+{
+  "type": "genshin_nature:randomchestsaroundspawn_feature",
+  "config": {
+    "structure": "genshin_nature:random_chest_genshin",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

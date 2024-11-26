@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:gamblersdicecup"
+    },
+    "1": {
+      "item": "genshin_nature:gamblersdicecup"
+    },
+    "2": {
+      "item": "genshin_nature:gamblersdicecup"
+    },
+    "3": {
+      "item": "genshin_nature:gamblersdicecup"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:gamblersearrings",
+    "count": 1
+  }
+}

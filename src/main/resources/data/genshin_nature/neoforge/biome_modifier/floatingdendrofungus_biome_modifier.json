@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "plains",
+    "dark_forest",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "spawners": {
+    "type": "genshin_nature:floatingdendrofungus",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

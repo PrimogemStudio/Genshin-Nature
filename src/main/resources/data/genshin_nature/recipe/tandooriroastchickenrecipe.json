@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:spice"
+    },
+    "b": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "c": {
+      "item": "genshin_nature:padisarah"
+    },
+    "d": {
+      "item": "genshin_nature:fowl"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:tandooriroastchicken",
+    "count": 1
+  }
+}

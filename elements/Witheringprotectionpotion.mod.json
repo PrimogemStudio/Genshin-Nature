@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Withering protection",
+    "splashName": "Splash Potion of Withering protection",
+    "lingeringName": "Lingering Potion of Withering protection",
+    "arrowName": "Arrow of Withering protection",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Witheringprotection"
+        },
+        "duration": 2400,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

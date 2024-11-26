@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:block/through_white_foam_the_jade_butterfly_soars"
+  }
+}

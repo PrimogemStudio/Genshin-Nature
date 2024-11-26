@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "yun_jin_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

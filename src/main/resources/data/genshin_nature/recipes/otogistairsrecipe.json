@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "3": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "4": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "6": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "7": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "8": {
+      "item": "genshin_nature:otogiplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:otogistairs",
+    "count": 4
+  }
+}

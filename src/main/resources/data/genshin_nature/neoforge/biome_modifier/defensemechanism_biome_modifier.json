@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_beach",
+    "plains",
+    "snowy_taiga",
+    "snowy_plains",
+    "ice_spikes"
+  ],
+  "spawners": {
+    "type": "genshin_nature:defensemechanism",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

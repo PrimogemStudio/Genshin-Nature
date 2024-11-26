@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:luckydogsgoblet"
+    },
+    "1": {
+      "item": "genshin_nature:luckydogsgoblet"
+    },
+    "2": {
+      "item": "genshin_nature:luckydogsgoblet"
+    },
+    "3": {
+      "item": "genshin_nature:luckydogsgoblet"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:luckydogssilvercirclet",
+    "count": 1
+  }
+}

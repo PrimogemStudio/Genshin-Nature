@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:wolfhook"
+    },
+    "b": {
+      "item": "genshin_nature:sunsettia"
+    },
+    "c": {
+      "item": "genshin_nature:salt"
+    },
+    "d": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:fruitsofthefestival",
+    "count": 1
+  }
+}

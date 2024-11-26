@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "smooth_stone_bench"
+      },
+      "name": "default"
+    }
+  }
+}

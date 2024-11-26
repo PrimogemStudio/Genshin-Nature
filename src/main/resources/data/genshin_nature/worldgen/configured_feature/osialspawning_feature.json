@@ -1,0 +1,12 @@
+{
+  "type": "genshin_nature:structure_feature",
+  "config": {
+    "structure": "genshin_nature:osial_spawning",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": [
+      "minecraft:structure_block",
+      "minecraft:air"
+    ]
+  }
+}

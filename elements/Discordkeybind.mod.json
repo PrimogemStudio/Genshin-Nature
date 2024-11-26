@@ -1,0 +1,12 @@
+{
+  "_fv": 71,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "APOSTROPHE",
+    "keyBindingName": "Discord message link",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "DiscordkeybindOnKeyPressed"
+    }
+  }
+}

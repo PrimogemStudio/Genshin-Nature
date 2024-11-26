@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:prototyperancourascended",
+    "genshin_nature:prototyperancour",
+    "genshin_nature:festeringdesireascended",
+    "genshin_nature:festeringdesire",
+    "genshin_nature:staffofhomaascended",
+    "genshin_nature:staffofhoma",
+    "genshin_nature:blackcliffpoleascended",
+    "genshin_nature:blackcliffpole",
+    "genshin_nature:serpentspineascended",
+    "genshin_nature:serpentspine",
+    "genshin_nature:ironpointascended",
+    "genshin_nature:ironpoint",
+    "genshin_nature:wastergreatswordascended",
+    "genshin_nature:wastergreatsword",
+    "genshin_nature:beginnersprotectorascended",
+    "genshin_nature:beginnersprotector",
+    "genshin_nature:oldmercspalascended",
+    "genshin_nature:oldmercspal",
+    "genshin_nature:vortexvanquisherascended",
+    "genshin_nature:vortexvanquisher",
+    "genshin_nature:kitaincrossspearascended",
+    "genshin_nature:kitaincrossspear",
+    "genshin_nature:silverswordascended",
+    "genshin_nature:silversword",
+    "genshin_nature:dullbladeascended",
+    "genshin_nature:dullblade",
+    "genshin_nature:lumensparsword",
+    "genshin_nature:crimsonagatesword"
+  ]
+}

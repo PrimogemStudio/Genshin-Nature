@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:yumemiruplanks"
+    },
+    "3": {
+      "item": "genshin_nature:yumemiruplanks"
+    },
+    "4": {
+      "item": "genshin_nature:yumemiruplanks"
+    },
+    "6": {
+      "item": "genshin_nature:yumemiruplanks"
+    },
+    "7": {
+      "item": "genshin_nature:yumemiruplanks"
+    },
+    "8": {
+      "item": "genshin_nature:yumemiruplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:yumemirustairs",
+    "count": 4
+  }
+}

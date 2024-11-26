@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/teahouse_cushion_night_woven",
+  "textures": {
+    "all": "genshin_nature:block/teahouse_cushion_night_woven",
+    "particle": "genshin_nature:block/teahouse_cushion_night_woven",
+    "0": "genshin_nature:block/teahouse_cushion_night_woven"
+  },
+  "render_type": "solid"
+}

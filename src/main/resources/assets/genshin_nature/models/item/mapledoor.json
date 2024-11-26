@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:item/maple_door_item_new"
+  },
+  "render_type": "translucent"
+}

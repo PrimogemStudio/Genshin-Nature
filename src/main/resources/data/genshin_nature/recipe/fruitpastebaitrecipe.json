@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:sunsettia"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:fruitpastebait",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "1": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "2": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "3": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "4": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "5": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "6": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "7": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    },
+    "8": {
+      "item": "genshin_nature:varunadalazuritesliver"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:varunadalazuritefragment",
+    "count": 1
+  }
+}

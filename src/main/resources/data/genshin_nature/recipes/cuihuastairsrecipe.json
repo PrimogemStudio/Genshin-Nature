@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "3": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "4": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "6": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "7": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "8": {
+      "item": "genshin_nature:cuihuaplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:cuihuastairs",
+    "count": 4
+  }
+}

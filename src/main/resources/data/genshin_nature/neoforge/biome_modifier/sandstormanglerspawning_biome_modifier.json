@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle",
+    "warm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:sandstormanglerspawning",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pine_backed_tea_chair"
+      },
+      "name": "default"
+    }
+  }
+}

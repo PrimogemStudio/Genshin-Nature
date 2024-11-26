@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:flowerofaccolades"
+    },
+    "1": {
+      "item": "genshin_nature:flowerofaccolades"
+    },
+    "2": {
+      "item": "genshin_nature:flowerofaccolades"
+    },
+    "3": {
+      "item": "genshin_nature:flowerofaccolades"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:ceremonialwarplume",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:maskoftheonehorned"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:maskofthekijin",
+    "count": 1
+  }
+}

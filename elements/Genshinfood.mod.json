@@ -1,0 +1,11 @@
+{
+  "_fv": 71,
+  "_type": "tab",
+  "definition": {
+    "name": "Genshin food",
+    "icon": {
+      "value": "CUSTOM:Cabbage"
+    },
+    "showSearch": false
+  }
+}

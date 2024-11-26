@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dandelion"
+    },
+    "b": {
+      "item": "genshin_nature:cecilia"
+    },
+    "c": {
+      "item": "genshin_nature:crystalchunk"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:anemoculusresonancestone",
+    "count": 1
+  }
+}

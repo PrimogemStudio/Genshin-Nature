@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "b": {
+      "item": "genshin_nature:primogem"
+    },
+    "c": {
+      "item": "minecraft:lime_dye"
+    },
+    "d": {
+      "item": "minecraft:yellow_dye"
+    },
+    "e": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:googolchair",
+    "count": 1
+  }
+}

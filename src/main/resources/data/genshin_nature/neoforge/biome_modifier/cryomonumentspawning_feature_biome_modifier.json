@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "snowy_taiga",
+    "snowy_plains",
+    "ice_spikes"
+  ],
+  "features": "genshin_nature:cryomonumentspawning_feature",
+  "step": "surface_structures"
+}

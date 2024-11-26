@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_nature:block/bambooslab"
+    },
+    "type=top": {
+      "model": "genshin_nature:block/bambooslab_top"
+    },
+    "type=double": {
+      "model": "genshin_nature:block/bambooslab_full"
+    }
+  }
+}

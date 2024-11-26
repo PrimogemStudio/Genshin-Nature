@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/liuli_pavilion_sandbearer_floor_lamp",
+  "textures": {
+    "all": "genshin_nature:block/liuli_pavilion_sandbearer_floor_lamp",
+    "particle": "genshin_nature:block/liuli_pavilion_sandbearer_floor_lamp",
+    "0": "genshin_nature:block/liuli_pavilion_sandbearer_floor_lamp"
+  },
+  "render_type": "solid"
+}

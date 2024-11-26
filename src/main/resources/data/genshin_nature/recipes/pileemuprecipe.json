@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "1": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "2": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "3": {
+      "item": "minecraft:potato"
+    },
+    "4": {
+      "item": "minecraft:potato"
+    },
+    "5": {
+      "item": "minecraft:potato"
+    },
+    "7": {
+      "item": "genshin_nature:smalllampgrass"
+    },
+    "8": {
+      "item": "genshin_nature:cheese"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:pileemup",
+    "count": 1
+  }
+}

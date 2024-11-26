@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:windwheelaster"
+    },
+    "1": {
+      "item": "genshin_nature:hurricaneseed"
+    },
+    "2": {
+      "item": "genshin_nature:windwheelaster"
+    },
+    "3": {
+      "item": "genshin_nature:crystalchunk"
+    },
+    "4": {
+      "item": "genshin_nature:crystalchunk"
+    },
+    "5": {
+      "item": "genshin_nature:crystalchunk"
+    },
+    "6": {
+      "item": "genshin_nature:windwheelaster"
+    },
+    "7": {
+      "item": "minecraft:glass_bottle"
+    },
+    "8": {
+      "item": "genshin_nature:windwheelaster"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:windcatcher",
+    "count": 1
+  }
+}

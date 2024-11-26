@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:chaliceofthefont"
+    },
+    "1": {
+      "item": "genshin_nature:chaliceofthefont"
+    },
+    "2": {
+      "item": "genshin_nature:chaliceofthefont"
+    },
+    "3": {
+      "item": "genshin_nature:chaliceofthefont"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:flowingrings",
+    "count": 1
+  }
+}

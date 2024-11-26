@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "jueyun_chili"
+      },
+      "name": "default"
+    }
+  }
+}

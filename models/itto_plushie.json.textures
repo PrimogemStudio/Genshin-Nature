@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "itto_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

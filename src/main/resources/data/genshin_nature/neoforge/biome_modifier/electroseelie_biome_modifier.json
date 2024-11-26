@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "flower_forest",
+    "plains",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:electroseelie",
+    "weight": 71,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

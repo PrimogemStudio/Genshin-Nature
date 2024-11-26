@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "mushroom_fields"
+  ],
+  "features": "genshin_nature:mauvelutesedgeshroom",
+  "step": "vegetal_decoration"
+}

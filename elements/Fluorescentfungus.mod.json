@@ -1,0 +1,129 @@
+{
+  "_fv": 71,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "fluorescent_fungus",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Fluorescent fungus",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Genshinplants"
+      }
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 9,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
+    "isBonemealable": false,
+    "frequencyOnChunks": 1,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_roofed_forest"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga_hills"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "redwood_taiga_hills"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "mutated_taiga_cold"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "taiga_hills"
+      },
+      {
+        "value": "mutated_taiga"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 32,
+    "generateAtAnyHeight": false
+  }
+}

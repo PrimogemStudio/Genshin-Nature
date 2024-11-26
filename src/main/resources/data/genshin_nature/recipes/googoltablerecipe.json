@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "1": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "2": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "3": {
+      "item": "minecraft:red_dye"
+    },
+    "4": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "5": {
+      "item": "minecraft:lime_dye"
+    },
+    "7": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:googoltable",
+    "count": 1
+  }
+}

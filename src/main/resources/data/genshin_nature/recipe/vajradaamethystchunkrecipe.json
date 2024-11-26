@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:vajradaamethystfragment"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:vajradaamethystchunk",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "sparse_jungle"
+  ],
+  "features": "genshin_nature:padisarah",
+  "step": "vegetal_decoration"
+}

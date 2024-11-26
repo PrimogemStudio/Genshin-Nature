@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:witchsflowerofblaze"
+    },
+    "1": {
+      "item": "genshin_nature:witchsflowerofblaze"
+    },
+    "2": {
+      "item": "genshin_nature:witchsflowerofblaze"
+    },
+    "3": {
+      "item": "genshin_nature:witchsflowerofblaze"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:witchseverburningplume",
+    "count": 1
+  }
+}

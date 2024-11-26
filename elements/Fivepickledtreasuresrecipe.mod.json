@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Radish"
+      },
+      {
+        "value": "CUSTOM:Radish"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "CUSTOM:Lavendermelon"
+      },
+      {
+        "value": "CUSTOM:Lavendermelon"
+      },
+      {
+        "value": "CUSTOM:Genshinseagrass"
+      },
+      {
+        "value": "CUSTOM:Genshinseagrass"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Fivepickledtreasures"
+    },
+    "name": "fivepickledtreasuresrecipe",
+    "namespace": "mod"
+  }
+}

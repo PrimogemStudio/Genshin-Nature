@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "features": "genshin_nature:violetgrass",
+  "step": "vegetal_decoration"
+}

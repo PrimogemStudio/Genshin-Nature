@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:floraconverter"
+    },
+    "title": {
+      "translate": "advancements.experiencedflowers.title"
+    },
+    "description": {
+      "translate": "advancements.experiencedflowers.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "experiencedflowers_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

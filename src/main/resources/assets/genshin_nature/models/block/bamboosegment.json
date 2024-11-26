@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/bamboo_segment_top_final",
+    "up": "genshin_nature:block/bamboo_segment_top_final",
+    "north": "genshin_nature:block/bamboo_segment_final",
+    "east": "genshin_nature:block/bamboo_segment_final",
+    "south": "genshin_nature:block/bamboo_segment_final",
+    "west": "genshin_nature:block/bamboo_segment_final",
+    "particle": "genshin_nature:block/bamboo_segment_top_final"
+  },
+  "render_type": "solid"
+}

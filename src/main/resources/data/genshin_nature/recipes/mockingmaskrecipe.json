@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:surpassingcup"
+    },
+    "1": {
+      "item": "genshin_nature:surpassingcup"
+    },
+    "2": {
+      "item": "genshin_nature:surpassingcup"
+    },
+    "3": {
+      "item": "genshin_nature:surpassingcup"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:mockingmask",
+    "count": 1
+  }
+}

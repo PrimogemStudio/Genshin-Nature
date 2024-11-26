@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/timed_cobblestone",
+    "up": "genshin_nature:block/timed_cobblestone",
+    "north": "genshin_nature:block/timed_cobblestone",
+    "east": "genshin_nature:block/timed_cobblestone",
+    "south": "genshin_nature:block/timed_cobblestone",
+    "west": "genshin_nature:block/timed_cobblestone",
+    "particle": "genshin_nature:block/timed_cobblestone"
+  },
+  "render_type": "solid"
+}

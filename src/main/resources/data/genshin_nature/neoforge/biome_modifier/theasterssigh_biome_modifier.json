@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "frozen_river",
+    "river",
+    "plains"
+  ],
+  "features": "genshin_nature:theasterssigh",
+  "step": "vegetal_decoration"
+}

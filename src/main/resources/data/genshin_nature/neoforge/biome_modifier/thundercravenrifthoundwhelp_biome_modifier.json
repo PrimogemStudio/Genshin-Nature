@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "soul_sand_valley",
+    "small_end_islands",
+    "dark_forest",
+    "plains",
+    "forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:thundercravenrifthoundwhelp",
+    "weight": 58,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

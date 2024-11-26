@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "eula_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

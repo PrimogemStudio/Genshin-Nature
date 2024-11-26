@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "minecraft:fire_charge"
+    },
+    "c": {
+      "item": "minecraft:orange_dye"
+    },
+    "d": {
+      "item": "genshin_nature:primogem"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:guobaplushie",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "windblume_festival_commemorative_balloon"
+      },
+      "name": "default"
+    }
+  }
+}

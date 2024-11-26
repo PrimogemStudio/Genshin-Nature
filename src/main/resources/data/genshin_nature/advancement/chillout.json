@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:chilledmeat"
+    },
+    "title": {
+      "translate": "advancements.chillout.title"
+    },
+    "description": {
+      "translate": "advancements.chillout.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chillout_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

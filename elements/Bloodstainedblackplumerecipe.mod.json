@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Bloodstainedflowerofiron"
+      },
+      {
+        "value": "CUSTOM:Bloodstainedflowerofiron"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Bloodstainedflowerofiron"
+      },
+      {
+        "value": "CUSTOM:Bloodstainedflowerofiron"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Bloodstainedblackplume"
+    },
+    "name": "bloodstainedblackplumerecipe",
+    "namespace": "mod"
+  }
+}

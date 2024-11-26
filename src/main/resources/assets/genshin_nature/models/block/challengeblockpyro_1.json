@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/count_challengeblock_1",
+    "up": "genshin_nature:block/count_challengeblock_1",
+    "north": "genshin_nature:block/count_challengeblock_1",
+    "east": "genshin_nature:block/count_challengeblock_1",
+    "south": "genshin_nature:block/count_challengeblock_1",
+    "west": "genshin_nature:block/count_challengeblock_1",
+    "particle": "genshin_nature:block/count_challengeblock_1"
+  },
+  "render_type": "solid"
+}

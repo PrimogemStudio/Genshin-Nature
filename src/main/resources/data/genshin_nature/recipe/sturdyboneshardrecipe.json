@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:fragileboneshard"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:sturdyboneshard",
+    "count": 1
+  }
+}

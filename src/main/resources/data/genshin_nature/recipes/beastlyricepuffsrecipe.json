@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:spice"
+    },
+    "1": {
+      "item": "genshin_nature:padisarah"
+    },
+    "2": {
+      "item": "genshin_nature:spice"
+    },
+    "3": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "4": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "5": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "6": {
+      "item": "genshin_nature:rice"
+    },
+    "7": {
+      "item": "genshin_nature:rice"
+    },
+    "8": {
+      "item": "genshin_nature:rice"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:beastlyricepuffs",
+    "count": 1
+  }
+}

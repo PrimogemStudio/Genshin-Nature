@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:hourofsoothingthunder"
+    },
+    "1": {
+      "item": "genshin_nature:hourofsoothingthunder"
+    },
+    "2": {
+      "item": "genshin_nature:hourofsoothingthunder"
+    },
+    "3": {
+      "item": "genshin_nature:hourofsoothingthunder"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:thundersoothersgoblet",
+    "count": 1
+  }
+}

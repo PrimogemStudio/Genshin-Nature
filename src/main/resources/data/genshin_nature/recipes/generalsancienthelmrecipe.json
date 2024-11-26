@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:noblespledgingvessel"
+    },
+    "1": {
+      "item": "genshin_nature:noblespledgingvessel"
+    },
+    "2": {
+      "item": "genshin_nature:noblespledgingvessel"
+    },
+    "3": {
+      "item": "genshin_nature:noblespledgingvessel"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:generalsancienthelm",
+    "count": 1
+  }
+}

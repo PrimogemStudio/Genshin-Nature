@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:tofu"
+    },
+    "1": {
+      "item": "genshin_nature:lotushead"
+    },
+    "2": {
+      "item": "genshin_nature:tofu"
+    },
+    "3": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "5": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "7": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:jewelrysoup",
+    "count": 1
+  }
+}

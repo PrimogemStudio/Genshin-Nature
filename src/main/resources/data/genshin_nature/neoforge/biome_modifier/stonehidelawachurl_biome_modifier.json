@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:stonehidelawachurl",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

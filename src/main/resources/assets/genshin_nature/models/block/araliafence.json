@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "genshin_nature:block/aralia_planks",
+    "particle": "genshin_nature:block/aralia_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:vayudaturquoisechunk"
+    },
+    "1": {
+      "item": "genshin_nature:vayudaturquoisechunk"
+    },
+    "2": {
+      "item": "genshin_nature:vayudaturquoisechunk"
+    },
+    "3": {
+      "item": "genshin_nature:vayudaturquoisechunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:vayudaturquoisegemstone",
+    "count": 1
+  }
+}

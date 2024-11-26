@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "1": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "2": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "3": {
+      "item": "genshin_nature:maplefence"
+    },
+    "4": {
+      "item": "genshin_nature:primogem"
+    },
+    "5": {
+      "item": "genshin_nature:maplefence"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:teahouseroundstoolpainpointreduction",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:lumenspar"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:lumenspararmor_chestplate",
+    "count": 1
+  }
+}

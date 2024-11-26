@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/straight_bomb",
+  "textures": {
+    "all": "genshin_nature:block/straight_shooter",
+    "particle": "genshin_nature:block/straight_shooter",
+    "0": "genshin_nature:block/straight_shooter"
+  },
+  "render_type": "solid"
+}

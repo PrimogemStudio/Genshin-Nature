@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "genshin_nature:leylineoreend"
+  },
+  "result": {
+    "item": "genshin_nature:leylinemineral"
+  }
+}

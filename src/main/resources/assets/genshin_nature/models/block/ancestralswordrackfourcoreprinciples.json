@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/ancestral_sword_rack_four_core_principles",
+  "textures": {
+    "all": "genshin_nature:block/ancestral_sword_rack_four_core_principles",
+    "particle": "genshin_nature:block/ancestral_sword_rack_four_core_principles",
+    "0": "genshin_nature:block/ancestral_sword_rack_four_core_principles"
+  },
+  "render_type": "solid"
+}

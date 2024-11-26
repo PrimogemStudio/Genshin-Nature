@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "1": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "2": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "3": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "4": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "5": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "6": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "7": {
+      "item": "genshin_nature:chaosdevice"
+    },
+    "8": {
+      "item": "genshin_nature:chaosdevice"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:chaoscircuit",
+    "count": 1
+  }
+}

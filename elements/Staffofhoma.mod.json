@@ -1,0 +1,34 @@
+{
+  "_fv": 71,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "staff_of_homa_texture",
+    "customModelName": "staff_of_homa_model:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Staff of homa",
+    "specialInformation": {
+      "fixedValue": [
+        "* * * * *"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Genshinweapons"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 14,
+    "damageVsEntity": 11.0,
+    "usageCount": 450,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

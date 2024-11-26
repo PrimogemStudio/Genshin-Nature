@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:euphoniumunboundwinding"
+    },
+    "title": {
+      "translate": "advancements.itsyesterdayoncemore.title"
+    },
+    "description": {
+      "translate": "advancements.itsyesterdayoncemore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "itsyesterdayoncemore_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "genshin_nature:euphoniumunboundwinding"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

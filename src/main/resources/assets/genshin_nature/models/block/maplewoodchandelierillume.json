@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/maple_wood_chandelier_illume",
+  "textures": {
+    "all": "genshin_nature:block/maple_wood_chandelier_illume",
+    "particle": "genshin_nature:block/maple_wood_chandelier_illume",
+    "0": "genshin_nature:block/maple_wood_chandelier_illume"
+  },
+  "render_type": "solid"
+}

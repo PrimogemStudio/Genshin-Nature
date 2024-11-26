@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:agnidusagatechunk"
+    },
+    "1": {
+      "item": "genshin_nature:agnidusagatechunk"
+    },
+    "2": {
+      "item": "genshin_nature:agnidusagatechunk"
+    },
+    "3": {
+      "item": "genshin_nature:agnidusagatechunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:agnidusagategemstone",
+    "count": 1
+  }
+}

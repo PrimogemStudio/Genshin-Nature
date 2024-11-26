@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/hydro_monument",
+  "textures": {
+    "all": "genshin_nature:block/hydro_monument",
+    "particle": "genshin_nature:block/hydro_monument",
+    "0": "genshin_nature:block/hydro_monument"
+  },
+  "render_type": "solid"
+}

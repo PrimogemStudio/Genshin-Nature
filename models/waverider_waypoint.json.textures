@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "waverider_waypoint"
+      },
+      "name": "default"
+    }
+  }
+}

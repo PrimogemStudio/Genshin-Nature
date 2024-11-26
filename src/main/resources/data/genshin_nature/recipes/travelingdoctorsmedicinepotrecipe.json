@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:travelingdoctorspocketwatch"
+    },
+    "1": {
+      "item": "genshin_nature:travelingdoctorspocketwatch"
+    },
+    "2": {
+      "item": "genshin_nature:travelingdoctorspocketwatch"
+    },
+    "3": {
+      "item": "genshin_nature:travelingdoctorspocketwatch"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:travelingdoctorsmedicinepot",
+    "count": 1
+  }
+}

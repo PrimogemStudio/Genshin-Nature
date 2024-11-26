@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:hilichurlpyroshooter",
+    "genshin_nature:hilichurlcryogrenadier",
+    "genshin_nature:treasurehoarder",
+    "genshin_nature:unusualhilichurl",
+    "genshin_nature:woodenshieldhilichurlguard",
+    "genshin_nature:hilichurlshooter",
+    "genshin_nature:hilichurlelectroshooter",
+    "genshin_nature:hilichurlcryoshooter",
+    "genshin_nature:rockshieldhilichurlguard",
+    "genshin_nature:iceshieldhilichurlguard",
+    "genshin_nature:hilichurlfighter",
+    "genshin_nature:hilichurlpyrogrenadier",
+    "genshin_nature:hilichurlberserker",
+    "genshin_nature:hilichurl",
+    "genshin_nature:hilichurlelectrogrenadier"
+  ]
+}

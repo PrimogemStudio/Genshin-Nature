@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "basalt_deltas",
+  "spawners": {
+    "type": "genshin_nature:abyssmageelectro",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

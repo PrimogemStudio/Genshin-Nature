@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:thundersoothersgoblet"
+    },
+    "1": {
+      "item": "genshin_nature:thundersoothersgoblet"
+    },
+    "2": {
+      "item": "genshin_nature:thundersoothersgoblet"
+    },
+    "3": {
+      "item": "genshin_nature:thundersoothersgoblet"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:thundersoothersdiadem",
+    "count": 1
+  }
+}

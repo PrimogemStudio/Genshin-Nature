@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:magnificenttsuba"
+    },
+    "1": {
+      "item": "genshin_nature:magnificenttsuba"
+    },
+    "2": {
+      "item": "genshin_nature:magnificenttsuba"
+    },
+    "3": {
+      "item": "genshin_nature:magnificenttsuba"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sunderedfeather",
+    "count": 1
+  }
+}

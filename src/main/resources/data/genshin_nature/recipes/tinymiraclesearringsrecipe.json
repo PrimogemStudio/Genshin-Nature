@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:tinymiraclesgoblet"
+    },
+    "1": {
+      "item": "genshin_nature:tinymiraclesgoblet"
+    },
+    "2": {
+      "item": "genshin_nature:tinymiraclesgoblet"
+    },
+    "3": {
+      "item": "genshin_nature:tinymiraclesgoblet"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:tinymiraclesearrings",
+    "count": 1
+  }
+}

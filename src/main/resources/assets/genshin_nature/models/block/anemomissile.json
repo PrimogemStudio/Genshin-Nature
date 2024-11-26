@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/anemo_missiles",
+    "up": "genshin_nature:block/anemo_missiles",
+    "north": "genshin_nature:block/anemo_missiles",
+    "east": "genshin_nature:block/anemo_missiles",
+    "south": "genshin_nature:block/anemo_missiles",
+    "west": "genshin_nature:block/anemo_missiles",
+    "particle": "genshin_nature:block/anemo_missiles"
+  },
+  "render_type": "solid"
+}

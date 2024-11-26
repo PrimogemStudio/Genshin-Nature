@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "1": {
+      "item": "genshin_nature:otogiplanks"
+    },
+    "2": {
+      "item": "genshin_nature:otogiplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:otogislab",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/waverider_waypoint",
+  "textures": {
+    "all": "genshin_nature:block/waverider_waypoint",
+    "particle": "genshin_nature:block/waverider_waypoint",
+    "0": "genshin_nature:block/waverider_waypoint"
+  },
+  "render_type": "cutout_mipped"
+}

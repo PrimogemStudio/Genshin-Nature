@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/yumemiru_wood_top",
+    "up": "genshin_nature:block/yumemiru_wood_top",
+    "north": "genshin_nature:block/yumemiru_wood",
+    "east": "genshin_nature:block/yumemiru_wood",
+    "south": "genshin_nature:block/yumemiru_wood",
+    "west": "genshin_nature:block/yumemiru_wood",
+    "particle": "genshin_nature:block/yumemiru_wood_top"
+  },
+  "render_type": "solid"
+}

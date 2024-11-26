@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "genshin_nature:magicalcrystalchunk"
+  },
+  "result": {
+    "id": "genshin_nature:enhancementore"
+  }
+}

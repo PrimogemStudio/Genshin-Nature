@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:block/of_promises_unkept_the_night_flowers_speak"
+  }
+}

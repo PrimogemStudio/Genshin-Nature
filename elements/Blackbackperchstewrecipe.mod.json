@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:Jueyunchili"
+      },
+      {
+        "value": "CUSTOM:Violetgrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Blackbackperchstew"
+    },
+    "name": "blackbackperchstewrecipe",
+    "namespace": "mod"
+  }
+}

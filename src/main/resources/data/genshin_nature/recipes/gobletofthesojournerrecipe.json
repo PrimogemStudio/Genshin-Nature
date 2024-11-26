@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:sundialofthesojourner"
+    },
+    "1": {
+      "item": "genshin_nature:sundialofthesojourner"
+    },
+    "2": {
+      "item": "genshin_nature:sundialofthesojourner"
+    },
+    "3": {
+      "item": "genshin_nature:sundialofthesojourner"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:gobletofthesojourner",
+    "count": 1
+  }
+}

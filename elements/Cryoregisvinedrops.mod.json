@@ -1,0 +1,264 @@
+{
+  "_fv": 71,
+  "_type": "loottable",
+  "definition": {
+    "type": "Entity",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SNOWBALL"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Berserkersrose"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Exilesflower"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.RED_FLOWER#1"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Gladiatorsnostalgia"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LAPIS_BLOCK"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_APPLE#0"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Omniubiquitinet"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Intertwinedfate"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Luckydogsclover"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Troupesdawnlight"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      }
+    ],
+    "name": "entities/cryoregisvine",
+    "namespace": "mod"
+  }
+}

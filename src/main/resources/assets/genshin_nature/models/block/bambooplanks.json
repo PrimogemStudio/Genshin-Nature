@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/bamboo_planks_final",
+    "up": "genshin_nature:block/bamboo_planks_final",
+    "north": "genshin_nature:block/bamboo_planks_final",
+    "east": "genshin_nature:block/bamboo_planks_final",
+    "south": "genshin_nature:block/bamboo_planks_final",
+    "west": "genshin_nature:block/bamboo_planks_final",
+    "particle": "genshin_nature:block/bamboo_planks_final"
+  },
+  "render_type": "solid"
+}

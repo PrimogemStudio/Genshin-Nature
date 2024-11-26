@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "desert",
+    "plains",
+    "deep_lukewarm_ocean",
+    "lukewarm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:akaimaouspawning",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

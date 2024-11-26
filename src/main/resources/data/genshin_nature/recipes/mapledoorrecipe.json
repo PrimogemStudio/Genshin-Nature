@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "1": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "2": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "3": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "4": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "5": {
+      "item": "genshin_nature:mapleplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:mapledoor",
+    "count": 3
+  }
+}

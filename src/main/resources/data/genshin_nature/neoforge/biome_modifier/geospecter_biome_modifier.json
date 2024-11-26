@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "stony_shore",
+    "windswept_hills"
+  ],
+  "spawners": {
+    "type": "genshin_nature:geospecter",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

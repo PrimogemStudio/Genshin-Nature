@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "teahouse_cushion_night_woven"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "a c"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "b": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "c": {
+      "item": "genshin_nature:cream"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:spicystew",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/souvenirshop_sides",
+    "up": "genshin_nature:block/souvenirshop_sides",
+    "north": "genshin_nature:block/souvenirshop_sides",
+    "east": "genshin_nature:block/souvenirshop_sides",
+    "south": "genshin_nature:block/souvenirshop_sides",
+    "west": "genshin_nature:block/souvenirshop_sides",
+    "particle": "genshin_nature:block/souvenirshop_sides"
+  },
+  "render_type": "solid"
+}

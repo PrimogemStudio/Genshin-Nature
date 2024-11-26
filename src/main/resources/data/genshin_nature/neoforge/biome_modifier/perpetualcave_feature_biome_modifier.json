@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains"
+  ],
+  "features": "genshin_nature:perpetualcave_feature",
+  "step": "surface_structures"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "genshin_nature:block/the_asters_sigh_top",
+    "particle": "genshin_nature:block/the_asters_sigh_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "snowy_beach",
+    "plains",
+    "stony_shore",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:goldencrab",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

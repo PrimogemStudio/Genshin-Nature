@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_beach",
+    "plains",
+    "snowy_taiga",
+    "snowy_plains",
+    "deep_frozen_ocean",
+    "frozen_ocean",
+    "frozen_river"
+  ],
+  "spawners": {
+    "type": "genshin_nature:goldenweaselthief",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

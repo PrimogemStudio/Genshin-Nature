@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:item/algorithm_of_semi_intransient_matrix_of_overseer_network_item"
+  }
+}

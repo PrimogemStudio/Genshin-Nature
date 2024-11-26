@@ -1,0 +1,70 @@
+{
+  "_fv": 71,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_start_the_pyro_challenge",
+          "text": {
+            "fixedValue": "Start the PYRO challenge?"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 151,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_no",
+          "text": "NO",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Challengeblockbuttonno"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 251,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_yes",
+          "text": "YES",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Challengeblockpyro1count"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 141,
+          "y": 111,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 1,
+      "oy": 1,
+      "snapOnGrid": true
+    }
+  }
+}

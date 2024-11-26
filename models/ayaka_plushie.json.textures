@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ayaka_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

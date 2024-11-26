@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "badlands",
+    "plains",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "features": "genshin_nature:hilichurlbadlands_4_feature",
+  "step": "surface_structures"
+}

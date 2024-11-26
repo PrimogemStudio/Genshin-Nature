@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:viridescentvenerersvessel"
+    },
+    "1": {
+      "item": "genshin_nature:viridescentvenerersvessel"
+    },
+    "2": {
+      "item": "genshin_nature:viridescentvenerersvessel"
+    },
+    "3": {
+      "item": "genshin_nature:viridescentvenerersvessel"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:viridescentvenerersdiadem",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/windblume_festival_commemorative_balloon",
+  "textures": {
+    "all": "genshin_nature:block/windblume_festival_commemorative_balloon",
+    "particle": "genshin_nature:block/windblume_festival_commemorative_balloon",
+    "0": "genshin_nature:block/windblume_festival_commemorative_balloon"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ganyu_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "stony_shore",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean",
+    "plains",
+    "frozen_ocean",
+    "frozen_river",
+    "lukewarm_ocean",
+    "ocean",
+    "river",
+    "snowy_beach"
+  ],
+  "spawners": {
+    "type": "genshin_nature:largehydroslime",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tofu"
+      },
+      {
+        "value": "CUSTOM:Lotushead"
+      },
+      {
+        "value": "CUSTOM:Tofu"
+      },
+      {
+        "value": "CUSTOM:Snapdragon"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Snapdragon"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Jewelrysoup"
+    },
+    "name": "jewelrysouprecipe",
+    "namespace": "mod"
+  }
+}

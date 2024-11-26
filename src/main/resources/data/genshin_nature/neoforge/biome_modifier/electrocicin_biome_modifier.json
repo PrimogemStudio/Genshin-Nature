@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "basalt_deltas"
+  ],
+  "spawners": {
+    "type": "genshin_nature:electrocicin",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cod"
+    },
+    "b": {
+      "item": "genshin_nature:bacon"
+    },
+    "c": {
+      "item": "genshin_nature:lavendermelon"
+    },
+    "d": {
+      "item": "genshin_nature:flour"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:moreandmore",
+    "count": 1
+  }
+}

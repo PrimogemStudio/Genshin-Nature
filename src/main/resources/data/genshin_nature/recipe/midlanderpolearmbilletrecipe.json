@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:northlanderpolearmbillet"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:midlanderpolearmbillet",
+    "count": 1
+  }
+}

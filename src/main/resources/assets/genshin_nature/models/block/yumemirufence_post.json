@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "genshin_nature:block/yumemiru_planks",
+    "particle": "genshin_nature:block/yumemiru_planks"
+  },
+  "render_type": "solid"
+}

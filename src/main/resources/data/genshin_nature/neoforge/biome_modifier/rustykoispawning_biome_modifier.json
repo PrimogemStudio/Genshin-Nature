@@ -1,0 +1,21 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "old_growth_spruce_taiga",
+    "plains",
+    "old_growth_pine_taiga",
+    "taiga",
+    "birch_forest",
+    "old_growth_birch_forest",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:rustykoispawning",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "_fv": 71,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Friendly electro cicin",
+    "mobLabel": "",
+    "mobModelName": "Modelelectro_cicin",
+    "mobModelTexture": "electro_cicin.png",
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "emissive_electro_cicin.png",
+        "disableHurtOverlay": false,
+        "glow": true
+      }
+    ],
+    "animations": [],
+    "modelWidth": 0.6,
+    "modelHeight": 0.6,
+    "modelShadowSize": 0.6,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -13290652,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16183510,
+      "falpha": 0.0
+    },
+    "creativeTabs": [],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 2,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 15,
+    "xpAmount": 0,
+    "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": true,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": true,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "entityDataEntries": [],
+    "onMobTickUpdate": {
+      "name": "Despawnfast"
+    },
+    "onInitialSpawn": {
+      "name": "Despawnfast"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityMonster</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 171,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "forest_hills"
+      },
+      {
+        "value": "birch_forest_hills"
+      },
+      {
+        "value": "basalt_deltas"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "1": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "2": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "3": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "4": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "5": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "6": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "7": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    },
+    "8": {
+      "item": "genshin_nature:luminoussandsfromguyun"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:lustrousstonefromguyun",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "minecraft:orange_dye"
+    },
+    "c": {
+      "item": "genshin_nature:primogem"
+    },
+    "d": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:nightofthepartypumpkins",
+    "count": 1
+  }
+}

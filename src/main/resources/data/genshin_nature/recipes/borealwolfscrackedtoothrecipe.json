@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "1": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "2": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "3": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "4": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "5": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "6": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "7": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    },
+    "8": {
+      "item": "genshin_nature:borealwolfsmilktooth"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:borealwolfscrackedtooth",
+    "count": 1
+  }
+}

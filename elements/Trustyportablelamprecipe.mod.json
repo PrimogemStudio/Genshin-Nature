@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Trustyportablelamp"
+    },
+    "name": "trustyportablelamprecipe",
+    "namespace": "mod"
+  }
+}

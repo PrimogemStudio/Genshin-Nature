@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "genshin_nature:block/dendrobium",
+    "particle": "genshin_nature:block/dendrobium"
+  },
+  "render_type": "cutout"
+}

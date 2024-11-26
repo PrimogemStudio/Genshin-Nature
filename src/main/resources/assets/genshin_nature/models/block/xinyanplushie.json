@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/xinyan_plushie",
+  "textures": {
+    "all": "genshin_nature:block/xinyan_plushie",
+    "particle": "genshin_nature:block/xinyan_plushie",
+    "0": "genshin_nature:block/xinyan_plushie"
+  },
+  "render_type": "solid"
+}

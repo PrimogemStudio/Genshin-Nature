@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:yumemiruplanks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:yumemirudoor",
+    "count": 3
+  }
+}

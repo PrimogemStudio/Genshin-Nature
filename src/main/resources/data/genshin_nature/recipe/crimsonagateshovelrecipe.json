@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:crimsonagateshovel",
+    "count": 1
+  }
+}

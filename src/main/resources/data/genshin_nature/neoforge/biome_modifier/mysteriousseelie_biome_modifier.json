@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "sunflower_plains",
+    "plains",
+    "savanna_plateau"
+  ],
+  "spawners": {
+    "type": "genshin_nature:mysteriousseelie",
+    "weight": 71,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

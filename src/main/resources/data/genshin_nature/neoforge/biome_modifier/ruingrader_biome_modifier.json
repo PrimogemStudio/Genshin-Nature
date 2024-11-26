@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle",
+    "beach",
+    "snowy_beach",
+    "stony_shore"
+  ],
+  "spawners": {
+    "type": "genshin_nature:ruingrader",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

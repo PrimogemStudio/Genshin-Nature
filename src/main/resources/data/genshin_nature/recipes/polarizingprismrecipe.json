@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "1": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "2": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "3": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "4": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "5": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "6": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "7": {
+      "item": "genshin_nature:crystalprism"
+    },
+    "8": {
+      "item": "genshin_nature:crystalprism"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:polarizingprism",
+    "count": 1
+  }
+}

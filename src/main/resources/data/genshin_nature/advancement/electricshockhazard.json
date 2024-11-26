@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:thunderclapfruitcore"
+    },
+    "title": {
+      "translate": "advancements.electricshockhazard.title"
+    },
+    "description": {
+      "translate": "advancements.electricshockhazard.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "electricshockhazard_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

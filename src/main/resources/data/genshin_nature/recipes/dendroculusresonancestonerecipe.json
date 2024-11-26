@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:nilotpalalotus"
+    },
+    "1": {
+      "item": "genshin_nature:nilotpalalotus"
+    },
+    "2": {
+      "item": "genshin_nature:nilotpalalotus"
+    },
+    "3": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "4": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "5": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "7": {
+      "item": "genshin_nature:crystalchunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:dendroculusresonancestone",
+    "count": 1
+  }
+}

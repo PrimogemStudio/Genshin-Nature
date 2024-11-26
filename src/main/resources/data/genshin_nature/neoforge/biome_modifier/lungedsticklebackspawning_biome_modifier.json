@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_taiga",
+    "plains",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:lungedsticklebackspawning",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

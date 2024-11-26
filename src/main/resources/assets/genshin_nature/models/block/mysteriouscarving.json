@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/mysterious_carving",
+  "textures": {
+    "all": "genshin_nature:block/mysterious_carving",
+    "particle": "genshin_nature:block/mysterious_carving",
+    "0": "genshin_nature:block/mysterious_carving"
+  },
+  "render_type": "solid"
+}

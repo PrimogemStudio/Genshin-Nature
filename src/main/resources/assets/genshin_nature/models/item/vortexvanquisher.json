@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/vortex_vanquisher",
+  "textures": {
+    "0": "genshin_nature:block/vortex_vanquisher",
+    "particle": "genshin_nature:item/vortex_vanquisher"
+  }
+}

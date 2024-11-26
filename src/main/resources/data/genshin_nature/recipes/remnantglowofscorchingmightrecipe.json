@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "1": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "2": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "3": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "4": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "5": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "6": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "7": {
+      "item": "genshin_nature:echoofscorchingmight"
+    },
+    "8": {
+      "item": "genshin_nature:echoofscorchingmight"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:remnantglowofscorchingmight",
+    "count": 1
+  }
+}

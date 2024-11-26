@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:flamingflower"
+    },
+    {
+      "item": "genshin_nature:flamingflower"
+    },
+    {
+      "item": "genshin_nature:starsilver"
+    },
+    {
+      "item": "genshin_nature:starsilver"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:warmingbottle",
+    "count": 1
+  }
+}

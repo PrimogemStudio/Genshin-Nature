@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "1": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "2": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "3": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "4": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "5": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "6": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "7": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    },
+    "8": {
+      "item": "genshin_nature:inactivatedfungalnucleus"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:dormantfungalnucleus",
+    "count": 1
+  }
+}

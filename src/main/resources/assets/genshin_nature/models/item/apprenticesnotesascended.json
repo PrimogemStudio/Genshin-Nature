@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/apprentices_notes_ascended",
+  "textures": {
+    "1": "genshin_nature:block/apprentices_notes_ascended",
+    "particle": "genshin_nature:item/apprentices_notes_ascended"
+  }
+}

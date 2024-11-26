@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "frozen_river",
+    "river"
+  ],
+  "spawners": {
+    "type": "genshin_nature:adornedunagi",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

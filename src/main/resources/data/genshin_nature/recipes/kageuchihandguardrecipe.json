@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "1": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "2": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "3": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "4": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "5": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "6": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "7": {
+      "item": "genshin_nature:oldhandguard"
+    },
+    "8": {
+      "item": "genshin_nature:oldhandguard"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:kageuchihandguard",
+    "count": 1
+  }
+}

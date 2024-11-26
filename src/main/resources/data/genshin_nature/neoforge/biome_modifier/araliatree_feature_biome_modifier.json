@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "plains",
+    "old_growth_birch_forest",
+    "dark_forest",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "snowy_taiga",
+    "taiga"
+  ],
+  "features": "genshin_nature:araliatree_feature",
+  "step": "surface_structures"
+}

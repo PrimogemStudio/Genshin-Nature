@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "1": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "2": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "3": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "4": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "5": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "6": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "7": {
+      "item": "genshin_nature:bitofaerosiderite"
+    },
+    "8": {
+      "item": "genshin_nature:bitofaerosiderite"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:chunkofaerosiderite",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "1": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "2": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "3": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "4": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "5": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "6": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "7": {
+      "item": "genshin_nature:prithivatopazsliver"
+    },
+    "8": {
+      "item": "genshin_nature:prithivatopazsliver"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:prithivatopazfragment",
+    "count": 1
+  }
+}

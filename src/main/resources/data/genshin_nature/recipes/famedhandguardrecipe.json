@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "1": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "2": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "3": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "4": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "5": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "6": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "7": {
+      "item": "genshin_nature:kageuchihandguard"
+    },
+    "8": {
+      "item": "genshin_nature:kageuchihandguard"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:famedhandguard",
+    "count": 1
+  }
+}

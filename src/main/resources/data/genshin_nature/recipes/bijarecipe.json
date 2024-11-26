@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:vasmrti"
+    },
+    {
+      "item": "genshin_nature:vasmrti"
+    },
+    {
+      "item": "genshin_nature:vasmrti"
+    },
+    {
+      "item": "genshin_nature:vasomafruit"
+    },
+    {
+      "item": "genshin_nature:vasomafruit"
+    },
+    {
+      "item": "genshin_nature:vasomafruit"
+    },
+    {
+      "item": "genshin_nature:aramasflower"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:bija",
+    "count": 1
+  }
+}

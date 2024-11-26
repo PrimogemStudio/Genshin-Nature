@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:flamingflower"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:straightshooter",
+    "count": 5
+  }
+}

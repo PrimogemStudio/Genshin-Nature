@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "1": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "2": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "3": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "4": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "5": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "6": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "7": {
+      "item": "genshin_nature:fragileboneshard"
+    },
+    "8": {
+      "item": "genshin_nature:fragileboneshard"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sturdyboneshard",
+    "count": 1
+  }
+}

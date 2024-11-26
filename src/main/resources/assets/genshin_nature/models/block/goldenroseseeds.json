@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "genshin_nature:block/golden_rose_seeds_final",
+    "particle": "genshin_nature:block/golden_rose_seeds_final"
+  },
+  "render_type": "cutout"
+}

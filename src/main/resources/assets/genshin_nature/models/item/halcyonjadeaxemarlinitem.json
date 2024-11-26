@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:item/halcyon_jade_axe_marlin_item"
+  }
+}

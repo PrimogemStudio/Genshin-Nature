@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Royalplume"
+      },
+      {
+        "value": "CUSTOM:Royalplume"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Royalplume"
+      },
+      {
+        "value": "CUSTOM:Royalplume"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Royalpocketwatch"
+    },
+    "name": "royalpocketwatchrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:spruce_planks"
+    },
+    "b": {
+      "item": "minecraft:spruce_fence"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    },
+    "d": {
+      "item": "genshin_nature:primogem"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:redpinewoodroundstool",
+    "count": 1
+  }
+}

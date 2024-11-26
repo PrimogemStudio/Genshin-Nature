@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:lotushead"
+    },
+    "1": {
+      "item": "genshin_nature:lotushead"
+    },
+    "2": {
+      "item": "genshin_nature:lotushead"
+    },
+    "3": {
+      "item": "genshin_nature:jueyunchili"
+    },
+    "4": {
+      "item": "genshin_nature:cabbage"
+    },
+    "5": {
+      "item": "genshin_nature:jueyunchili"
+    },
+    "6": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "7": {
+      "item": "genshin_nature:cabbage"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:jadeparcels",
+    "count": 1
+  }
+}

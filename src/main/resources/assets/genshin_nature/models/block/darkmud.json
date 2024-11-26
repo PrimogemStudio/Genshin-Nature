@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/dark_mud",
+    "up": "genshin_nature:block/dark_mud",
+    "north": "genshin_nature:block/dark_mud",
+    "east": "genshin_nature:block/dark_mud",
+    "south": "genshin_nature:block/dark_mud",
+    "west": "genshin_nature:block/dark_mud",
+    "particle": "genshin_nature:block/dark_mud"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Electrified",
+    "icon": "electro_icon.png",
+    "color": {
+      "value": -4748801,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "ElectrifiedOnEffectActiveTick"
+    }
+  }
+}

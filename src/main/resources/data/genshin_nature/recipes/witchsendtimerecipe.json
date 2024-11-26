@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:witchseverburningplume"
+    },
+    "1": {
+      "item": "genshin_nature:witchseverburningplume"
+    },
+    "2": {
+      "item": "genshin_nature:witchseverburningplume"
+    },
+    "3": {
+      "item": "genshin_nature:witchseverburningplume"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:witchsendtime",
+    "count": 1
+  }
+}

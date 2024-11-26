@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/eula_plushie",
+  "textures": {
+    "all": "genshin_nature:block/eula_plushie",
+    "particle": "genshin_nature:block/eula_plushie",
+    "0": "genshin_nature:block/eula_plushie"
+  },
+  "render_type": "solid"
+}

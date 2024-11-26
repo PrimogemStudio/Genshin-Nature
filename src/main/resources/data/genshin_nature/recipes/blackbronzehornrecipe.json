@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "1": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "2": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "3": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "4": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "5": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "6": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "7": {
+      "item": "genshin_nature:heavyhorn"
+    },
+    "8": {
+      "item": "genshin_nature:heavyhorn"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:blackbronzehorn",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "CUSTOM:Snapdragon"
+      },
+      {
+        "value": "CUSTOM:Cream"
+      },
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cream"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Spicystew"
+    },
+    "name": "spicystewrecipe",
+    "namespace": "mod"
+  }
+}

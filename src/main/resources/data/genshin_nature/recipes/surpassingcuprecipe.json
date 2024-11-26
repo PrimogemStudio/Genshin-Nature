@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:momentofcessation"
+    },
+    "1": {
+      "item": "genshin_nature:momentofcessation"
+    },
+    "2": {
+      "item": "genshin_nature:momentofcessation"
+    },
+    "3": {
+      "item": "genshin_nature:momentofcessation"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:surpassingcup",
+    "count": 1
+  }
+}

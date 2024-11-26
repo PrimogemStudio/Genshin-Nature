@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:glabrousbeans"
+    },
+    "b": {
+      "item": "minecraft:potato"
+    },
+    "c": {
+      "item": "genshin_nature:spice"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:panipuri",
+    "count": 1
+  }
+}

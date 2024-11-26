@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "genshin_nature:block/thricedyedcrimsonsnowmelt"
+    },
+    "half=lower": {
+      "model": "genshin_nature:block/thricedyedcrimsonsnowmelt_bottom"
+    }
+  }
+}

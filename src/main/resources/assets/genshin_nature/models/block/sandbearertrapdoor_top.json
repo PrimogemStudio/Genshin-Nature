@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "genshin_nature:block/sandbearer_trapdoor",
+    "particle": "genshin_nature:block/sandbearer_trapdoor"
+  },
+  "render_type": "solid"
+}

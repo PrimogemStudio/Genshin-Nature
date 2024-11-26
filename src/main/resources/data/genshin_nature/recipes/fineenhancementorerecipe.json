@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:enhancementore"
+    },
+    "1": {
+      "item": "genshin_nature:enhancementore"
+    },
+    "2": {
+      "item": "genshin_nature:enhancementore"
+    },
+    "3": {
+      "item": "genshin_nature:enhancementore"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:fineenhancementore",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "1": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "2": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "3": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "4": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "5": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "6": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "7": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    },
+    "8": {
+      "item": "genshin_nature:mistveiledleadelixir"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:mistveiledmercuryelixir",
+    "count": 1
+  }
+}

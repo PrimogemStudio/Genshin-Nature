@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "1": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "2": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "3": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "4": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "5": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "6": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "7": {
+      "item": "genshin_nature:leylinemineral"
+    },
+    "8": {
+      "item": "genshin_nature:leylinemineral"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:leylinemineralblock",
+    "count": 1
+  }
+}

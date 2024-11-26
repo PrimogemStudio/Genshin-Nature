@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "birch_forest",
+    "plains",
+    "old_growth_birch_forest"
+  ],
+  "features": "genshin_nature:anemohyposfloor_feature",
+  "step": "surface_structures"
+}

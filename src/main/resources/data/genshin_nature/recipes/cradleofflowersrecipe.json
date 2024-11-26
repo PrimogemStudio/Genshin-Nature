@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:firplanks"
+    },
+    {
+      "item": "genshin_nature:firplanks"
+    },
+    {
+      "item": "genshin_nature:firplanks"
+    },
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    {
+      "item": "genshin_nature:cuihuaplanks"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:cradleofflowers",
+    "count": 1
+  }
+}

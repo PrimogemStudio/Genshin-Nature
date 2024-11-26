@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/lootbox",
+    "up": "genshin_nature:block/lootbox",
+    "north": "genshin_nature:block/lootbox",
+    "east": "genshin_nature:block/lootbox",
+    "south": "genshin_nature:block/lootbox",
+    "west": "genshin_nature:block/lootbox",
+    "particle": "genshin_nature:block/lootbox"
+  },
+  "render_type": "solid"
+}

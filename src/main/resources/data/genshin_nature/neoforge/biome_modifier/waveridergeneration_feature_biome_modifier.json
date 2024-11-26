@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "beach",
+    "snowy_beach",
+    "plains",
+    "stony_shore",
+    "frozen_river",
+    "river"
+  ],
+  "features": "genshin_nature:waveridergeneration_feature",
+  "step": "surface_structures"
+}

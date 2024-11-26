@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "genshin_nature:blocks/maple_door_bottom_new",
+    "top": "genshin_nature:blocks/maple_door_top_new"
+  }
+}

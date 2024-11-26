@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:firplanks"
+    },
+    "1": {
+      "item": "genshin_nature:firplanks"
+    },
+    "2": {
+      "item": "genshin_nature:firplanks"
+    },
+    "3": {
+      "item": "genshin_nature:firplanks"
+    },
+    "4": {
+      "item": "genshin_nature:firplanks"
+    },
+    "5": {
+      "item": "genshin_nature:firplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:firtrapdoor",
+    "count": 2
+  }
+}

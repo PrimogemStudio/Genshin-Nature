@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "river",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:bootweasel",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

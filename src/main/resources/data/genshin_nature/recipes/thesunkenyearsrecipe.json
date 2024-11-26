@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:featherofjudgment"
+    },
+    "1": {
+      "item": "genshin_nature:featherofjudgment"
+    },
+    "2": {
+      "item": "genshin_nature:featherofjudgment"
+    },
+    "3": {
+      "item": "genshin_nature:featherofjudgment"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:thesunkenyears",
+    "count": 1
+  }
+}

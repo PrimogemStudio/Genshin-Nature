@@ -1,0 +1,521 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "bonus_rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsoffreedom",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofresistance",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofballad",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetofreedom",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetoresistance",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetoballad",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesoffreedom",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofresistance",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofballad",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofprosperity",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetoprosperity",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofprosperity",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofdiligence",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetodiligence",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofdiligence",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofgold",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetogold",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofgold",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsoftransience",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetotransience",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesoftransience",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofelegance",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetoelegance",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofelegance",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsoflight",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetolight",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesoflight",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofadmonition",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetoadmonition",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofadmonition",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofingenuity",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetoingenuity",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofingenuity",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:teachingsofpraxis",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:guidetopraxis",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:philosophiesofpraxis",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

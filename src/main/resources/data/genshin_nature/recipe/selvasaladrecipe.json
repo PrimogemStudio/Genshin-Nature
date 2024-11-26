@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb",
+    "cc"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:zaytunpeach"
+    },
+    "b": {
+      "item": "genshin_nature:mint"
+    },
+    "c": {
+      "item": "genshin_nature:sumerurose"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:selvasalad",
+    "count": 1
+  }
+}

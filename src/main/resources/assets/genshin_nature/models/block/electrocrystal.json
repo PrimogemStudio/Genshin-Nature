@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/electro_crystal",
+  "textures": {
+    "all": "genshin_nature:block/electro_crystal",
+    "particle": "genshin_nature:block/electro_crystal",
+    "0": "genshin_nature:block/electro_crystal"
+  },
+  "render_type": "cutout"
+}

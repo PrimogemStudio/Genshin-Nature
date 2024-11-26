@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "yelan_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

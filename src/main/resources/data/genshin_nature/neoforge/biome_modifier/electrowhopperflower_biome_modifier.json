@@ -1,0 +1,27 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "plains",
+    "end_barrens",
+    "end_highlands",
+    "end_midlands",
+    "flower_forest",
+    "forest",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "mushroom_fields",
+    "small_end_islands",
+    "snowy_taiga",
+    "swamp",
+    "taiga",
+    "old_growth_birch_forest",
+    "warped_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:electrowhopperflower",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

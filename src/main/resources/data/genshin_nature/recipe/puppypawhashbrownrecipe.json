@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:pinecone"
+    },
+    "b": {
+      "item": "genshin_nature:jam"
+    },
+    "c": {
+      "item": "minecraft:baked_potato"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:puppypawhashbrown",
+    "count": 1
+  }
+}

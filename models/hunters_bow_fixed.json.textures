@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "hunters_bow"
+      },
+      "name": "default"
+    }
+  }
+}

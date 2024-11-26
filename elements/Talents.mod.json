@@ -1,0 +1,11 @@
+{
+  "_fv": 71,
+  "_type": "tab",
+  "definition": {
+    "name": "Talents",
+    "icon": {
+      "value": "CUSTOM:Teachingsoffreedom"
+    },
+    "showSearch": false
+  }
+}

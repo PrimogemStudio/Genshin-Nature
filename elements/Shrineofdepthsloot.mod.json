@@ -1,0 +1,692 @@
+{
+  "_fv": 71,
+  "_type": "loottable",
+  "definition": {
+    "type": "Chest",
+    "pools": [
+      {
+        "minrolls": 4,
+        "maxrolls": 6,
+        "minbonusrolls": 2,
+        "maxbonusrolls": 3,
+        "hasbonusrolls": true,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.COAL#0"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 7,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.COAL#1"
+            },
+            "weight": 251,
+            "minCount": 0,
+            "maxCount": 5,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.IRON_INGOT"
+            },
+            "weight": 251,
+            "minCount": 0,
+            "maxCount": 8,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLD_NUGGET"
+            },
+            "weight": 251,
+            "minCount": 0,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Primogem"
+            },
+            "weight": 251,
+            "minCount": 0,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Realmcoin"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 8,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Cabbage"
+            },
+            "weight": 251,
+            "minCount": 0,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Radish"
+            },
+            "weight": 251,
+            "minCount": 0,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DYE#4"
+            },
+            "weight": 171,
+            "minCount": 0,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.REDSTONE"
+            },
+            "weight": 171,
+            "minCount": 0,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Enhancementore"
+            },
+            "weight": 171,
+            "minCount": 1,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Rawmeat"
+            },
+            "weight": 171,
+            "minCount": 1,
+            "maxCount": 5,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Onikabutoitem"
+            },
+            "weight": 171,
+            "minCount": 0,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Anemosigil"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Electrosigil"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Geosigil"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Dendrosigil"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.EMERALD"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 7,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Fineenhancementore"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Dullblade"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Huntersbow"
+            },
+            "weight": 98,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Adventurersflower"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Travelingdoctorssilverlotus"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Luckydogsclover"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Berserkersrose"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Instructorsbrooch"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Exilesflower"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Curiouscube"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Dawnwinerystopqualitygrapejuice"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Moonlitcragstone"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Starlightcoalescence"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DIAMOND"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Mora"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Mysticenhancementore"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Silversword"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Crimsonagate"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Weaponslootsachet"
+            },
+            "weight": 91,
+            "minCount": 0,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Northlanderbowbillet"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Northlandercatalystbillet"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Northlanderclaymorebillet"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Northlanderpolearmbillet"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Northlanderswordbillet"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Seeddispensary"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Theboonoftheeldertree"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Skywardharp"
+            },
+            "weight": 58,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Weaponssachet"
+            },
+            "weight": 171,
+            "minCount": 0,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Vintagelyre"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Futurestar"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 6,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      }
+    ],
+    "name": "chests/shrineofdepthsloot",
+    "namespace": "minecraft"
+  }
+}

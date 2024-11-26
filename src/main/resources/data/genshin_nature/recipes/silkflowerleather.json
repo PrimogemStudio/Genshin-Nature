@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:silkflower"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather",
+    "count": 1
+  }
+}

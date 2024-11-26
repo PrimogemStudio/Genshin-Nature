@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:scholarsbookmark"
+    },
+    "1": {
+      "item": "genshin_nature:scholarsbookmark"
+    },
+    "2": {
+      "item": "genshin_nature:scholarsbookmark"
+    },
+    "3": {
+      "item": "genshin_nature:scholarsbookmark"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:scholarsquillpen",
+    "count": 1
+  }
+}

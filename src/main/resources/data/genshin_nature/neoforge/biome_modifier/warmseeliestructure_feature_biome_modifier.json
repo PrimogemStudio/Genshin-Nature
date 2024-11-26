@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "cold_ocean",
+    "plains",
+    "ice_spikes",
+    "deep_frozen_ocean"
+  ],
+  "features": "genshin_nature:warmseeliestructure_feature",
+  "step": "surface_structures"
+}

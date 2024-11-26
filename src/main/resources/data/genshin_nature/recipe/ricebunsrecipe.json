@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "genshin_nature:rice"
+    },
+    "c": {
+      "item": "genshin_nature:horsetail"
+    },
+    "d": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:ricebuns",
+    "count": 1
+  }
+}

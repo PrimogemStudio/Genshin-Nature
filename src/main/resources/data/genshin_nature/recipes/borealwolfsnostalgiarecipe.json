@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "1": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "2": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "3": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "4": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "5": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "6": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "7": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    },
+    "8": {
+      "item": "genshin_nature:borealwolfsbrokenfang"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:borealwolfsnostalgia",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/euphonium_unbound_winding",
+  "textures": {
+    "all": "genshin_nature:block/euphonium_unbound_winding",
+    "particle": "genshin_nature:block/euphonium_unbound_winding",
+    "0": "genshin_nature:block/euphonium_unbound_winding"
+  },
+  "render_type": "solid"
+}

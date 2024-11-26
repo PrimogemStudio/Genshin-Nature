@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Cold protection",
+    "splashName": "Splash Potion of Cold protection",
+    "lingeringName": "Lingering Potion of Cold protection",
+    "arrowName": "Arrow of Cold protection",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Coldprotection"
+        },
+        "duration": 6000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

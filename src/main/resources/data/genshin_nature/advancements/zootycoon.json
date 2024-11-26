@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "genshin_nature:omniubiquitynetsuncrab"
+    },
+    "title": {
+      "translate": "advancements.zootycoon.title"
+    },
+    "description": {
+      "translate": "advancements.zootycoon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "zootycoon": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

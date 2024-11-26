@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "swamp",
+    "plains",
+    "mushroom_fields"
+  ],
+  "spawners": {
+    "type": "genshin_nature:whirlingcryofungus",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

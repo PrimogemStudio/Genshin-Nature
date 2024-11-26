@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "2": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "3": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "5": {
+      "item": "genshin_nature:lumenspar"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:lumenspararmor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "beach",
+    "snowy_beach",
+    "frozen_river",
+    "river",
+    "plains",
+    "stony_shore"
+  ],
+  "features": "genshin_nature:lotushead",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,86 @@
+{
+  "_fv": 71,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_your_language",
+          "text": {
+            "fixedValue": "Select your language"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 81,
+          "y": 68,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_elige_tu_idioma",
+          "text": {
+            "fixedValue": "Elige tu idioma"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 241,
+          "y": 68,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_espaol",
+          "text": "Espa�ol",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Openwishmakerspanish"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 241,
+          "y": 108,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_english",
+          "text": "English",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Openwishingmaker"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 126,
+          "y": 108,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

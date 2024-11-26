@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "waster_greatsword_ascended"
+      },
+      "name": "default"
+    }
+  }
+}

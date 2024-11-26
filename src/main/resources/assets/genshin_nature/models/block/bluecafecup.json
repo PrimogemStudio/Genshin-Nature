@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/bluecafecup",
+  "textures": {
+    "all": "genshin_nature:block/bluecafecup",
+    "particle": "genshin_nature:block/bluecafecup",
+    "0": "genshin_nature:block/bluecafecup"
+  },
+  "render_type": "cutout_mipped"
+}

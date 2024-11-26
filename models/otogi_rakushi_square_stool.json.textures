@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "otogi_rakushi_square_stool"
+      },
+      "name": "default"
+    }
+  }
+}

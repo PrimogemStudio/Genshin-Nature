@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "1": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "2": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "3": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "4": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "5": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "6": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "7": {
+      "item": "genshin_nature:sealedscroll"
+    },
+    "8": {
+      "item": "genshin_nature:sealedscroll"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:forbiddenscroll",
+    "count": 1
+  }
+}

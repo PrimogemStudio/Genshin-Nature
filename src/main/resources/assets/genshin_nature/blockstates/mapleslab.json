@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_nature:block/mapleslab"
+    },
+    "type=top": {
+      "model": "genshin_nature:block/mapleslab_top"
+    },
+    "type=double": {
+      "model": "genshin_nature:block/mapleslab_full"
+    }
+  }
+}

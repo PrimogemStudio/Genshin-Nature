@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:egg"
+    },
+    "b": {
+      "item": "genshin_nature:rice"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:ricepudding",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "1": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "2": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "3": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "4": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "5": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "6": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "7": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "8": {
+      "item": "genshin_nature:ironchunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:trustyportablelamp",
+    "count": 1
+  }
+}

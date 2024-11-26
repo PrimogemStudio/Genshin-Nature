@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:sunsettia"
+    }
+  },
+  "result": {
+    "id": "minecraft:red_dye",
+    "count": 1
+  }
+}

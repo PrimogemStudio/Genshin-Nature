@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:shivadajadechunk"
+    },
+    "1": {
+      "item": "genshin_nature:shivadajadechunk"
+    },
+    "2": {
+      "item": "genshin_nature:shivadajadechunk"
+    },
+    "3": {
+      "item": "genshin_nature:shivadajadechunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:shivadajadegemstone",
+    "count": 1
+  }
+}

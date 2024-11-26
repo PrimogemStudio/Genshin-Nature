@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:nakuweed"
+    },
+    "b": {
+      "item": "genshin_nature:sakurabloom"
+    },
+    "c": {
+      "item": "genshin_nature:electrocrystal"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:electroculusresonancestone",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/embroidered_lantern_lofty_grandeur",
+  "textures": {
+    "all": "genshin_nature:block/embroidered_lantern_lofty_grandeur",
+    "particle": "genshin_nature:block/embroidered_lantern_lofty_grandeur",
+    "0": "genshin_nature:block/embroidered_lantern_lofty_grandeur"
+  },
+  "render_type": "cutout_mipped"
+}

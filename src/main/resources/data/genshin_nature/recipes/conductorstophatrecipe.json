@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:wanderersstringkettle"
+    },
+    "1": {
+      "item": "genshin_nature:wanderersstringkettle"
+    },
+    "2": {
+      "item": "genshin_nature:wanderersstringkettle"
+    },
+    "3": {
+      "item": "genshin_nature:wanderersstringkettle"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:conductorstophat",
+    "count": 1
+  }
+}

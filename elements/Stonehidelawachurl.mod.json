@@ -1,0 +1,149 @@
+{
+  "_fv": 71,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Stonehide lawachurl",
+    "mobLabel": "",
+    "mobModelName": "Modelstonehide_lawachurl",
+    "mobModelTexture": "stonehide_lawachurl.png",
+    "modelLayers": [],
+    "animations": [],
+    "modelWidth": 2.0,
+    "modelHeight": 6.0,
+    "modelShadowSize": 1.7999999999999998,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -9148574,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -8569566,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Genshinenemies"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": "CUSTOM:Blackcrystalhorn"
+    },
+    "equipmentBoots": {
+      "value": "CUSTOM:Blackbronzehorn"
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 7,
+    "attackKnockback": 1.0,
+    "knockbackResistance": 1.0,
+    "movementSpeed": 0.14,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 100,
+    "xpAmount": 14,
+    "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": "CUSTOM:Heavyhorn"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "entityDataEntries": [],
+    "whenMobDies": {
+      "name": "Receivehilichurlchampion"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayerMP</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 58,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "mutated_extreme_hills_with_trees"
+      },
+      {
+        "value": "smaller_extreme_hills"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
+  }
+}

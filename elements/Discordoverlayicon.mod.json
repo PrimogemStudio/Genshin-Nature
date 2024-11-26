@@ -1,0 +1,63 @@
+{
+  "_fv": 71,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "discord_icon.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 396,
+          "y": 221,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "{"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 411,
+          "y": 226,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "�"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 411,
+          "y": 221,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "IngameMenu",
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 10,
+      "oy": 10,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "clear_blue_afternoon"
+      },
+      "name": "default"
+    }
+  }
+}

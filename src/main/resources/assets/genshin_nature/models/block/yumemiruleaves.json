@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/yumemiru_leaves",
+    "up": "genshin_nature:block/yumemiru_leaves",
+    "north": "genshin_nature:block/yumemiru_leaves",
+    "east": "genshin_nature:block/yumemiru_leaves",
+    "south": "genshin_nature:block/yumemiru_leaves",
+    "west": "genshin_nature:block/yumemiru_leaves",
+    "particle": "genshin_nature:block/yumemiru_leaves"
+  },
+  "render_type": "cutout"
+}

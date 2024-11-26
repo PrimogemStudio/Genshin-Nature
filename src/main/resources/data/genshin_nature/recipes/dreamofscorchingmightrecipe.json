@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "1": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "2": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "3": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "4": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "5": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "6": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "7": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    },
+    "8": {
+      "item": "genshin_nature:remnantglowofscorchingmight"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:dreamofscorchingmight",
+    "count": 1
+  }
+}

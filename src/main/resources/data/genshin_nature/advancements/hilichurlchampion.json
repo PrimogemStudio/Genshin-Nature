@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "genshin_nature:blackcrystalhorn"
+    },
+    "title": {
+      "translate": "advancements.hilichurlchampion.title"
+    },
+    "description": {
+      "translate": "advancements.hilichurlchampion.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hilichurlchampion": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

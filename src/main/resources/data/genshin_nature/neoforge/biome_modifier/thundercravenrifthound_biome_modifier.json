@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "end_barrens",
+  "spawners": {
+    "type": "genshin_nature:thundercravenrifthound",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

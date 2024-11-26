@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:ceremonialwarplume"
+    },
+    "1": {
+      "item": "genshin_nature:ceremonialwarplume"
+    },
+    "2": {
+      "item": "genshin_nature:ceremonialwarplume"
+    },
+    "3": {
+      "item": "genshin_nature:ceremonialwarplume"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:orichalceoustimedial",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:crystalcore"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:windbarrierpotion",
+    "count": 1
+  }
+}

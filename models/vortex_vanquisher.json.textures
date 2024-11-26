@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "vortex_vanquisher"
+      },
+      "name": "default"
+    }
+  }
+}

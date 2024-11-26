@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Firplanks"
+      },
+      {
+        "value": "CUSTOM:Firplanks"
+      },
+      {
+        "value": "CUSTOM:Firplanks"
+      },
+      {
+        "value": "CUSTOM:Firplanks"
+      },
+      {
+        "value": "Items.DYE#18"
+      },
+      {
+        "value": "CUSTOM:Firplanks"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.LEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Crudedoubledeckerpallet"
+    },
+    "name": "crudedoubledeckerpalletrecipe",
+    "namespace": "mod"
+  }
+}

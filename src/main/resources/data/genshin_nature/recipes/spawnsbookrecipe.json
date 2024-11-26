@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:philanemomushroom"
+    },
+    "1": {
+      "item": "genshin_nature:fluorescentfungus"
+    },
+    "2": {
+      "item": "genshin_nature:philanemomushroom"
+    },
+    "3": {
+      "item": "genshin_nature:seaganoderma"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "genshin_nature:seaganoderma"
+    },
+    "6": {
+      "item": "genshin_nature:philanemomushroom"
+    },
+    "7": {
+      "item": "genshin_nature:fluorescentfungus"
+    },
+    "8": {
+      "item": "genshin_nature:philanemomushroom"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:spawnsbook",
+    "count": 1
+  }
+}

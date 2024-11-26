@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:blue_dye"
+    },
+    "2": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "3": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "4": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "5": {
+      "item": "genshin_nature:cuihuaplanks"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:clearblueafternoon",
+    "count": 1
+  }
+}

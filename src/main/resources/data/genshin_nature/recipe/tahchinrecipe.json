@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cod"
+    },
+    "b": {
+      "item": "genshin_nature:padisarah"
+    },
+    "c": {
+      "item": "genshin_nature:fowl"
+    },
+    "d": {
+      "item": "genshin_nature:rice"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:tahchin",
+    "count": 1
+  }
+}

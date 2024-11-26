@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/bamboo_outdoor_tea_table",
+  "textures": {
+    "all": "genshin_nature:block/bamboo_outdoor_tea_table",
+    "particle": "genshin_nature:block/bamboo_outdoor_tea_table",
+    "0": "genshin_nature:block/bamboo_outdoor_tea_table"
+  },
+  "render_type": "cutout_mipped"
+}

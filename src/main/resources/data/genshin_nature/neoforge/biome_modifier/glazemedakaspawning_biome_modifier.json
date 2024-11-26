@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "plains",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "taiga",
+    "warm_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:glazemedakaspawning",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

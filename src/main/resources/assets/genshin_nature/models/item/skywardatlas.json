@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/skyward_atlas",
+  "textures": {
+    "0": "genshin_nature:block/skyward_atlas",
+    "particle": "genshin_nature:item/skyward_atlas"
+  }
+}

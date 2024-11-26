@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "festering_desire"
+      },
+      "name": "default"
+    }
+  }
+}

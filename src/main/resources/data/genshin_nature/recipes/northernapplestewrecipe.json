@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "1": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "2": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "3": {
+      "item": "minecraft:apple"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "minecraft:apple"
+    },
+    "6": {
+      "item": "genshin_nature:butter"
+    },
+    "8": {
+      "item": "genshin_nature:pepper"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:northernapplestew",
+    "count": 1
+  }
+}

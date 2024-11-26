@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ore",
+    "minecraft:nether_gold_ore",
+    "minecraft:gold_block",
+    "minecraft:gold_ingot",
+    "minecraft:gold_nugget"
+  ]
+}

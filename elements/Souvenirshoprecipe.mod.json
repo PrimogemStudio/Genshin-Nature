@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:Primogem"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:Geosigil"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:Electrosigil"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:Anemosigil"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Souvenirshop"
+    },
+    "name": "souvenirshoprecipe",
+    "namespace": "mod"
+  }
+}

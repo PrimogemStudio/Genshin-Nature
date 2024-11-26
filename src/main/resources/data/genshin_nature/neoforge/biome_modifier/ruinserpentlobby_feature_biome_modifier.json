@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle"
+  ],
+  "features": "genshin_nature:ruinserpentlobby_feature",
+  "step": "surface_structures"
+}

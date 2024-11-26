@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:anemospecter",
+    "genshin_nature:cryospecter",
+    "genshin_nature:dendrospecter",
+    "genshin_nature:electrospecter",
+    "genshin_nature:geospecter",
+    "genshin_nature:hydrospecter",
+    "genshin_nature:pyrospecter",
+    "genshin_nature:anemosamachurl",
+    "genshin_nature:cryosamachurl",
+    "genshin_nature:dendrosamachurl",
+    "genshin_nature:electrosamachurl",
+    "genshin_nature:geosamachurl",
+    "genshin_nature:hydrosamachurl",
+    "genshin_nature:frostarmlawachurl",
+    "genshin_nature:stonehidelawachurl",
+    "genshin_nature:thunderhelmlawachurl",
+    "genshin_nature:kairagidancingthunder",
+    "genshin_nature:kairagifierymight",
+    "genshin_nature:ruinguard",
+    "genshin_nature:ruinhunter",
+    "genshin_nature:ruinhunterarmless",
+    "genshin_nature:ruinhunterarm",
+    "genshin_nature:primordialbathysmalvishap",
+    "genshin_nature:rimebiterbathysmalvishaphatchling",
+    "genshin_nature:ruingrader",
+    "genshin_nature:fatuipyroagent"
+  ]
+}

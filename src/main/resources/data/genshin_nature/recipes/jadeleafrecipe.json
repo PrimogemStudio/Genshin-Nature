@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:soulscentbloom"
+    },
+    "1": {
+      "item": "genshin_nature:soulscentbloom"
+    },
+    "2": {
+      "item": "genshin_nature:soulscentbloom"
+    },
+    "3": {
+      "item": "genshin_nature:soulscentbloom"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:jadeleaf",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "snowy_taiga",
+    "taiga",
+    "dark_forest",
+    "forest"
+  ],
+  "features": "genshin_nature:electroshrineofdepths_feature",
+  "step": "surface_structures"
+}

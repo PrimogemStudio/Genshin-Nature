@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:gustofnostalgia"
+    },
+    "1": {
+      "item": "genshin_nature:gustofnostalgia"
+    },
+    "2": {
+      "item": "genshin_nature:gustofnostalgia"
+    },
+    "3": {
+      "item": "genshin_nature:gustofnostalgia"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:coppercompass",
+    "count": 1
+  }
+}

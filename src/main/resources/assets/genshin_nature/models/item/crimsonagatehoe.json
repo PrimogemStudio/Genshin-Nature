@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "genshin_nature:item/crimson_agate_hoe"
+  }
+}

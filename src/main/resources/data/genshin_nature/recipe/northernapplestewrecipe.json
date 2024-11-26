@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "c d"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "b": {
+      "item": "minecraft:apple"
+    },
+    "c": {
+      "item": "genshin_nature:butter"
+    },
+    "d": {
+      "item": "genshin_nature:pepper"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:northernapplestew",
+    "count": 1
+  }
+}

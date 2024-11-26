@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "1": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "2": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "3": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "4": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "5": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "6": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "7": {
+      "item": "genshin_nature:gloomystatuette"
+    },
+    "8": {
+      "item": "genshin_nature:gloomystatuette"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:darkstatuette",
+    "count": 1
+  }
+}

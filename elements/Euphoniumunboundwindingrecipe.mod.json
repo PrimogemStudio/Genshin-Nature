@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "Blocks.CLAY"
+      },
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "Blocks.CLAY"
+      },
+      {
+        "value": "CUSTOM:Primogem"
+      },
+      {
+        "value": "Blocks.CLAY"
+      },
+      {
+        "value": "Blocks.CLAY"
+      },
+      {
+        "value": "Blocks.CLAY"
+      },
+      {
+        "value": "Blocks.CLAY"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Euphoniumunboundwinding"
+    },
+    "name": "euphoniumunboundwindingrecipe",
+    "namespace": "mod"
+  }
+}

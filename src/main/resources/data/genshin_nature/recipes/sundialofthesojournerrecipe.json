@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:featherofhomecoming"
+    },
+    "1": {
+      "item": "genshin_nature:featherofhomecoming"
+    },
+    "2": {
+      "item": "genshin_nature:featherofhomecoming"
+    },
+    "3": {
+      "item": "genshin_nature:featherofhomecoming"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sundialofthesojourner",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#is_end",
+  "features": "genshin_nature:leylineoreend",
+  "step": "underground_ores"
+}

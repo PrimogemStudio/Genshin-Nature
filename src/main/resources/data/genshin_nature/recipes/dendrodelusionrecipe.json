@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:majestichookedbeak"
+    },
+    {
+      "item": "genshin_nature:blankdelusion"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:dendrodelusion",
+    "count": 1
+  }
+}

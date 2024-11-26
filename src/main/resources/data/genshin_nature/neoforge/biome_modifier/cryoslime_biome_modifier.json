@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "frozen_ocean",
+    "frozen_river",
+    "ice_spikes",
+    "snowy_beach",
+    "plains",
+    "snowy_taiga",
+    "snowy_plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:cryoslime",
+    "weight": 251,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

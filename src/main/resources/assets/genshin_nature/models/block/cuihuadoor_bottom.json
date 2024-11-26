@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "genshin_nature:blocks/cuihua_door_bottom",
+    "top": "genshin_nature:blocks/cuihua_door_top"
+  }
+}

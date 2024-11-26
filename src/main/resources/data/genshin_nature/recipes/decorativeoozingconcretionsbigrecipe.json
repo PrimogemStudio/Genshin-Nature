@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:oozingconcretionsbig"
+    },
+    {
+      "item": "genshin_nature:primogem"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:decorativeoozingconcretionsbig",
+    "count": 1
+  }
+}

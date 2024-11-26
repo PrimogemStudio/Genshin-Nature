@@ -1,0 +1,59 @@
+{
+  "_fv": 71,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "spawns_book",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Spawns book",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Genshinitems"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Right-click to know where does anything spawn in",
+        "Click derecho para saber d�nde se genera cualquier cosa"
+      ]
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "SpawnsbookRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "SpawnsbookRightClickedInAir"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "isMusicDisc": false,
+    "musicDiscLengthInTicks": 0,
+    "musicDiscAnalogOutput": 0
+  }
+}

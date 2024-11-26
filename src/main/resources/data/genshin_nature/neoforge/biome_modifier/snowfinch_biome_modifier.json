@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_taiga",
+    "plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:snowfinch",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

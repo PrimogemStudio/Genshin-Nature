@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "frozen_ocean",
+    "frozen_river",
+    "ice_spikes",
+    "snowy_beach",
+    "snowy_taiga",
+    "snowy_plains",
+    "birch_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:cryowhopperflower",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle",
+    "dark_forest"
+  ],
+  "features": "genshin_nature:magicallibrary_feature",
+  "step": "surface_structures"
+}

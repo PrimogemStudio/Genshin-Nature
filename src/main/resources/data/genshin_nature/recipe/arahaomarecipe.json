@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:barsamflower"
+    },
+    {
+      "item": "genshin_nature:yajnagrass"
+    },
+    {
+      "item": "genshin_nature:zohrahmushroom"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:arahaoma",
+    "count": 1
+  }
+}

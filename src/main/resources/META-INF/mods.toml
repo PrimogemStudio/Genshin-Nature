@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="genshin_nature"
+version="1.5.0"
+displayName="Genshin Nature"
+credits="Mihoyo & The Genshin Mineverse team"
+displayURL="https://discord.gg/U7ue38S2QX"
+logoFile="logo.png"
+authors="The Genshin Mineverse team"
+description='''
+Genshin Impact enemies and plants in Minecraft
+'''
+
+[[dependencies.genshin_nature]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

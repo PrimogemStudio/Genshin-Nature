@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "snowy_taiga",
+    "plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:umbertailfalcon",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

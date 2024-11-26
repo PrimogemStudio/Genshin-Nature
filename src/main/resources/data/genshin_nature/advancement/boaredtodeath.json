@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:rawmeat"
+    },
+    "title": {
+      "translate": "advancements.boaredtodeath.title"
+    },
+    "description": {
+      "translate": "advancements.boaredtodeath.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "boaredtodeath_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

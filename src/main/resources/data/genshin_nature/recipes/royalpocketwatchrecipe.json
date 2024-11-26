@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:royalplume"
+    },
+    "1": {
+      "item": "genshin_nature:royalplume"
+    },
+    "2": {
+      "item": "genshin_nature:royalplume"
+    },
+    "3": {
+      "item": "genshin_nature:royalplume"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:royalpocketwatch",
+    "count": 1
+  }
+}

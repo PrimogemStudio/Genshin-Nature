@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "nether_wastes",
+    "soul_sand_valley",
+    "crimson_forest",
+    "warped_forest",
+    "basalt_deltas"
+  ],
+  "features": "genshin_nature:pyrohyposfloornether_feature",
+  "step": "underground_structures"
+}

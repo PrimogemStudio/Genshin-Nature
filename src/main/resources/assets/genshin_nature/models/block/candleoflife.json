@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/candle_of_life",
+  "textures": {
+    "all": "genshin_nature:block/candle_of_life",
+    "particle": "genshin_nature:block/candle_of_life",
+    "0": "genshin_nature:block/candle_of_life"
+  },
+  "render_type": "solid"
+}

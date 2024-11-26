@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:skywardatlas",
+    "genshin_nature:skywardatlasascended",
+    "genshin_nature:apprenticesnotes",
+    "genshin_nature:apprenticesnotesascended",
+    "genshin_nature:pocketgrimoire",
+    "genshin_nature:pocketgrimoireascended"
+  ]
+}

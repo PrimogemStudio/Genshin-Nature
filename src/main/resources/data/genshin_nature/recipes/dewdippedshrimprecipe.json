@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "1": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "2": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "3": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "4": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "5": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "6": {
+      "item": "genshin_nature:flour"
+    },
+    "7": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "8": {
+      "item": "genshin_nature:flour"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:dewdippedshrimp",
+    "count": 1
+  }
+}

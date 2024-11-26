@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "xiao_lantern"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/hydro_tile",
+  "textures": {
+    "all": "genshin_nature:block/hydro_tile",
+    "particle": "genshin_nature:block/hydro_tile",
+    "0": "genshin_nature:block/hydro_tile"
+  },
+  "render_type": "translucent"
+}

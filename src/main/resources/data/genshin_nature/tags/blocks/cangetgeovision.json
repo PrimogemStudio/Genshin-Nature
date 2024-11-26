@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diorite",
+    "genshin_nature:darkmud",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:cobblestone"
+  ]
+}

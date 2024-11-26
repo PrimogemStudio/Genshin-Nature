@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/fir_planks",
+    "up": "genshin_nature:block/fir_planks",
+    "north": "genshin_nature:block/fir_planks",
+    "east": "genshin_nature:block/fir_planks",
+    "south": "genshin_nature:block/fir_planks",
+    "west": "genshin_nature:block/fir_planks",
+    "particle": "genshin_nature:block/fir_planks"
+  },
+  "render_type": "solid"
+}

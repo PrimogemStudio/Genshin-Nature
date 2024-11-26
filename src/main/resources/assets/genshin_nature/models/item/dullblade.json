@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/dull_blade",
+  "textures": {
+    "0": "genshin_nature:block/dull_blade",
+    "particle": "genshin_nature:item/dull_blade"
+  }
+}

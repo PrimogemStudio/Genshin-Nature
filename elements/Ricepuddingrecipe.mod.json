@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ricepudding"
+    },
+    "name": "ricepuddingrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:philanemomushroom"
+    },
+    "b": {
+      "item": "genshin_nature:fluorescentfungus"
+    },
+    "c": {
+      "item": "genshin_nature:seaganoderma"
+    },
+    "d": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:spawnsbook",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:azhdahaspawner"
+    },
+    "title": {
+      "translate": "advancements.sternestofsouls.title"
+    },
+    "description": {
+      "translate": "advancements.sternestofsouls.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sternestofsouls_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

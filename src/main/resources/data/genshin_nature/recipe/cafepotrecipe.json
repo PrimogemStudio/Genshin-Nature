@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bac",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:yellow_terracotta"
+    },
+    "b": {
+      "item": "genshin_nature:primogem"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:cafepot",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "genshin_nature:rice"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "genshin_nature:horsetail"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "7": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:ricebuns",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:yumemirufence",
+    "genshin_nature:sandbearerfence",
+    "genshin_nature:otogifence",
+    "genshin_nature:maplefence",
+    "genshin_nature:fragrantcedarfence",
+    "genshin_nature:firfence",
+    "genshin_nature:bamboofence",
+    "genshin_nature:araliafence",
+    "genshin_nature:cuihuafence"
+  ]
+}

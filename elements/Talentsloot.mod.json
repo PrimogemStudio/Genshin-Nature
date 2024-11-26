@@ -1,0 +1,524 @@
+{
+  "_fv": 71,
+  "_type": "loottable",
+  "definition": {
+    "type": "Chest",
+    "pools": [
+      {
+        "minrolls": 4,
+        "maxrolls": 6,
+        "minbonusrolls": 2,
+        "maxbonusrolls": 3,
+        "hasbonusrolls": true,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsoffreedom"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofresistance"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofballad"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetofreedom"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetoresistance"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetoballad"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesoffreedom"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofresistance"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofballad"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofprosperity"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetoprosperity"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofprosperity"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofdiligence"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetodiligence"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofdiligence"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofgold"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetogold"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofgold"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsoftransience"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetotransience"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesoftransience"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofelegance"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetoelegance"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofelegance"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsoflight"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetolight"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesoflight"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofadmonition"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetoadmonition"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofadmonition"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofingenuity"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetoingenuity"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofingenuity"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Teachingsofpraxis"
+            },
+            "weight": 251,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Guidetopraxis"
+            },
+            "weight": 91,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Philosophiesofpraxis"
+            },
+            "weight": 58,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      }
+    ],
+    "name": "chests/talentsloot",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/oozing_concretions",
+  "textures": {
+    "all": "genshin_nature:block/oozing_concretions",
+    "particle": "genshin_nature:block/oozing_concretions",
+    "0": "genshin_nature:block/oozing_concretions"
+  },
+  "render_type": "solid"
+}

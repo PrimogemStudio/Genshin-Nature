@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "genshin_nature:block/maple_door_bottom_new",
+    "bottom": "genshin_nature:block/maple_door_bottom_new",
+    "top": "genshin_nature:block/maple_door_top_new"
+  },
+  "render_type": "solid"
+}

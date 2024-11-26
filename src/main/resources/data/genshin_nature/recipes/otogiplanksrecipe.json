@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:otogiwood"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:otogiplanks",
+    "count": 4
+  }
+}

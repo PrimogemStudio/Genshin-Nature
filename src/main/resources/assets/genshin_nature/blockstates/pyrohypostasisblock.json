@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "genshin_nature:block/pyrohypostasisblock"
+    },
+    "facing=east": {
+      "model": "genshin_nature:block/pyrohypostasisblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "genshin_nature:block/pyrohypostasisblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "genshin_nature:block/pyrohypostasisblock",
+      "y": 270
+    }
+  }
+}

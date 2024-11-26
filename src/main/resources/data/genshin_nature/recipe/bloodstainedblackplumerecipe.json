@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:bloodstainedflowerofiron"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:bloodstainedblackplume",
+    "count": 1
+  }
+}

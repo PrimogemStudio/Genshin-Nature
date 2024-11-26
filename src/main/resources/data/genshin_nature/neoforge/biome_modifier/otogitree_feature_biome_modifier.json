@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "snowy_taiga",
+    "plains"
+  ],
+  "features": "genshin_nature:otogitree_feature",
+  "step": "surface_structures"
+}

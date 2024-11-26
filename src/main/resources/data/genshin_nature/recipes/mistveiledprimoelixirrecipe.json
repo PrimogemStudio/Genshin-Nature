@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "1": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "2": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "3": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "4": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "5": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "6": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "7": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    },
+    "8": {
+      "item": "genshin_nature:mistveiledgoldelixir"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:mistveiledprimoelixir",
+    "count": 1
+  }
+}

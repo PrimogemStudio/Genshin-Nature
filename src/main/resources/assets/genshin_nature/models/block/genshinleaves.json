@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/genshin_leaves_new",
+    "up": "genshin_nature:block/genshin_leaves_new",
+    "north": "genshin_nature:block/genshin_leaves_new",
+    "east": "genshin_nature:block/genshin_leaves_new",
+    "south": "genshin_nature:block/genshin_leaves_new",
+    "west": "genshin_nature:block/genshin_leaves_new",
+    "particle": "genshin_nature:block/genshin_leaves_new"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Corlapis"
+      },
+      {
+        "value": "CUSTOM:Corlapis"
+      },
+      {
+        "value": "CUSTOM:Corlapis"
+      },
+      {
+        "value": "CUSTOM:Glazelily"
+      },
+      {
+        "value": "CUSTOM:Glazelily"
+      },
+      {
+        "value": "CUSTOM:Glazelily"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Crystalchunk"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Geoculusresonancestone"
+    },
+    "name": "geoculusresonancestonerecipe",
+    "namespace": "mod"
+  }
+}

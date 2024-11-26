@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "prototype_rancour_ascended"
+      },
+      "name": "default"
+    }
+  }
+}

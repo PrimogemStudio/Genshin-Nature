@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "1": {
+      "item": "genshin_nature:araliaplanks"
+    },
+    "2": {
+      "item": "genshin_nature:araliaplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:araliaslab",
+    "count": 6
+  }
+}

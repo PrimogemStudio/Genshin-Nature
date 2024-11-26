@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "genshin_nature:whiteironchunk"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:smoothstonebench",
+    "count": 1
+  }
+}

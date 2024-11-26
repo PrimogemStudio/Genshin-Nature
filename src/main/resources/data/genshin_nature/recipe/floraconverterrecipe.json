@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "genshin_nature:starconch"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:floraconverter",
+    "count": 1
+  }
+}

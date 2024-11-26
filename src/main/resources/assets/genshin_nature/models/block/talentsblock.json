@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/talents_table_top",
+    "up": "genshin_nature:block/talents_table_top",
+    "north": "genshin_nature:block/talents_table",
+    "east": "genshin_nature:block/talents_table",
+    "south": "genshin_nature:block/talents_table",
+    "west": "genshin_nature:block/talents_table",
+    "particle": "genshin_nature:block/talents_table_top"
+  },
+  "render_type": "solid"
+}

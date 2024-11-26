@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:calabashofawakening"
+    },
+    "1": {
+      "item": "genshin_nature:calabashofawakening"
+    },
+    "2": {
+      "item": "genshin_nature:calabashofawakening"
+    },
+    "3": {
+      "item": "genshin_nature:calabashofawakening"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:skeletalhat",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "1": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "2": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "3": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "4": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "5": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "6": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "7": {
+      "item": "genshin_nature:relicfromguyun"
+    },
+    "8": {
+      "item": "genshin_nature:relicfromguyun"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:divinebodyfromguyun",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lizardtail"
+      },
+      {
+        "value": "CUSTOM:Lizardtail"
+      },
+      {
+        "value": "CUSTOM:Lizardtail"
+      },
+      {
+        "value": "CUSTOM:Electrocrystal"
+      },
+      {
+        "value": "CUSTOM:Electrocrystal"
+      },
+      {
+        "value": "CUSTOM:Electrocrystal"
+      },
+      {
+        "value": "CUSTOM:Chaoscircuit"
+      },
+      {
+        "value": "CUSTOM:Chaoscircuit"
+      },
+      {
+        "value": "CUSTOM:Chaoscircuit"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nremenu30"
+    },
+    "name": "nremenu_30recipe",
+    "namespace": "mod"
+  }
+}

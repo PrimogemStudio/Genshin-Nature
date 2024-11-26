@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "genshin_nature:block/otogi_planks",
+    "bottom": "genshin_nature:block/otogi_planks",
+    "top": "genshin_nature:block/otogi_planks",
+    "side": "genshin_nature:block/otogi_planks"
+  },
+  "render_type": "solid"
+}

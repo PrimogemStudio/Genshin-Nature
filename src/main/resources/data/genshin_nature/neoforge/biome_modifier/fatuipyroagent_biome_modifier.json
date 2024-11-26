@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "snowy_beach",
+    "plains",
+    "stony_shore"
+  ],
+  "spawners": {
+    "type": "genshin_nature:fatuipyroagent",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

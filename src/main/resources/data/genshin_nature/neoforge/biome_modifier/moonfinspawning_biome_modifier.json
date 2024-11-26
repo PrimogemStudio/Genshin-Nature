@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "deep_frozen_ocean",
+    "frozen_ocean"
+  ],
+  "spawners": {
+    "type": "genshin_nature:moonfinspawning",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

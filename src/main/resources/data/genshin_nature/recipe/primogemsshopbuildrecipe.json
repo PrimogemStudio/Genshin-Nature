@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:condensedresin"
+    },
+    "b": {
+      "item": "minecraft:paper"
+    },
+    "c": {
+      "item": "genshin_nature:primogem"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:primogemsshopbuild",
+    "count": 1
+  }
+}

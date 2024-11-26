@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/anemo_amber",
+  "textures": {
+    "all": "genshin_nature:block/anemo_amber",
+    "particle": "genshin_nature:block/anemo_amber",
+    "0": "genshin_nature:block/anemo_amber"
+  },
+  "render_type": "solid"
+}

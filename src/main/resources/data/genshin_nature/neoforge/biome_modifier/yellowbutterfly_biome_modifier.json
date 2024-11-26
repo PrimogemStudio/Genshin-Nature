@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "plains",
+    "old_growth_birch_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:yellowbutterfly",
+    "weight": 251,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

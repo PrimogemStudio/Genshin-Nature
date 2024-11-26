@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "deep_frozen_ocean",
+    "frozen_ocean",
+    "frozen_river"
+  ],
+  "features": "genshin_nature:scarletquartzspawning_feature",
+  "step": "surface_structures"
+}

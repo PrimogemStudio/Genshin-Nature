@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "badlands",
+    "plains",
+    "basalt_deltas",
+    "eroded_badlands",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "savanna_plateau",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:largegeoslime",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

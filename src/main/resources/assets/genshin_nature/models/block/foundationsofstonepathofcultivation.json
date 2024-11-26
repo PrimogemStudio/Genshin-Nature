@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/foundations_of_stone_path_of_cultivation",
+  "textures": {
+    "all": "genshin_nature:block/foundation_of_stone_path_of_cultivation",
+    "particle": "genshin_nature:block/foundation_of_stone_path_of_cultivation",
+    "0": "genshin_nature:block/foundation_of_stone_path_of_cultivation"
+  },
+  "render_type": "solid"
+}

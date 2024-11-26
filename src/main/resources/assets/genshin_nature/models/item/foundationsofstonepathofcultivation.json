@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:item/foundation_of_stone_path_of_cultivation"
+  },
+  "render_type": "translucent"
+}

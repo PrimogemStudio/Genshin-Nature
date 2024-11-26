@@ -1,0 +1,368 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "bonus_rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:weaponslootsachet",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:primogem",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:lumenspar",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dullblade",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:huntersbow",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:vortexvanquisher",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:mora",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:realmcoin",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dawnwinerystopqualitygrapejuice",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:starlightcoalescence",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:moonlitcragstone",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:curiouscube",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:anemoshrineofdepthskey",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:electroshrineofdepthskey",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:geoshrineofdepthskey",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dendroshrineofdepthskey",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:seeddispensary",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:skywardharp",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:weaponssachet",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:vintagelyre",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:sparklingberryjuice",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:leylinemineral",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:banuswisdom",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/ancientrimechest"
+}

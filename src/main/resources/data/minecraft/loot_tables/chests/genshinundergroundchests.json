@@ -1,0 +1,942 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "bonus_rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 9
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 251,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 9
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:primogem",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:mora",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:hotpod",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:crimsonagateore",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:lumensparore",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:badspecialbeverage",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:goodspecialbeverage",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:somestrangedrink",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:goldenbriddle",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:wondrouslovelyflower",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:ominousdish",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:heatshieldpotion",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:desiccantpotion",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:frostshieldpotion",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:windbarrierpotion",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:insulationpotion",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dustproofpotion",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dendrocidepotion",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:flamingessentialoil",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:streamingessentialoil",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:frostingessentialoil",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:gushingessentialoil",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:shockingessentialoil",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:unmovingessentialoil",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:forestessentialoil",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:lumenstone",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:anemoshrineofdepthskey",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:electroshrineofdepthskey",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:geoshrineofdepthskey",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:dendroshrineofdepthskey",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:seeddispensary",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:theboonoftheeldertree",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:weaponssachet",
+          "weight": 171,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:vintagelyre",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket",
+          "weight": 91,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:banuswisdom",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

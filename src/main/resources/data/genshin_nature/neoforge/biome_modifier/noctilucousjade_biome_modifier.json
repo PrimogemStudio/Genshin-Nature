@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains"
+  ],
+  "features": "genshin_nature:noctilucousjade",
+  "step": "vegetal_decoration"
+}

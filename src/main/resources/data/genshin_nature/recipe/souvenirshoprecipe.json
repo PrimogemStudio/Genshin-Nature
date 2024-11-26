@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "genshin_nature:primogem"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "genshin_nature:geosigil"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "genshin_nature:electrosigil"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "genshin_nature:anemosigil"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:souvenirshop",
+    "count": 1
+  }
+}

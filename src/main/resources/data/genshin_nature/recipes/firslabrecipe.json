@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:firplanks"
+    },
+    "1": {
+      "item": "genshin_nature:firplanks"
+    },
+    "2": {
+      "item": "genshin_nature:firplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:firslab",
+    "count": 6
+  }
+}

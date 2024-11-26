@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "1": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "2": {
+      "item": "genshin_nature:crimsonagate"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:crimsonagatepickaxe",
+    "count": 1
+  }
+}

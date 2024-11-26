@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone"
+    },
+    "b": {
+      "item": "genshin_nature:whiteironchunk"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:foundationsofstonepathofcultivation",
+    "count": 1
+  }
+}

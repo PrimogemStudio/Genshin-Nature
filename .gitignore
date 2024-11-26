@@ -1,0 +1,10 @@
+.gradle/
+.mcreator/
+.settings/
+build/
+run/
+.eclipse/
+runs/
+/.idea/
+.classpath
+.project

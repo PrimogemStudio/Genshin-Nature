@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "genshin_nature:blocks/lumenstone_10",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "genshin_nature:lumenstone_10"
+        }
+      ]
+    }
+  ]
+}

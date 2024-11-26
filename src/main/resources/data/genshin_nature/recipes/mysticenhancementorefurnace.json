@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "genshin_nature:magicalcrystalchunk"
+  },
+  "result": {
+    "item": "genshin_nature:enhancementore"
+  }
+}

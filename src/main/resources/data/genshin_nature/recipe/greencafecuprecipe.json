@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "bc",
+    "d "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:primogem"
+    },
+    "b": {
+      "item": "minecraft:green_dye"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "minecraft:clay"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:greencafecup",
+    "count": 1
+  }
+}

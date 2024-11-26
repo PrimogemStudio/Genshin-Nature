@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/electro_shoot",
+  "textures": {
+    "all": "genshin_nature:block/electro_shoot",
+    "particle": "genshin_nature:block/electro_shoot",
+    "0": "genshin_nature:block/electro_shoot"
+  },
+  "render_type": "solid"
+}

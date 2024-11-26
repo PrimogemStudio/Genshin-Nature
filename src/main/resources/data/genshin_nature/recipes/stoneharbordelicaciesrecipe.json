@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potato"
+    },
+    "1": {
+      "item": "genshin_nature:violetgrass"
+    },
+    "2": {
+      "item": "minecraft:potato"
+    },
+    "4": {
+      "item": "genshin_nature:matsutake"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:stoneharbordelicacies",
+    "count": 1
+  }
+}

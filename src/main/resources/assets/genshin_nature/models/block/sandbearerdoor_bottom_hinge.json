@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "genshin_nature:blocks/sandbearer_door_bottom",
+    "top": "genshin_nature:blocks/sandbearer_door_top"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "genshin_nature:block/ittoplushie"
+    },
+    "facing=east": {
+      "model": "genshin_nature:block/ittoplushie",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "genshin_nature:block/ittoplushie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "genshin_nature:block/ittoplushie",
+      "y": 270
+    }
+  }
+}

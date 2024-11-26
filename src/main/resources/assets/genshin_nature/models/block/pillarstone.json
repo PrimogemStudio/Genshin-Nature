@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/pillar_stone",
+    "up": "genshin_nature:block/pillar_stone",
+    "north": "genshin_nature:block/pillar_stone",
+    "east": "genshin_nature:block/pillar_stone",
+    "south": "genshin_nature:block/pillar_stone",
+    "west": "genshin_nature:block/pillar_stone",
+    "particle": "genshin_nature:block/pillar_stone"
+  },
+  "render_type": "solid"
+}

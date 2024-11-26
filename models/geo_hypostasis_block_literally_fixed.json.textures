@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "geo_hypostasis_block_literally"
+      },
+      "name": "default"
+    }
+  }
+}

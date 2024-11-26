@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:inremembranceofviridescentfields"
+    },
+    "1": {
+      "item": "genshin_nature:inremembranceofviridescentfields"
+    },
+    "2": {
+      "item": "genshin_nature:inremembranceofviridescentfields"
+    },
+    "3": {
+      "item": "genshin_nature:inremembranceofviridescentfields"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:viridescentarrowfeather",
+    "count": 1
+  }
+}

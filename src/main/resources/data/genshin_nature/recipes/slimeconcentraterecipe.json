@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "1": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "2": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "3": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "4": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "5": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "6": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "7": {
+      "item": "genshin_nature:slimesecretions"
+    },
+    "8": {
+      "item": "genshin_nature:slimesecretions"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:slimeconcentrate",
+    "count": 1
+  }
+}

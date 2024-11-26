@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bab",
+    "c d"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "genshin_nature:qingxin"
+    },
+    "d": {
+      "item": "genshin_nature:matsutake"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:tianshumeat",
+    "count": 1
+  }
+}

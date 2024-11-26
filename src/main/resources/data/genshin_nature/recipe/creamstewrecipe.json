@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "a c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:porkchop"
+    },
+    "b": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "c": {
+      "item": "genshin_nature:cream"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:creamstew",
+    "count": 1
+  }
+}

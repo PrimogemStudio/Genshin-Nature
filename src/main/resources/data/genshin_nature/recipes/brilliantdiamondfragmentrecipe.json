@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "1": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "2": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "3": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "4": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "5": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "6": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "7": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    },
+    "8": {
+      "item": "genshin_nature:brilliantdiamondsliver"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:brilliantdiamondfragment",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "warped_forest",
+  "spawners": {
+    "type": "genshin_nature:shadowyhusklinebreaker",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

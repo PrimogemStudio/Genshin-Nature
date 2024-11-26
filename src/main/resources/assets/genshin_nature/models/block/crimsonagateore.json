@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/crimson_agate_ore_final",
+    "up": "genshin_nature:block/crimson_agate_ore_final",
+    "north": "genshin_nature:block/crimson_agate_ore_final",
+    "east": "genshin_nature:block/crimson_agate_ore_final",
+    "south": "genshin_nature:block/crimson_agate_ore_final",
+    "west": "genshin_nature:block/crimson_agate_ore_final",
+    "particle": "genshin_nature:block/crimson_agate_ore_final"
+  },
+  "render_type": "solid"
+}

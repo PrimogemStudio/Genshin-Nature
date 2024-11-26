@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b c"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:ajilenakhnut"
+    },
+    "b": {
+      "item": "genshin_nature:flour"
+    },
+    "c": {
+      "item": "genshin_nature:jam"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:coconutcharcoalcake",
+    "count": 1
+  }
+}

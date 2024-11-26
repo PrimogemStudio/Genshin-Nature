@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "1": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "2": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "3": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "4": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "5": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "6": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "7": {
+      "item": "genshin_nature:agnidusagatesliver"
+    },
+    "8": {
+      "item": "genshin_nature:agnidusagatesliver"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:agnidusagatefragment",
+    "count": 1
+  }
+}

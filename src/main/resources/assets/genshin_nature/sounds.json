@@ -1,0 +1,10 @@
+{
+  "silence": {
+    "sounds": [
+      {
+        "name": "genshin_nature:silence",
+        "stream": false
+      }
+    ]
+  }
+}

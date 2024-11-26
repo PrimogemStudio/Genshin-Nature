@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:jueyunchili"
+    },
+    "1": {
+      "item": "genshin_nature:rawmeat"
+    },
+    "2": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:stirfriedfilet",
+    "count": 1
+  }
+}

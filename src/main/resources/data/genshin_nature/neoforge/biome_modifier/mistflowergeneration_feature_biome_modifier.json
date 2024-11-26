@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "snowy_beach",
+    "plains",
+    "snowy_plains"
+  ],
+  "features": "genshin_nature:mistflowergeneration_feature",
+  "step": "surface_structures"
+}

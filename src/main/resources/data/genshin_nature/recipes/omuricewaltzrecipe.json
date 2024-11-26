@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:rice"
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "genshin_nature:rice"
+    },
+    "3": {
+      "item": "genshin_nature:tomato"
+    },
+    "4": {
+      "item": "minecraft:egg"
+    },
+    "5": {
+      "item": "genshin_nature:tomato"
+    },
+    "6": {
+      "item": "minecraft:egg"
+    },
+    "7": {
+      "item": "minecraft:egg"
+    },
+    "8": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:omuricewaltz",
+    "count": 1
+  }
+}

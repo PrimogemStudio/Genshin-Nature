@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "CUSTOM:Genshinseagrass"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "CUSTOM:Genshinseagrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Onigiri"
+    },
+    "name": "onigirirecipe",
+    "namespace": "mod"
+  }
+}

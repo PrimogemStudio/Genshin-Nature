@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hydro_tile"
+      },
+      "name": "default"
+    }
+  }
+}

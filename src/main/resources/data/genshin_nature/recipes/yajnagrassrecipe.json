@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:aramasflower"
+    },
+    {
+      "item": "genshin_nature:padisarah"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:yajnagrass",
+    "count": 1
+  }
+}

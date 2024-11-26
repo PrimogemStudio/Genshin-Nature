@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "genshin_nature:block/bamboo_planks_final",
+    "bottom": "genshin_nature:block/bamboo_planks_final",
+    "top": "genshin_nature:block/bamboo_planks_final",
+    "side": "genshin_nature:block/bamboo_planks_final"
+  },
+  "render_type": "solid"
+}

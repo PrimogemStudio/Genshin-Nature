@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "genshin_nature:block/lotus_head",
+    "particle": "genshin_nature:block/lotus_head"
+  },
+  "render_type": "cutout"
+}

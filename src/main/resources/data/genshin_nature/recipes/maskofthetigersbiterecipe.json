@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "1": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "2": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "3": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "4": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "5": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "6": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "7": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    },
+    "8": {
+      "item": "genshin_nature:maskofthewickedlieutenant"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:maskofthetigersbite",
+    "count": 1
+  }
+}

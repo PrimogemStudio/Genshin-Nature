@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/aralia_planks",
+    "up": "genshin_nature:block/aralia_planks",
+    "north": "genshin_nature:block/aralia_planks",
+    "east": "genshin_nature:block/aralia_planks",
+    "south": "genshin_nature:block/aralia_planks",
+    "west": "genshin_nature:block/aralia_planks",
+    "particle": "genshin_nature:block/aralia_planks"
+  },
+  "render_type": "solid"
+}

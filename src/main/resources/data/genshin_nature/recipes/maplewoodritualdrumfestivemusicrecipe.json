@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_dye"
+    },
+    "1": {
+      "item": "minecraft:yellow_dye"
+    },
+    "2": {
+      "item": "minecraft:yellow_dye"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "4": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    },
+    "6": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "7": {
+      "item": "genshin_nature:mapleplanks"
+    },
+    "8": {
+      "item": "genshin_nature:mapleplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:maplewoodritualdrumfestivemusic",
+    "count": 1
+  }
+}

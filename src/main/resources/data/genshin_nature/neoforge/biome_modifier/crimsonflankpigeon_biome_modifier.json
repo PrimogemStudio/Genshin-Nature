@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "taiga"
+  ],
+  "spawners": {
+    "type": "genshin_nature:crimsonflankpigeon",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

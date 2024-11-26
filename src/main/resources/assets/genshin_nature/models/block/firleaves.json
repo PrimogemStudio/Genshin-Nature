@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/fir_leaves",
+    "up": "genshin_nature:block/fir_leaves",
+    "north": "genshin_nature:block/fir_leaves",
+    "east": "genshin_nature:block/fir_leaves",
+    "south": "genshin_nature:block/fir_leaves",
+    "west": "genshin_nature:block/fir_leaves",
+    "particle": "genshin_nature:block/fir_leaves"
+  },
+  "render_type": "cutout"
+}

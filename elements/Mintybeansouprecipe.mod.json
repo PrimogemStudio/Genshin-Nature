@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Glabrousbeans"
+      },
+      {
+        "value": "CUSTOM:Glabrousbeans"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Mint"
+      },
+      {
+        "value": "CUSTOM:Mint"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Mintybeansoup"
+    },
+    "name": "mintybeansouprecipe",
+    "namespace": "mod"
+  }
+}

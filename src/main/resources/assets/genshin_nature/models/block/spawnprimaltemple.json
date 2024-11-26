@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/primaltemple_spawner",
+    "up": "genshin_nature:block/primaltemple_spawner",
+    "north": "genshin_nature:block/primaltemple_spawner",
+    "east": "genshin_nature:block/primaltemple_spawner",
+    "south": "genshin_nature:block/primaltemple_spawner",
+    "west": "genshin_nature:block/primaltemple_spawner",
+    "particle": "genshin_nature:block/primaltemple_spawner"
+  },
+  "render_type": "solid"
+}

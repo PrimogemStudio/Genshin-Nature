@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:butterflywings"
+    },
+    {
+      "item": "genshin_nature:electrocrystal"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:insulationpotion",
+    "count": 1
+  }
+}

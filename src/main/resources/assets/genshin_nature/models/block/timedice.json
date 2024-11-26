@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/timed_ice",
+    "up": "genshin_nature:block/timed_ice",
+    "north": "genshin_nature:block/timed_ice",
+    "east": "genshin_nature:block/timed_ice",
+    "south": "genshin_nature:block/timed_ice",
+    "west": "genshin_nature:block/timed_ice",
+    "particle": "genshin_nature:block/timed_ice"
+  },
+  "render_type": "solid"
+}

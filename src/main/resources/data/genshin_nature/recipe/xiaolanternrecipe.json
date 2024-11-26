@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:wickmaterial"
+    },
+    {
+      "item": "genshin_nature:plaustrite"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:xiaolantern",
+    "count": 1
+  }
+}

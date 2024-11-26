@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/smooth_wooden_bench",
+  "textures": {
+    "all": "genshin_nature:block/smooth_wooden_bench",
+    "particle": "genshin_nature:block/smooth_wooden_bench",
+    "0": "genshin_nature:block/smooth_wooden_bench"
+  },
+  "render_type": "solid"
+}

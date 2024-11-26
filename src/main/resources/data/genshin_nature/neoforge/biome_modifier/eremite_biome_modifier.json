@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "desert",
+    "plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:eremite",
+    "weight": 98,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

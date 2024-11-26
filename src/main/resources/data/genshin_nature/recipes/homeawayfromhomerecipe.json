@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "genshin_nature:primogem"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:homeawayfromhome",
+    "count": 1
+  }
+}

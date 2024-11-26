@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "genshin_nature:crystalcore"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:crystalflylamp",
+    "count": 1
+  }
+}

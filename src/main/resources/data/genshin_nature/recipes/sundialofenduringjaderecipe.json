@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:featherofjaggedpeaks"
+    },
+    "1": {
+      "item": "genshin_nature:featherofjaggedpeaks"
+    },
+    "2": {
+      "item": "genshin_nature:featherofjaggedpeaks"
+    },
+    "3": {
+      "item": "genshin_nature:featherofjaggedpeaks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sundialofenduringjade",
+    "count": 1
+  }
+}

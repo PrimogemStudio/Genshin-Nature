@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dull_blade_ascended"
+      },
+      "name": "default"
+    }
+  }
+}

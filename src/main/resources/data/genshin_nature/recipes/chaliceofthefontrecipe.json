@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:symboloffelicitation"
+    },
+    "1": {
+      "item": "genshin_nature:symboloffelicitation"
+    },
+    "2": {
+      "item": "genshin_nature:symboloffelicitation"
+    },
+    "3": {
+      "item": "genshin_nature:symboloffelicitation"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:chaliceofthefont",
+    "count": 1
+  }
+}

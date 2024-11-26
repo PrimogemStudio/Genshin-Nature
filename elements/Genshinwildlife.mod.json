@@ -1,0 +1,11 @@
+{
+  "_fv": 71,
+  "_type": "tab",
+  "definition": {
+    "name": "Genshin wildlife",
+    "icon": {
+      "value": "CUSTOM:Mysteriousseelieitem"
+    },
+    "showSearch": false
+  }
+}

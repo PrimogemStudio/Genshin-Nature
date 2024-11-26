@@ -1,0 +1,19 @@
+{
+  "feature": "genshin_nature:tumortree_feature",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 541
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

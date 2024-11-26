@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_nature:item/home_away_from_home"
+  },
+  "render_type": "translucent"
+}

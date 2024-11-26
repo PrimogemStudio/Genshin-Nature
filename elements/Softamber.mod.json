@@ -1,0 +1,148 @@
+{
+  "_fv": 71,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Soft Ember",
+    "supportedSlots": "mainhand",
+    "weight": 1,
+    "anvilCost": 8,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:Crimsonagatepickaxe"
+      },
+      {
+        "value": "CUSTOM:Crimsonagateaxe"
+      },
+      {
+        "value": "CUSTOM:Lumensparpickaxe"
+      },
+      {
+        "value": "CUSTOM:Lumensparaxe"
+      },
+      {
+        "value": "Items.WOODEN_PICKAXE"
+      },
+      {
+        "value": "Items.WOODEN_AXE"
+      },
+      {
+        "value": "Items.STONE_PICKAXE"
+      },
+      {
+        "value": "Items.STONE_AXE"
+      },
+      {
+        "value": "Items.IRON_PICKAXE"
+      },
+      {
+        "value": "Items.IRON_AXE"
+      },
+      {
+        "value": "Items.GOLDEN_PICKAXE"
+      },
+      {
+        "value": "Items.GOLDEN_AXE"
+      },
+      {
+        "value": "Items.DIAMOND_PICKAXE"
+      },
+      {
+        "value": "Items.DIAMOND_AXE"
+      },
+      {
+        "value": "Items.NETHERITE_PICKAXE"
+      },
+      {
+        "value": "Items.NETHERITE_AXE"
+      },
+      {
+        "value": "CUSTOM:Crimsonagatehoe"
+      },
+      {
+        "value": "CUSTOM:Lumensparhoe"
+      },
+      {
+        "value": "Items.WOODEN_HOE"
+      },
+      {
+        "value": "Items.STONE_HOE"
+      },
+      {
+        "value": "Items.IRON_HOE"
+      },
+      {
+        "value": "Items.GOLDEN_HOE"
+      },
+      {
+        "value": "Items.DIAMOND_HOE"
+      },
+      {
+        "value": "Items.NETHERITE_HOE"
+      },
+      {
+        "value": "CUSTOM:Crimsonagatesword"
+      },
+      {
+        "value": "CUSTOM:Lumensparsword"
+      },
+      {
+        "value": "Items.WOODEN_SWORD"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.GOLDEN_SWORD"
+      },
+      {
+        "value": "Items.DIAMOND_SWORD"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "CUSTOM:Crimsonagateshovel"
+      },
+      {
+        "value": "CUSTOM:Lumensparshovel"
+      },
+      {
+        "value": "Items.WOODEN_SHOVEL"
+      },
+      {
+        "value": "Items.STONE_SHOVEL"
+      },
+      {
+        "value": "Items.IRON_SHOVEL"
+      },
+      {
+        "value": "Items.GOLDEN_SHOVEL"
+      },
+      {
+        "value": "Items.DIAMOND_SHOVEL"
+      },
+      {
+        "value": "Items.NETHERITE_SHOVEL"
+      },
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Items.CROSSBOW"
+      },
+      {
+        "value": "Items.TRIDENT"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

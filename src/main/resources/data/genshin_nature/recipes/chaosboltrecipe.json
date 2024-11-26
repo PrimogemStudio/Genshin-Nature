@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "1": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "2": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "3": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "4": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "5": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "6": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "7": {
+      "item": "genshin_nature:chaosmodule"
+    },
+    "8": {
+      "item": "genshin_nature:chaosmodule"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:chaosbolt",
+    "count": 1
+  }
+}

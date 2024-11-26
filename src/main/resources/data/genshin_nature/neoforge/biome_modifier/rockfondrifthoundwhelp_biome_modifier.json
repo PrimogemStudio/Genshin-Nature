@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "desert",
+    "badlands",
+    "plains",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "genshin_nature:rockfondrifthoundwhelp",
+    "weight": 58,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

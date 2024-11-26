@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:primogem"
+    },
+    "2": {
+      "item": "minecraft:red_dye"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:clay"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:redcafecup",
+    "count": 1
+  }
+}

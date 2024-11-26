@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "1": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "2": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "3": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "4": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "5": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "6": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "7": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    },
+    "8": {
+      "item": "genshin_nature:debrisofdecarabianscity"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:fragmentofdecarabiansepic",
+    "count": 1
+  }
+}

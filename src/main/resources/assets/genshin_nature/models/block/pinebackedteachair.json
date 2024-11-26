@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/pine_backed_tea_chair",
+  "textures": {
+    "all": "genshin_nature:block/pine_backed_tea_chair",
+    "particle": "genshin_nature:block/pine_backed_tea_chair",
+    "0": "genshin_nature:block/pine_backed_tea_chair"
+  },
+  "render_type": "solid"
+}

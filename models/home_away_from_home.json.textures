@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "home_away_from_home"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:firplanks"
+    },
+    "1": {
+      "item": "genshin_nature:firplanks"
+    },
+    "2": {
+      "item": "genshin_nature:firplanks"
+    },
+    "3": {
+      "item": "genshin_nature:firplanks"
+    },
+    "4": {
+      "item": "minecraft:blue_dye"
+    },
+    "5": {
+      "item": "genshin_nature:firplanks"
+    },
+    "6": {
+      "item": "minecraft:leather"
+    },
+    "8": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:crudedoubledeckerpallet",
+    "count": 1
+  }
+}

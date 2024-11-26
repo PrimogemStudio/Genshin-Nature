@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.YELLOW_FLOWER"
+      },
+      {
+        "value": "Blocks.YELLOW_FLOWER"
+      },
+      {
+        "value": "Blocks.YELLOW_FLOWER"
+      },
+      {
+        "value": "CUSTOM:Cecilia"
+      },
+      {
+        "value": "CUSTOM:Cecilia"
+      },
+      {
+        "value": "CUSTOM:Cecilia"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Crystalchunk"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Anemoculusresonancestone"
+    },
+    "name": "anemoculusresonancestonerecipe",
+    "namespace": "mod"
+  }
+}

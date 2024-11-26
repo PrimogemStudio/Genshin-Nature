@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:dreamingsteelbloom"
+    },
+    "1": {
+      "item": "genshin_nature:dreamingsteelbloom"
+    },
+    "2": {
+      "item": "genshin_nature:dreamingsteelbloom"
+    },
+    "3": {
+      "item": "genshin_nature:dreamingsteelbloom"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:featherofjudgment",
+    "count": 1
+  }
+}

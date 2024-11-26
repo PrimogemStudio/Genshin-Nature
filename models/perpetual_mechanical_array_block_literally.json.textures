@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "perpetual_mechanical_array_block_literally"
+      },
+      "name": "default"
+    }
+  }
+}

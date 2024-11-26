@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "plains",
+    "jungle",
+    "sparse_jungle",
+    "dark_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:rishbolandtiger",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

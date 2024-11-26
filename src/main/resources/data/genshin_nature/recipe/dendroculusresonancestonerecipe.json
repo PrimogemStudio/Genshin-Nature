@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:nilotpalalotus"
+    },
+    "b": {
+      "item": "genshin_nature:rukkhashavamushrooms"
+    },
+    "c": {
+      "item": "genshin_nature:crystalchunk"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:dendroculusresonancestone",
+    "count": 1
+  }
+}

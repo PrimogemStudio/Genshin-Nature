@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:matsutake"
+    },
+    "2": {
+      "item": "genshin_nature:matsutake"
+    },
+    "3": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "5": {
+      "item": "genshin_nature:snapdragon"
+    },
+    "7": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:ghostlymarch",
+    "count": 1
+  }
+}

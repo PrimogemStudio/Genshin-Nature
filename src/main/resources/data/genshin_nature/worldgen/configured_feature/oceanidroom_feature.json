@@ -1,0 +1,12 @@
+{
+  "type": "genshin_nature:structure_feature",
+  "config": {
+    "structure": "genshin_nature:oceanidroom",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

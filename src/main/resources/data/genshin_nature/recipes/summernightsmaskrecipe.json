@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:summernightswaterballoon"
+    },
+    "1": {
+      "item": "genshin_nature:summernightswaterballoon"
+    },
+    "2": {
+      "item": "genshin_nature:summernightswaterballoon"
+    },
+    "3": {
+      "item": "genshin_nature:summernightswaterballoon"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:summernightsmask",
+    "count": 1
+  }
+}

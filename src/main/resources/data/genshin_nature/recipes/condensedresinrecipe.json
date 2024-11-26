@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:originalresin"
+    },
+    "1": {
+      "item": "genshin_nature:originalresin"
+    },
+    "2": {
+      "item": "genshin_nature:originalresin"
+    },
+    "3": {
+      "item": "genshin_nature:originalresin"
+    },
+    "4": {
+      "item": "genshin_nature:crystalcore"
+    },
+    "5": {
+      "item": "genshin_nature:originalresin"
+    },
+    "6": {
+      "item": "genshin_nature:originalresin"
+    },
+    "7": {
+      "item": "genshin_nature:originalresin"
+    },
+    "8": {
+      "item": "genshin_nature:originalresin"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:condensedresin",
+    "count": 1
+  }
+}

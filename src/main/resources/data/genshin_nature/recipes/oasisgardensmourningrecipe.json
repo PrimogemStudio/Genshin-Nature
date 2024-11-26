@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "1": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "2": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "3": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "4": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "5": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "6": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "7": {
+      "item": "genshin_nature:oasisgardenskindness"
+    },
+    "8": {
+      "item": "genshin_nature:oasisgardenskindness"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:oasisgardensmourning",
+    "count": 1
+  }
+}

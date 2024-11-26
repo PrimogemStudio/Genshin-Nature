@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:lumenspar"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:lumenspararmor_leggings",
+    "count": 1
+  }
+}

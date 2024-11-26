@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "1": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "2": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "3": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "4": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "5": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "6": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "7": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    },
+    "8": {
+      "item": "genshin_nature:fragmentofdecarabiansepic"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:scatteredpieceofdecarabiansdream",
+    "count": 1
+  }
+}

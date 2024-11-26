@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:shadowyhuskstandardbearer",
+    "genshin_nature:shadowyhusklinebreaker",
+    "genshin_nature:shadowyhuskdefender"
+  ]
+}

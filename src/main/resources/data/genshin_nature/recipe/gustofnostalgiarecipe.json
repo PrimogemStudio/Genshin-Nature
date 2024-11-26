@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:gildedcorsage"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:gustofnostalgia",
+    "count": 1
+  }
+}

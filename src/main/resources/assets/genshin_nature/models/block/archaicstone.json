@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/archaic_stone",
+  "textures": {
+    "all": "genshin_nature:block/archaic_stone",
+    "particle": "genshin_nature:block/archaic_stone",
+    "0": "genshin_nature:block/archaic_stone"
+  },
+  "render_type": "cutout"
+}

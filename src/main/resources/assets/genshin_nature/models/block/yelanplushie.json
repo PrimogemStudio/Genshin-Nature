@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/yelan_plushie",
+  "textures": {
+    "all": "genshin_nature:block/yelan_plushie",
+    "particle": "genshin_nature:block/yelan_plushie",
+    "0": "genshin_nature:block/yelan_plushie"
+  },
+  "render_type": "solid"
+}

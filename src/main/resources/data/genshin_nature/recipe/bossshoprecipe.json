@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:leylinemineralblock"
+    },
+    "b": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:bossshopbuild",
+    "count": 1
+  }
+}

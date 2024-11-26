@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:crimsonagateblock"
+    },
+    {
+      "item": "genshin_nature:strangetooth"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:vitalizeddragontooth",
+    "count": 1
+  }
+}

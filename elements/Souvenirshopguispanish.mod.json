@@ -1,0 +1,73 @@
+{
+  "_fv": 71,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 203,
+          "y": 68,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_usa_insignias_para_obtener_premi",
+          "text": {
+            "fixedValue": "Usa insignias para obtener premios"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 123,
+          "y": 18,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_obtener_premios",
+          "text": "Obtener premios",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Souvenirshopbuying"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 163,
+          "y": 93,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 5,
+      "oy": 5,
+      "snapOnGrid": true
+    }
+  }
+}

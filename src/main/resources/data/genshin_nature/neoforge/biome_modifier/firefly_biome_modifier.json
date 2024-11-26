@@ -1,0 +1,25 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "birch_forest",
+    "dark_forest",
+    "flower_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "old_growth_spruce_taiga",
+    "old_growth_pine_taiga",
+    "snowy_taiga",
+    "taiga",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+  ],
+  "spawners": {
+    "type": "genshin_nature:firefly",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

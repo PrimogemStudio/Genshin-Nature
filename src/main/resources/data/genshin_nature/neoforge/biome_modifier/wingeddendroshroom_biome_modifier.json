@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "plains",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle",
+    "mushroom_fields"
+  ],
+  "spawners": {
+    "type": "genshin_nature:wingeddendroshroom",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:corlapis"
+    },
+    "b": {
+      "item": "genshin_nature:glazelily"
+    },
+    "c": {
+      "item": "genshin_nature:crystalchunk"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:geoculusresonancestone",
+    "count": 1
+  }
+}

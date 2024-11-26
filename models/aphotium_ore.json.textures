@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "aphotium_ore"
+      },
+      "name": "default"
+    }
+  }
+}

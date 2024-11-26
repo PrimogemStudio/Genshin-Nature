@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "genshin_nature:darkmud"
+    },
+    "title": {
+      "translate": "advancements.smellslikeasphalt.title"
+    },
+    "description": {
+      "translate": "advancements.smellslikeasphalt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "smellslikeasphalt_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

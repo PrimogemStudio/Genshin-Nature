@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:geovishap",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/clear_blue_afternoon",
+  "textures": {
+    "all": "genshin_nature:block/clear_blue_afternoon",
+    "particle": "genshin_nature:block/clear_blue_afternoon",
+    "0": "genshin_nature:block/clear_blue_afternoon"
+  },
+  "render_type": "solid"
+}

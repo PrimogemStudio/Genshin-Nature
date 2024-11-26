@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "minecraft:terracotta"
+    },
+    "4": {
+      "item": "genshin_nature:primogem"
+    },
+    "5": {
+      "item": "minecraft:terracotta"
+    },
+    "6": {
+      "item": "minecraft:terracotta"
+    },
+    "7": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "8": {
+      "item": "minecraft:terracotta"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:everlastingincense",
+    "count": 1
+  }
+}

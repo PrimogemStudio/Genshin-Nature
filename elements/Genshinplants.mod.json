@@ -1,0 +1,11 @@
+{
+  "_fv": 71,
+  "_type": "tab",
+  "definition": {
+    "name": "Genshin plants",
+    "icon": {
+      "value": "CUSTOM:Dendrobium"
+    },
+    "showSearch": false
+  }
+}

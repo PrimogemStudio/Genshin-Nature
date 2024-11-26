@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "particle": "genshin_nature:block/cuihua_planks",
+    "texture": "genshin_nature:block/cuihua_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:basaltpillaritem"
+    },
+    {
+      "item": "genshin_nature:blankdelusion"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:geodelusion",
+    "count": 1
+  }
+}

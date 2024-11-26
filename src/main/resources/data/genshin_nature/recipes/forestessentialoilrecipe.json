@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "genshin_nature:lizardtail"
+    },
+    {
+      "item": "genshin_nature:sumerurose"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "genshin_nature:forestessentialoil",
+    "count": 1
+  }
+}

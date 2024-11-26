@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:redrotbait"
+    },
+    {
+      "item": "genshin_nature:fruitpastebait"
+    },
+    {
+      "item": "genshin_nature:fakeflybait"
+    },
+    {
+      "item": "genshin_nature:falsewormbait"
+    },
+    {
+      "item": "genshin_nature:sugardewbait"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:glowgrassbait",
+    "count": 1
+  }
+}

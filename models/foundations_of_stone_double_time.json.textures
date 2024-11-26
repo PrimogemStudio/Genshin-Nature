@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "foundations_of_stone_double_time"
+      },
+      "name": "default"
+    }
+  }
+}

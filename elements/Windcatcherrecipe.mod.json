@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Windwheelaster"
+      },
+      {
+        "value": "CUSTOM:Hurricaneseed"
+      },
+      {
+        "value": "CUSTOM:Windwheelaster"
+      },
+      {
+        "value": "CUSTOM:Crystalchunk"
+      },
+      {
+        "value": "CUSTOM:Crystalchunk"
+      },
+      {
+        "value": "CUSTOM:Crystalchunk"
+      },
+      {
+        "value": "CUSTOM:Windwheelaster"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:Windwheelaster"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Windcatcher"
+    },
+    "name": "windcatcherrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/flora_converter_top",
+    "up": "genshin_nature:block/flora_converter_top",
+    "north": "genshin_nature:block/flora_converter_front",
+    "east": "genshin_nature:block/flora_converter_side",
+    "south": "genshin_nature:block/flora_converter_side",
+    "west": "genshin_nature:block/flora_converter_side",
+    "particle": "genshin_nature:block/flora_converter_top"
+  },
+  "render_type": "solid"
+}

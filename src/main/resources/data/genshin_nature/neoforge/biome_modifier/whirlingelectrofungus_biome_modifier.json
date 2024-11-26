@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "old_growth_spruce_taiga",
+    "plains",
+    "old_growth_pine_taiga",
+    "taiga",
+    "dark_forest"
+  ],
+  "spawners": {
+    "type": "genshin_nature:whirlingelectrofungus",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

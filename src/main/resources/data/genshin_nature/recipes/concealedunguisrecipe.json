@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "1": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "2": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "3": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "4": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "5": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "6": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "7": {
+      "item": "genshin_nature:concealedclaw"
+    },
+    "8": {
+      "item": "genshin_nature:concealedclaw"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:concealedunguis",
+    "count": 1
+  }
+}

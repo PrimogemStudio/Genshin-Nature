@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:deeppalacesplume"
+    },
+    "1": {
+      "item": "genshin_nature:deeppalacesplume"
+    },
+    "2": {
+      "item": "genshin_nature:deeppalacesplume"
+    },
+    "3": {
+      "item": "genshin_nature:deeppalacesplume"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:cowryofparting",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_dye"
+    },
+    "1": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "2": {
+      "item": "minecraft:red_dye"
+    },
+    "4": {
+      "item": "minecraft:leather"
+    },
+    "6": {
+      "item": "genshin_nature:sandbearerplanks"
+    },
+    "7": {
+      "item": "genshin_nature:sandbearerplanks"
+    },
+    "8": {
+      "item": "genshin_nature:sandbearerplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:liulipavilionsandbearerfloorlamp",
+    "count": 1
+  }
+}

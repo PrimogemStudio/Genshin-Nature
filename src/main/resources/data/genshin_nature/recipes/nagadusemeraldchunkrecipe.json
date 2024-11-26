@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:nagadusemeraldfragment"
+    },
+    "1": {
+      "item": "genshin_nature:nagadusemeraldfragment"
+    },
+    "2": {
+      "item": "genshin_nature:nagadusemeraldfragment"
+    },
+    "3": {
+      "item": "genshin_nature:nagadusemeraldfragment"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:nagadusemeraldchunk",
+    "count": 1
+  }
+}

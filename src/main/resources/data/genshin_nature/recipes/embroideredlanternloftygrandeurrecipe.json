@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:red_dye"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "genshin_nature:sandbearerplanks"
+    },
+    "4": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "genshin_nature:sandbearerplanks"
+    },
+    "6": {
+      "item": "genshin_nature:sandbearerplanks"
+    },
+    "7": {
+      "item": "genshin_nature:sandbearerplanks"
+    },
+    "8": {
+      "item": "genshin_nature:sandbearerplanks"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:embroideredlanternloftygrandeur",
+    "count": 1
+  }
+}

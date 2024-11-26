@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/sandbearer_leaves",
+    "up": "genshin_nature:block/sandbearer_leaves",
+    "north": "genshin_nature:block/sandbearer_leaves",
+    "east": "genshin_nature:block/sandbearer_leaves",
+    "south": "genshin_nature:block/sandbearer_leaves",
+    "west": "genshin_nature:block/sandbearer_leaves",
+    "particle": "genshin_nature:block/sandbearer_leaves"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "1": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "2": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "3": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "4": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "5": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "6": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "7": {
+      "item": "genshin_nature:sharparrowhead"
+    },
+    "8": {
+      "item": "genshin_nature:sharparrowhead"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:weatheredarrowhead",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#is_overworld",
+  "features": "genshin_nature:hydroamberspawning_feature",
+  "step": "surface_structures"
+}

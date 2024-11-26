@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "genshin_nature:block/lumenspar_ore_final2",
+    "up": "genshin_nature:block/lumenspar_ore_final2",
+    "north": "genshin_nature:block/lumenspar_ore_final2",
+    "east": "genshin_nature:block/lumenspar_ore_final2",
+    "south": "genshin_nature:block/lumenspar_ore_final2",
+    "west": "genshin_nature:block/lumenspar_ore_final2",
+    "particle": "genshin_nature:block/lumenspar_ore_final2"
+  },
+  "render_type": "solid"
+}

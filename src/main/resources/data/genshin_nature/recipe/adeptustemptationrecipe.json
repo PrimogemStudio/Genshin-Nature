@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:porkchop"
+    },
+    "b": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "c": {
+      "item": "genshin_nature:sangopearl"
+    },
+    "d": {
+      "item": "genshin_nature:matsutake"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:adeptustemptation",
+    "count": 1
+  }
+}

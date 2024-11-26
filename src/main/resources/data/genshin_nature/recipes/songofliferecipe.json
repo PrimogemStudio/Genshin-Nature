@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:plumeofluxury"
+    },
+    "1": {
+      "item": "genshin_nature:plumeofluxury"
+    },
+    "2": {
+      "item": "genshin_nature:plumeofluxury"
+    },
+    "3": {
+      "item": "genshin_nature:plumeofluxury"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:songoflife",
+    "count": 1
+  }
+}

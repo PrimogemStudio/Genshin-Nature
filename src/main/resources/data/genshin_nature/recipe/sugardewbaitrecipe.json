@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:sumerurose"
+    },
+    {
+      "item": "genshin_nature:harrafruit"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:sugardewbait",
+    "count": 1
+  }
+}

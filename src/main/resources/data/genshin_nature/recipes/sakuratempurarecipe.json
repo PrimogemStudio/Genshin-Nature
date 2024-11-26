@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:lavendermelon"
+    },
+    "1": {
+      "item": "genshin_nature:flour"
+    },
+    "2": {
+      "item": "genshin_nature:lavendermelon"
+    },
+    "3": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "4": {
+      "item": "genshin_nature:sakurabloom"
+    },
+    "5": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "6": {
+      "item": "genshin_nature:shrimpmeat"
+    },
+    "7": {
+      "item": "genshin_nature:sakurabloom"
+    },
+    "8": {
+      "item": "genshin_nature:shrimpmeat"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sakuratempura",
+    "count": 1
+  }
+}

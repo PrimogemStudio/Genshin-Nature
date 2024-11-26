@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:wolfhook"
+    },
+    "1": {
+      "item": "genshin_nature:wolfhook"
+    },
+    "2": {
+      "item": "genshin_nature:sunsettia"
+    },
+    "3": {
+      "item": "genshin_nature:sunsettia"
+    },
+    "4": {
+      "item": "genshin_nature:salt"
+    },
+    "5": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:fruitsofthefestival",
+    "count": 1
+  }
+}

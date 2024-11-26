@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "CUSTOM:Bacon"
+      },
+      {
+        "value": "CUSTOM:Sausage"
+      },
+      {
+        "value": "CUSTOM:Mint"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Coldcutplatter"
+    },
+    "name": "coldcutplatterrecipe",
+    "namespace": "mod"
+  }
+}

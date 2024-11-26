@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "1": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "2": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "3": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "4": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "5": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "6": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "7": {
+      "item": "genshin_nature:delusionfragment"
+    },
+    "8": {
+      "item": "genshin_nature:delusionfragment"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:blankdelusion",
+    "count": 1
+  }
+}

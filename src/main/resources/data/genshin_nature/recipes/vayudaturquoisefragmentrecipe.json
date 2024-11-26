@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "1": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "2": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "3": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "4": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "5": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "6": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "7": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    },
+    "8": {
+      "item": "genshin_nature:vayudaturquoisesliver"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:vayudaturquoisefragment",
+    "count": 1
+  }
+}

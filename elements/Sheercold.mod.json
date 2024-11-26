@@ -1,0 +1,22 @@
+{
+  "_fv": 71,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sheer cold",
+    "icon": "sheer_cold_icon.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "SheercoldOnEffectActiveTick"
+    }
+  }
+}

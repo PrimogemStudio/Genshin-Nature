@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "genshin_nature:chilledmeat"
+    },
+    "title": {
+      "translate": "advancements.thehunterbecomesthehunted.title"
+    },
+    "description": {
+      "translate": "advancements.thehunterbecomesthehunted.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thehunterbecomesthehunted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "genshin_nature:genshinachievements"
+}

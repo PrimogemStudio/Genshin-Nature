@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "genshin_nature:block/cuihua_planks",
+    "bottom": "genshin_nature:block/cuihua_planks",
+    "top": "genshin_nature:block/cuihua_planks",
+    "side": "genshin_nature:block/cuihua_planks"
+  },
+  "render_type": "solid"
+}

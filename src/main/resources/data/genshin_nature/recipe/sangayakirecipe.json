@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cod"
+    },
+    "b": {
+      "item": "genshin_nature:salt"
+    },
+    "c": {
+      "item": "genshin_nature:snapdragon"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:sangayaki",
+    "count": 1
+  }
+}

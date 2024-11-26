@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "plains",
+    "sunflower_plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:crow",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "swamp",
+    "plains"
+  ],
+  "features": "genshin_nature:tokoyolegume",
+  "step": "vegetal_decoration"
+}

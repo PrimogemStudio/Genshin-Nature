@@ -1,0 +1,89 @@
+{
+  "_fv": 71,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 206,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pide_un_deseo",
+          "text": "Pide un deseo",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Makingawish"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 171,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_usa_destinos_para_pedir_deseos_b",
+          "text": {
+            "fixedValue": "Usa destinos para pedir deseos b�sicos"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "x": 111,
+          "y": 23,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_usa_resinas_para_pedir_deseos_es",
+          "text": {
+            "fixedValue": "Usa resinas para pedir deseos especiales"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "x": 106,
+          "y": 8,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

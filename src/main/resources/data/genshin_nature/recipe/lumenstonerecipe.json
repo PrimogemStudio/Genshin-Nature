@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:lumenspar"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    },
+    "c": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:lumenstone",
+    "count": 1
+  }
+}

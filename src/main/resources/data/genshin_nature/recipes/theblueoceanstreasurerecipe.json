@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_planks"
+    },
+    "1": {
+      "item": "minecraft:spruce_planks"
+    },
+    "2": {
+      "item": "minecraft:spruce_planks"
+    },
+    "3": {
+      "item": "genshin_nature:whiteironchunk"
+    },
+    "4": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "5": {
+      "item": "genshin_nature:whiteironchunk"
+    },
+    "6": {
+      "item": "genshin_nature:ironchunk"
+    },
+    "7": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "8": {
+      "item": "genshin_nature:ironchunk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:theblueoceanstreasure",
+    "count": 1
+  }
+}

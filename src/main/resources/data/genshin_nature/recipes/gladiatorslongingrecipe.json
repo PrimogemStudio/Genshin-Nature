@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:gladiatorsdestiny"
+    },
+    "1": {
+      "item": "genshin_nature:gladiatorsdestiny"
+    },
+    "2": {
+      "item": "genshin_nature:gladiatorsdestiny"
+    },
+    "3": {
+      "item": "genshin_nature:gladiatorsdestiny"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:gladiatorslonging",
+    "count": 1
+  }
+}

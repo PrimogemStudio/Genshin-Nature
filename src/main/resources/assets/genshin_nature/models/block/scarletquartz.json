@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/scarlet_quartz",
+  "textures": {
+    "all": "genshin_nature:block/scarlet_quartz",
+    "particle": "genshin_nature:block/scarlet_quartz",
+    "0": "genshin_nature:block/scarlet_quartz"
+  },
+  "render_type": "solid"
+}

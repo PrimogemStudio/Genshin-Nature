@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest",
+    "desert"
+  ],
+  "spawners": {
+    "type": "genshin_nature:whirlingpyrofungus",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

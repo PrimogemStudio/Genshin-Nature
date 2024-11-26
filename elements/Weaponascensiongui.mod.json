@@ -1,0 +1,491 @@
+{
+  "_fv": 71,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 237,
+    "height": 189,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 9,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 201,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 106,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ascend",
+          "text": "Ascend",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Callallascensions"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_auto",
+          "text": "Auto",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Callallautoplaces"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 266,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 126,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 146,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 166,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 186,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 206,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 226,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 246,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 266,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 10,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 286,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 11,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 306,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 12,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 106,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 13,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 126,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 14,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 146,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 15,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 166,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 16,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 186,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 17,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 206,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 18,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 226,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 19,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 246,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 20,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 266,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 21,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 286,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 22,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 306,
+          "y": 6,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 10,
+      "oy": 10,
+      "snapOnGrid": true
+    }
+  }
+}

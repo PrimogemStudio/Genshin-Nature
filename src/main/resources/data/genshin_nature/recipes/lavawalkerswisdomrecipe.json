@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:lavawalkersepiphany"
+    },
+    "1": {
+      "item": "genshin_nature:lavawalkersepiphany"
+    },
+    "2": {
+      "item": "genshin_nature:lavawalkersepiphany"
+    },
+    "3": {
+      "item": "genshin_nature:lavawalkersepiphany"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:lavawalkerswisdom",
+    "count": 1
+  }
+}

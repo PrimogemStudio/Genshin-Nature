@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "plains",
+    "desert"
+  ],
+  "spawners": {
+    "type": "genshin_nature:redtailedweasel",
+    "weight": 91,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:sundialofenduringjade"
+    },
+    "1": {
+      "item": "genshin_nature:sundialofenduringjade"
+    },
+    "2": {
+      "item": "genshin_nature:sundialofenduringjade"
+    },
+    "3": {
+      "item": "genshin_nature:sundialofenduringjade"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:gobletofchiseledcrag",
+    "count": 1
+  }
+}

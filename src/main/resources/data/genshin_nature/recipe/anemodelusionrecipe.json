@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "genshin_nature:hurricaneseed"
+    },
+    {
+      "item": "genshin_nature:blankdelusion"
+    }
+  ],
+  "result": {
+    "id": "genshin_nature:anemodelusion",
+    "count": 1
+  }
+}

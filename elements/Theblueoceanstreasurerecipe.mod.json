@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "CUSTOM:Whiteironchunk"
+      },
+      {
+        "value": "Items.NAUTILUS_SHELL"
+      },
+      {
+        "value": "CUSTOM:Whiteironchunk"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      },
+      {
+        "value": "Items.NAUTILUS_SHELL"
+      },
+      {
+        "value": "CUSTOM:Ironchunk"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Theblueoceanstreasure"
+    },
+    "name": "theblueoceanstreasurerecipe",
+    "namespace": "mod"
+  }
+}

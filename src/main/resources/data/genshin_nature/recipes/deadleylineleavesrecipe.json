@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "1": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "2": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "3": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "4": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "5": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "6": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "7": {
+      "item": "genshin_nature:deadleylinebranch"
+    },
+    "8": {
+      "item": "genshin_nature:deadleylinebranch"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:deadleylineleaves",
+    "count": 1
+  }
+}

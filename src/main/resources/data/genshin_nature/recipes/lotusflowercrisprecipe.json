@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:flour"
+    },
+    "1": {
+      "item": "genshin_nature:almond"
+    },
+    "2": {
+      "item": "genshin_nature:flour"
+    },
+    "3": {
+      "item": "genshin_nature:almond"
+    },
+    "4": {
+      "item": "minecraft:sugar"
+    },
+    "5": {
+      "item": "genshin_nature:almond"
+    },
+    "6": {
+      "item": "genshin_nature:butter"
+    },
+    "7": {
+      "item": "genshin_nature:almond"
+    },
+    "8": {
+      "item": "genshin_nature:butter"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:lotusflowercrisp",
+    "count": 1
+  }
+}

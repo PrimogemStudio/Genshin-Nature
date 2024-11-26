@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "1": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "2": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "3": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "4": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "5": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "6": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "7": {
+      "item": "genshin_nature:recruitsinsignia"
+    },
+    "8": {
+      "item": "genshin_nature:recruitsinsignia"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:sergeantsinsignia",
+    "count": 1
+  }
+}

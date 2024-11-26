@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/greencatplushie",
+  "textures": {
+    "all": "genshin_nature:block/greencatplushie",
+    "particle": "genshin_nature:block/greencatplushie",
+    "0": "genshin_nature:block/greencatplushie"
+  },
+  "render_type": "cutout_mipped"
+}

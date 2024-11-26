@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "old_growth_spruce_taiga",
+    "plains",
+    "old_growth_pine_taiga",
+    "snowy_taiga",
+    "taiga"
+  ],
+  "features": "genshin_nature:ofpromisesunkeptthenightflowersspeak",
+  "step": "vegetal_decoration"
+}

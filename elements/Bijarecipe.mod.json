@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Vasmrti"
+      },
+      {
+        "value": "CUSTOM:Vasmrti"
+      },
+      {
+        "value": "CUSTOM:Vasmrti"
+      },
+      {
+        "value": "CUSTOM:Vasomafruit"
+      },
+      {
+        "value": "CUSTOM:Vasomafruit"
+      },
+      {
+        "value": "CUSTOM:Vasomafruit"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aramasflower"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Bija"
+    },
+    "name": "bijarecipe",
+    "namespace": "mod"
+  }
+}

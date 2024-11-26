@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "genshin_nature:softamber",
+    "genshin_nature:rocksmasher",
+    "genshin_nature:icebreaker",
+    "genshin_nature:enemyofnature",
+    "genshin_nature:electricabsorb",
+    "genshin_nature:windblower",
+    "genshin_nature:hydrophobia",
+    "genshin_nature:fireextinguiser",
+    "genshin_nature:magicdestroyer"
+  ]
+}

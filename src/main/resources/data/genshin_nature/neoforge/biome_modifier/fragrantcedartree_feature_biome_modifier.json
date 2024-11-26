@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "plains",
+    "windswept_hills",
+    "windswept_forest",
+    "river"
+  ],
+  "features": "genshin_nature:fragrantcedartree_feature",
+  "step": "surface_structures"
+}

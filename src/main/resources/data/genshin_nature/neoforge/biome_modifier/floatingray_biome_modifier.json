@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "windswept_gravelly_hills",
+  "spawners": {
+    "type": "genshin_nature:floatingray",
+    "weight": 58,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

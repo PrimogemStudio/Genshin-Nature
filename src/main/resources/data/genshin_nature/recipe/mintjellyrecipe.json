@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:mint"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:mintjelly",
+    "count": 1
+  }
+}

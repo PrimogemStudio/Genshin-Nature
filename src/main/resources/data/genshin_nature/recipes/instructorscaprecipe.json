@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:instructorsteacup"
+    },
+    "1": {
+      "item": "genshin_nature:instructorsteacup"
+    },
+    "2": {
+      "item": "genshin_nature:instructorsteacup"
+    },
+    "3": {
+      "item": "genshin_nature:instructorsteacup"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:instructorscap",
+    "count": 1
+  }
+}

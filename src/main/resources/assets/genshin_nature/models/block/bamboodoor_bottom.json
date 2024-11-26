@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "genshin_nature:blocks/bamboo_door_bottom",
+    "top": "genshin_nature:blocks/bamboo_door_top"
+  }
+}

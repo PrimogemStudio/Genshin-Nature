@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "foundation_of_stone_path_of_cultivation"
+      },
+      "name": "default"
+    }
+  }
+}

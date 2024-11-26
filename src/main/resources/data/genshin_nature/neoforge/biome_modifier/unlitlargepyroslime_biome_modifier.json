@@ -1,0 +1,26 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "badlands",
+    "plains",
+    "eroded_badlands",
+    "wooded_badlands",
+    "desert",
+    "crimson_forest",
+    "soul_sand_valley",
+    "nether_wastes",
+    "warped_forest",
+    "basalt_deltas",
+    "swamp",
+    "sunflower_plains",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+  ],
+  "spawners": {
+    "type": "genshin_nature:unlitlargepyroslime",
+    "weight": 45,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

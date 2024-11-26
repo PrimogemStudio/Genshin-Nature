@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nahida_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

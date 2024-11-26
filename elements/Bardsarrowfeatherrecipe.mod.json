@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Troupesdawnlight"
+      },
+      {
+        "value": "CUSTOM:Troupesdawnlight"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Troupesdawnlight"
+      },
+      {
+        "value": "CUSTOM:Troupesdawnlight"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Bardsarrowfeather"
+    },
+    "name": "bardsarrowfeatherrecipe",
+    "namespace": "mod"
+  }
+}

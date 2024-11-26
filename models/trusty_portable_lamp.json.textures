@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "trusty_portable_lamp"
+      },
+      "name": "default"
+    }
+  }
+}

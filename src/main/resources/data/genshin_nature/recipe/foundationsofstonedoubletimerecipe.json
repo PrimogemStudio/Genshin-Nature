@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:whiteironchunk"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:foundationsofstonedoubletime",
+    "count": 1
+  }
+}

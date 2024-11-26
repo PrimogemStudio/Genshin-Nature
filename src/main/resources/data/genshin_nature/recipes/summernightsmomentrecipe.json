@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:summernightsfinale"
+    },
+    "1": {
+      "item": "genshin_nature:summernightsfinale"
+    },
+    "2": {
+      "item": "genshin_nature:summernightsfinale"
+    },
+    "3": {
+      "item": "genshin_nature:summernightsfinale"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:summernightsmoment",
+    "count": 1
+  }
+}

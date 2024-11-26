@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/perpetual_mechanical_array_block_literally",
+  "textures": {
+    "all": "genshin_nature:block/perpetual_mechanical_array_block_literally",
+    "particle": "genshin_nature:block/perpetual_mechanical_array_block_literally",
+    "0": "genshin_nature:block/perpetual_mechanical_array_block_literally"
+  },
+  "render_type": "solid"
+}

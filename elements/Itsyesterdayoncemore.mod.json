@@ -1,0 +1,24 @@
+{
+  "_fv": 71,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "It's yesterday once more",
+    "achievementDescription": "Place an euphonium unbound",
+    "achievementIcon": {
+      "value": "CUSTOM:Euphoniumunboundwinding"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Genshinachievements"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"block_placed\" x=\"58\" y=\"19\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Euphoniumunboundwinding</field></block></value></block></next></block></xml>"
+  }
+}

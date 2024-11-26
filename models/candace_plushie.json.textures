@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "candace_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

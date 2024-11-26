@@ -1,0 +1,9 @@
+{
+  "parent": "genshin_nature:custom/otogi_rakushi_square_stool",
+  "textures": {
+    "all": "genshin_nature:block/otogi_rakushi_square_stool",
+    "particle": "genshin_nature:block/otogi_rakushi_square_stool",
+    "0": "genshin_nature:block/otogi_rakushi_square_stool"
+  },
+  "render_type": "solid"
+}

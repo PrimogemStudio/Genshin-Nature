@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "skyward_harp_ascended",
+        "1": "skyward_harp_ascended_emissive"
+      },
+      "name": "default"
+    }
+  }
+}

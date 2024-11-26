@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:troupesdawnlight"
+    },
+    "1": {
+      "item": "genshin_nature:troupesdawnlight"
+    },
+    "2": {
+      "item": "genshin_nature:troupesdawnlight"
+    },
+    "3": {
+      "item": "genshin_nature:troupesdawnlight"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:bardsarrowfeather",
+    "count": 1
+  }
+}

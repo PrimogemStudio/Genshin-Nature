@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:gamblersbrooch"
+    },
+    "1": {
+      "item": "genshin_nature:gamblersbrooch"
+    },
+    "2": {
+      "item": "genshin_nature:gamblersbrooch"
+    },
+    "3": {
+      "item": "genshin_nature:gamblersbrooch"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:gamblersfeatheraccessory",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "CUSTOM:Rawmeat"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:Butter"
+      },
+      {
+        "value": "CUSTOM:Butter"
+      },
+      {
+        "value": "CUSTOM:Butter"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Moonpie"
+    },
+    "name": "moonpierecipe",
+    "namespace": "mod"
+  }
+}

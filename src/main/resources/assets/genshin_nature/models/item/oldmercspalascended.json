@@ -1,0 +1,7 @@
+{
+  "parent": "genshin_nature:custom/old_mercs_pal_ascended",
+  "textures": {
+    "0": "genshin_nature:block/old_mercs_pal_ascended",
+    "particle": "genshin_nature:item/old_mercs_pal_ascended"
+  }
+}

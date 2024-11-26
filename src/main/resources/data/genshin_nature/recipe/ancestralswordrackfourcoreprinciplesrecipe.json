@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "genshin_nature:whiteironchunk"
+    },
+    "b": {
+      "item": "minecraft:blue_dye"
+    },
+    "c": {
+      "item": "genshin_nature:araliaplanks"
+    }
+  },
+  "result": {
+    "id": "genshin_nature:ancestralswordrackfourcoreprinciples",
+    "count": 1
+  }
+}

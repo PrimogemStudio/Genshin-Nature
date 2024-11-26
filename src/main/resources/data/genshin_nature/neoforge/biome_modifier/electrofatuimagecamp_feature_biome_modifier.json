@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "sunflower_plains",
+    "taiga"
+  ],
+  "features": "genshin_nature:electrofatuimagecamp_feature",
+  "step": "surface_structures"
+}

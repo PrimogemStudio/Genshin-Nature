@@ -1,0 +1,12 @@
+{
+  "_fv": 71,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Allow Lit Pyro Slimes",
+    "description": "If set to true, pyro slimes will be able to spawn lit. If set to false, they'll all spawn unlit.",
+    "category": "MOBS",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

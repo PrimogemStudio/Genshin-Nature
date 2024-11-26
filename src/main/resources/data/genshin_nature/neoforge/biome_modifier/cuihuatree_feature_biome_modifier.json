@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "sunflower_plains"
+  ],
+  "features": "genshin_nature:cuihuatree_feature",
+  "step": "surface_structures"
+}

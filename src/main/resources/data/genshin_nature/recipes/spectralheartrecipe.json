@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "1": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "2": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "3": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "4": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "5": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "6": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "7": {
+      "item": "genshin_nature:spectralhusk"
+    },
+    "8": {
+      "item": "genshin_nature:spectralhusk"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:spectralheart",
+    "count": 1
+  }
+}

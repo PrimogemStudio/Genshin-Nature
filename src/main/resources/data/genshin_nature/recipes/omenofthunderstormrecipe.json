@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:hourglassofthunder"
+    },
+    "1": {
+      "item": "genshin_nature:hourglassofthunder"
+    },
+    "2": {
+      "item": "genshin_nature:hourglassofthunder"
+    },
+    "3": {
+      "item": "genshin_nature:hourglassofthunder"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:omeofthunderstorm",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 71,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Blocks.SPRUCE_FENCE"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Blocks.SPRUCE_FENCE"
+      },
+      {
+        "value": "Blocks.SPRUCE_FENCE"
+      },
+      {
+        "value": "CUSTOM:Primogem"
+      },
+      {
+        "value": "Blocks.SPRUCE_FENCE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Redpinewoodroundstool"
+    },
+    "name": "redpinewoodroundstoolrecipe",
+    "namespace": "mod"
+  }
+}

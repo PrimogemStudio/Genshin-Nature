@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_nature:bloodstainedfinalhour"
+    },
+    "1": {
+      "item": "genshin_nature:bloodstainedfinalhour"
+    },
+    "2": {
+      "item": "genshin_nature:bloodstainedfinalhour"
+    },
+    "3": {
+      "item": "genshin_nature:bloodstainedfinalhour"
+    }
+  },
+  "result": {
+    "item": "genshin_nature:bloodstainedchevaliersgoblet",
+    "count": 1
+  }
+}

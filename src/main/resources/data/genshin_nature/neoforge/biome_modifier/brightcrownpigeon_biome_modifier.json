@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "plains",
+    "sunflower_plains"
+  ],
+  "spawners": {
+    "type": "genshin_nature:brightcrownpigeon",
+    "weight": 171,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
