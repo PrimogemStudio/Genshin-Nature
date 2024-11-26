@@ -48,7 +48,7 @@ jobs:
           arguments: build
 
       - name: Rename
-        run: mv build/libs/modid-1.0.jar build/libs/genshin-nature-${{ env.LAST_COMMIT_SHA }}
+        run: mv build/libs/modid-1.0.jar build/libs/genshin-nature-${{ env.LAST_COMMIT_SHA }}.jar
 
       - name: Upload JAR file
         uses: actions/upload-artifact@v3
