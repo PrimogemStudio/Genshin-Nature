@@ -85,6 +85,10 @@ public class ArtifactguiMenu extends AbstractContainerMenu implements Supplier<M
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 84, 67) {
+			private final int slot = 0;
+			private int x = ArtifactguiMenu.this.x;
+			private int y = ArtifactguiMenu.this.y;
+
 			@Override
 			public void setChanged() {
 				super.setChanged();
@@ -92,6 +96,10 @@ public class ArtifactguiMenu extends AbstractContainerMenu implements Supplier<M
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 48, 49) {
+			private final int slot = 1;
+			private int x = ArtifactguiMenu.this.x;
+			private int y = ArtifactguiMenu.this.y;
+
 			@Override
 			public void setChanged() {
 				super.setChanged();
@@ -99,6 +107,10 @@ public class ArtifactguiMenu extends AbstractContainerMenu implements Supplier<M
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 120, 49) {
+			private final int slot = 2;
+			private int x = ArtifactguiMenu.this.x;
+			private int y = ArtifactguiMenu.this.y;
+
 			@Override
 			public void setChanged() {
 				super.setChanged();
@@ -106,6 +118,10 @@ public class ArtifactguiMenu extends AbstractContainerMenu implements Supplier<M
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 102, 22) {
+			private final int slot = 3;
+			private int x = ArtifactguiMenu.this.x;
+			private int y = ArtifactguiMenu.this.y;
+
 			@Override
 			public void setChanged() {
 				super.setChanged();
@@ -113,6 +129,10 @@ public class ArtifactguiMenu extends AbstractContainerMenu implements Supplier<M
 			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 66, 22) {
+			private final int slot = 4;
+			private int x = ArtifactguiMenu.this.x;
+			private int y = ArtifactguiMenu.this.y;
+
 			@Override
 			public void setChanged() {
 				super.setChanged();

@@ -83,6 +83,9 @@ public class SouvenirshopguispanishMenu extends AbstractContainerMenu implements
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 78, 32) {
+			private final int slot = 0;
+			private int x = SouvenirshopguispanishMenu.this.x;
+			private int y = SouvenirshopguispanishMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

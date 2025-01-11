@@ -83,22 +83,49 @@ public class FishingblockguiMenu extends AbstractContainerMenu implements Suppli
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 118, 57) {
+			private final int slot = 0;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 98, 57) {
+			private final int slot = 1;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 58, 57) {
+			private final int slot = 2;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 78, 57) {
+			private final int slot = 3;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 53, 17) {
+			private final int slot = 4;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 73, 17) {
+			private final int slot = 5;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 93, 17) {
+			private final int slot = 6;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 113, 17) {
+			private final int slot = 7;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 133, 17) {
+			private final int slot = 8;
+			private int x = FishingblockguiMenu.this.x;
+			private int y = FishingblockguiMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

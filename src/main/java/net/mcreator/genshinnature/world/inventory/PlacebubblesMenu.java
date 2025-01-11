@@ -84,18 +84,30 @@ public class PlacebubblesMenu extends AbstractContainerMenu implements Supplier<
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 41, 25) {
+			private final int slot = 0;
+			private int x = PlacebubblesMenu.this.x;
+			private int y = PlacebubblesMenu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return GenshinNatureModBlocks.SHOOTINGBUBBLE.get().asItem() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 76, 25) {
+			private final int slot = 1;
+			private int x = PlacebubblesMenu.this.x;
+			private int y = PlacebubblesMenu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return GenshinNatureModBlocks.SHOOTINGBUBBLE.get().asItem() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 111, 25) {
+			private final int slot = 2;
+			private int x = PlacebubblesMenu.this.x;
+			private int y = PlacebubblesMenu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return GenshinNatureModBlocks.SHOOTINGBUBBLE.get().asItem() == stack.getItem();

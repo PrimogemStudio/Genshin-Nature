@@ -83,16 +83,35 @@ public class Quest2Menu extends AbstractContainerMenu implements Supplier<Map<In
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 12) {
+			private final int slot = 0;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 30) {
+			private final int slot = 1;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 25, 48) {
+			private final int slot = 2;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 66) {
+			private final int slot = 3;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 84) {
+			private final int slot = 4;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, -38, 12) {
+			private final int slot = 5;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
+
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
@@ -104,6 +123,10 @@ public class Quest2Menu extends AbstractContainerMenu implements Supplier<Map<In
 			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, -38, 30) {
+			private final int slot = 6;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
+
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
@@ -115,6 +138,10 @@ public class Quest2Menu extends AbstractContainerMenu implements Supplier<Map<In
 			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, -38, 48) {
+			private final int slot = 7;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
+
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
@@ -126,6 +153,10 @@ public class Quest2Menu extends AbstractContainerMenu implements Supplier<Map<In
 			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, -38, 66) {
+			private final int slot = 8;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
+
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
@@ -137,6 +168,10 @@ public class Quest2Menu extends AbstractContainerMenu implements Supplier<Map<In
 			}
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, -38, 84) {
+			private final int slot = 9;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
+
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
@@ -148,12 +183,20 @@ public class Quest2Menu extends AbstractContainerMenu implements Supplier<Map<In
 			}
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 79, 48) {
+			private final int slot = 10;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, -38, 129) {
+			private final int slot = 11;
+			private int x = Quest2Menu.this.x;
+			private int y = Quest2Menu.this.y;
+
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;

@@ -83,6 +83,9 @@ public class SouvenirshopguiMenu extends AbstractContainerMenu implements Suppli
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 78, 32) {
+			private final int slot = 0;
+			private int x = SouvenirshopguiMenu.this.x;
+			private int y = SouvenirshopguiMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
