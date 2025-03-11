@@ -53,74 +53,20 @@ public class Clickquest20Procedure {
 			_player.containerMenu.broadcastChanges();
 		}
 		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Items.PAPER) {
-			if (new Object() {
-				public int getAmount(int sltid) {
-					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-						ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-						if (stack != null)
-							return stack.getCount();
-					}
-					return 0;
-				}
-			}.getAmount(0) >= 8) {
+			if (getAmountInGUISlot(entity, 0) >= 8) {
 				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == GenshinNatureModItems.FUTURESTAR
 						.get()) {
-					if (new Object() {
-						public int getAmount(int sltid) {
-							if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-								if (stack != null)
-									return stack.getCount();
-							}
-							return 0;
-						}
-					}.getAmount(1) >= 2) {
+					if (getAmountInGUISlot(entity, 1) >= 2) {
 						if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
 								.getItem() == GenshinNatureModBlocks.MAGICALCRYSTALCHUNK.get().asItem()) {
-							if (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) >= 34) {
+							if (getAmountInGUISlot(entity, 2) >= 34) {
 								if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY)
 										.getItem() == GenshinNatureModItems.FAMEDHANDGUARD.get()) {
-									if (new Object() {
-										public int getAmount(int sltid) {
-											if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-												ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-												if (stack != null)
-													return stack.getCount();
-											}
-											return 0;
-										}
-									}.getAmount(3) >= 2) {
+									if (getAmountInGUISlot(entity, 3) >= 2) {
 										if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
 												.getItem() == GenshinNatureModItems.REDCREST.get()) {
-											if (new Object() {
-												public int getAmount(int sltid) {
-													if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-														ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-														if (stack != null)
-															return stack.getCount();
-													}
-													return 0;
-												}
-											}.getAmount(4) >= 11) {
-												if (new Object() {
-													public int getAmount(int sltid) {
-														if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-															ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-															if (stack != null)
-																return stack.getCount();
-														}
-														return 0;
-													}
-												}.getAmount(10) == 0) {
+											if (getAmountInGUISlot(entity, 4) >= 11) {
+												if (getAmountInGUISlot(entity, 10) == 0) {
 													if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 														((Slot) _slots.get(0)).remove(8);
 														_player.containerMenu.broadcastChanges();
@@ -158,5 +104,14 @@ public class Clickquest20Procedure {
 				}
 			}
 		}
+	}
+
+	private static int getAmountInGUISlot(Entity entity, int sltid) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier slotSupplier && slotSupplier.get() instanceof Map guiSlots) {
+			ItemStack stack = ((Slot) guiSlots.get(sltid)).getItem();
+			if (stack != null)
+				return stack.getCount();
+		}
+		return 0;
 	}
 }

@@ -30,32 +30,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -69,32 +51,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -108,32 +72,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -147,32 +93,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -186,32 +114,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -225,32 +135,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -264,32 +156,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -303,32 +177,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -342,32 +198,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -381,32 +219,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -420,32 +240,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -459,32 +261,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -498,32 +282,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -537,32 +303,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -576,32 +324,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -615,32 +345,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -654,32 +366,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -693,32 +387,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -732,32 +408,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -771,32 +429,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -810,32 +450,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -849,32 +471,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -888,32 +492,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -927,32 +513,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -966,32 +534,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.COD).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(0) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 0) + 1));
 							_itemHandlerModifiable.setStackInSlot(0, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(0) == 64) {
+						if (getAmountInGUISlot(entity, 0) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.COD));
 								entityToSpawn.setPickUpDelay(10);
@@ -1005,32 +555,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1044,32 +576,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1083,32 +597,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1122,32 +618,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1161,32 +639,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.TROPICAL_FISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(1) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 1) + 1));
 							_itemHandlerModifiable.setStackInSlot(1, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(1) == 64) {
+						if (getAmountInGUISlot(entity, 1) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.TROPICAL_FISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1200,32 +660,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1239,32 +681,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1278,32 +702,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1317,32 +723,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1356,32 +744,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.PUFFERFISH).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(2) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 2) + 1));
 							_itemHandlerModifiable.setStackInSlot(2, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(2) == 64) {
+						if (getAmountInGUISlot(entity, 2) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.PUFFERFISH));
 								entityToSpawn.setPickUpDelay(10);
@@ -1395,32 +765,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(4)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -1434,32 +786,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(5)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -1473,32 +807,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(6)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -1512,32 +828,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(7)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -1551,32 +849,14 @@ public class FishingblockUpdateTickProcedure {
 					if (Math.random() <= 0.1) {
 						if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 							ItemStack _setstack = new ItemStack(Items.SALMON).copy();
-							_setstack.setCount((int) (new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-										if (stack != null)
-											return stack.getCount();
-									}
-									return 0;
-								}
-							}.getAmount(3) + 1));
+							_setstack.setCount((int) (getAmountInGUISlot(entity, 3) + 1));
 							_itemHandlerModifiable.setStackInSlot(3, _setstack);
 						}
 						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(8)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (new Object() {
-							public int getAmount(int sltid) {
-								if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-									ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-									if (stack != null)
-										return stack.getCount();
-								}
-								return 0;
-							}
-						}.getAmount(3) == 64) {
+						if (getAmountInGUISlot(entity, 3) == 64) {
 							if (world instanceof ServerLevel _level) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.SALMON));
 								entityToSpawn.setPickUpDelay(10);
@@ -1587,5 +867,14 @@ public class FishingblockUpdateTickProcedure {
 				}
 			}
 		}
+	}
+
+	private static int getAmountInGUISlot(Entity entity, int sltid) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier slotSupplier && slotSupplier.get() instanceof Map guiSlots) {
+			ItemStack stack = ((Slot) guiSlots.get(sltid)).getItem();
+			if (stack != null)
+				return stack.getCount();
+		}
+		return 0;
 	}
 }

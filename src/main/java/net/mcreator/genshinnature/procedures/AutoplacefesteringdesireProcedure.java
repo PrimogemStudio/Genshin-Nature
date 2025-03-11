@@ -17,16 +17,7 @@ public class AutoplacefesteringdesireProcedure {
 		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == GenshinNatureModItems.FESTERINGDESIRE
 				.get()) {
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.MORA.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(1) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 1) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.MORA.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -40,16 +31,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.FETTERSOFTHEDANDELIONGLADIATOR.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(2) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 2) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.FETTERSOFTHEDANDELIONGLADIATOR.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -63,16 +45,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.CHAINSOFTHEDANDELIONGLADIATOR.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(3) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 3) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.CHAINSOFTHEDANDELIONGLADIATOR.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -86,16 +59,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.SHACKLESOFTHEDANDELIONGLADIATOR.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(4) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 4) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.SHACKLESOFTHEDANDELIONGLADIATOR.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -109,16 +73,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.DREAMOFTHEDANDELIONGLADIATOR.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(5) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 5) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.DREAMOFTHEDANDELIONGLADIATOR.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -132,16 +87,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.HEAVYHORN.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(6) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 6) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.HEAVYHORN.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -155,16 +101,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.BLACKBRONZEHORN.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(7) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 7) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.BLACKBRONZEHORN.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -178,16 +115,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.BLACKCRYSTALHORN.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(8) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 8) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.BLACKCRYSTALHORN.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -201,16 +129,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.RECRUITSINSIGNIA.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(9) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 9) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.RECRUITSINSIGNIA.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -224,16 +143,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.SERGEANTSINSIGNIA.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(10) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 10) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.SERGEANTSINSIGNIA.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -247,16 +157,7 @@ public class AutoplacefesteringdesireProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.LIEUTENANTSINSIGNIA.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(11) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 11) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.LIEUTENANTSINSIGNIA.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -336,5 +237,14 @@ public class AutoplacefesteringdesireProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
+	}
+
+	private static int getAmountInGUISlot(Entity entity, int sltid) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier slotSupplier && slotSupplier.get() instanceof Map guiSlots) {
+			ItemStack stack = ((Slot) guiSlots.get(sltid)).getItem();
+			if (stack != null)
+				return stack.getCount();
+		}
+		return 0;
 	}
 }

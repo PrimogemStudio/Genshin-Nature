@@ -16,16 +16,7 @@ public class AutoplaceserpentspineProcedure {
 			return;
 		if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == GenshinNatureModItems.SERPENTSPINE.get()) {
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.MORA.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(1) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 1) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.MORA.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -39,16 +30,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.GRAINOFAEROSIDERITE.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(2) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 2) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.GRAINOFAEROSIDERITE.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -62,16 +44,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.PIECEOFAEROSIDERITE.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(3) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 3) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.PIECEOFAEROSIDERITE.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -85,16 +58,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.BITOFAEROSIDERITE.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(4) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 4) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.BITOFAEROSIDERITE.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -108,16 +72,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.CHUNKOFAEROSIDERITE.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(5) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 5) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.CHUNKOFAEROSIDERITE.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -131,16 +86,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.FRAGILEBONESHARD.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(6) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 6) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.FRAGILEBONESHARD.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -154,16 +100,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.STURDYBONESHARD.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(7) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 7) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.STURDYBONESHARD.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -177,16 +114,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.FOSSILIZEDBONESHARD.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(8) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 8) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.FOSSILIZEDBONESHARD.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -200,16 +128,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.WHOPPERFLOWERNECTAR.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(9) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 9) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.WHOPPERFLOWERNECTAR.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -223,16 +142,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.SHIMMERINGNECTAR.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(10) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 10) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.SHIMMERINGNECTAR.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -246,16 +156,7 @@ public class AutoplaceserpentspineProcedure {
 				}
 			}
 			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GenshinNatureModItems.ENERGYNECTAR.get())) : false) {
-				if ((new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(11) == 0) == true) {
+				if ((getAmountInGUISlot(entity, 11) == 0) == true) {
 					if (entity instanceof Player _player) {
 						ItemStack _stktoremove = new ItemStack(GenshinNatureModItems.ENERGYNECTAR.get());
 						_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -335,5 +236,14 @@ public class AutoplaceserpentspineProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
+	}
+
+	private static int getAmountInGUISlot(Entity entity, int sltid) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier slotSupplier && slotSupplier.get() instanceof Map guiSlots) {
+			ItemStack stack = ((Slot) guiSlots.get(sltid)).getItem();
+			if (stack != null)
+				return stack.getCount();
+		}
+		return 0;
 	}
 }

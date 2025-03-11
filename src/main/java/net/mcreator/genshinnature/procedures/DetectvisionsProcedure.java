@@ -17,16 +17,7 @@ public class DetectvisionsProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (new Object() {
-			public int getAmount(int sltid) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-					if (stack != null)
-						return stack.getCount();
-				}
-				return 0;
-			}
-		}.getAmount(0) == 0) {
+		if (getAmountInGUISlot(entity, 0) == 0) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(GenshinNatureModMobEffects.PYROVISIONEFFECT);
 			if (entity instanceof LivingEntity _entity)
@@ -481,5 +472,14 @@ public class DetectvisionsProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(GenshinNatureModMobEffects.PYRODELUSIONEFFECT);
 		}
+	}
+
+	private static int getAmountInGUISlot(Entity entity, int sltid) {
+		if (entity instanceof Player player && player.containerMenu instanceof Supplier slotSupplier && slotSupplier.get() instanceof Map guiSlots) {
+			ItemStack stack = ((Slot) guiSlots.get(sltid)).getItem();
+			if (stack != null)
+				return stack.getCount();
+		}
+		return 0;
 	}
 }
